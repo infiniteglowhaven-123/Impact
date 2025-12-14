@@ -42,8 +42,8 @@
       "settings": {
         "enable_sticky": true,
         "hide_on_scroll": false,
-        "logo": "shopify://shop_images/1.png",
-        "logo_max_width": 120,
+        "logo": "shopify://shop_images/icy_mami-5.png",
+        "logo_max_width": 240,
         "logo_mobile_max_width": 100,
         "menu": "main-menu",
         "sidebar_menu": "",
