@@ -213,12 +213,45 @@
         "accordion_background": "",
         "accordion_text_color": ""
       }
+    },
+    "video_PBh9pE": {
+      "type": "video",
+      "blocks": {
+        "play_aGNnNq": {
+          "type": "play",
+          "settings": {}
+        },
+        "heading_8Ri4Cd": {
+          "type": "heading",
+          "settings": {
+            "text": "Video",
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "play_aGNnNq",
+        "heading_8Ri4Cd"
+      ],
+      "name": "Video",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "autoplay": false,
+        "video_size": "auto",
+        "video": "shopify://files/videos/d865fbaa-d413-4500-819b-2fcfed453f7d_640.mp4",
+        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
     }
   },
   "order": [
     "slideshow",
     "custom_liquid_7MLxLa",
     "featured-product",
-    "faq"
+    "faq",
+    "video_PBh9pE"
   ]
 }
