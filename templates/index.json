@@ -84,10 +84,6 @@
     "featured-product": {
       "type": "featured-product",
       "blocks": {
-        "vendor": {
-          "type": "vendor",
-          "settings": {}
-        },
         "title": {
           "type": "title",
           "settings": {
@@ -98,10 +94,11 @@
           "type": "badges",
           "settings": {}
         },
-        "price": {
-          "type": "price",
+        "kaching_bundles_app_block_4BgBfw": {
+          "type": "shopify://apps/kaching-bundles/blocks/app-block/6c637362-a106-4a32-94ac-94dcfd68cdb8",
           "settings": {
-            "show_taxes_notice": false
+            "product": "{{section.settings.product}}",
+            "manual_deal_block_id": ""
           }
         },
         "rating": {
@@ -150,10 +147,9 @@
         }
       },
       "block_order": [
-        "vendor",
         "title",
         "badges",
-        "price",
+        "kaching_bundles_app_block_4BgBfw",
         "rating",
         "separator",
         "description",
