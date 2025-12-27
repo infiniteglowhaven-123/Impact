@@ -10116,19 +10116,99 @@ shopify-accelerated-checkout, shopify-accelerated-checkout-cart {
   overflow: hidden;
 }
 
+
+
+
+
+
+/* ========================================
+   AS SEEN ON SECTION - CUSTOM STYLING (FORCE OVERRIDE)
+   ======================================== */
+
 .as-seen-section {
-  padding: 60px 20px;
-  /* ↑ Ça dit: "Mets 60px d'espace en haut/bas, 20px gauche/droite" */
+  width: 100% !important;
+  background: #ffffff !important;
+  padding: 60px 20px !important;
+  text-align: center !important;
 }
 
-.section-heading {
-  color: #CAB587;
-  /* ↑ Ça dit: "Change la couleur du texte en or doré" */
-  font-size: 18px;
-  /* ↑ Ça dit: "Rends le texte à 18 pixels de hauteur" */
+.as-seen-section .section-heading {
+  font-size: 18px !important;
+  font-weight: 400 !important;
+  margin-bottom: 40px !important;
+  color: #CAB587 !important; /* TON OR DORÉ - CHANGE ICI SI BESOIN */
+  letter-spacing: 0.5px !important;
+  text-transform: none !important;
+  opacity: 1 !important;
 }
 
-.logo-item img {
-  height: 40px;
-  /* ↑ Ça dit: "Les logos doivent faire 40px de haut" */
+.as-seen-section .logo-slider {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  gap: 80px !important;
+  flex-wrap: wrap !important;
+  max-width: 1200px !important;
+  margin: 0 auto !important;
+}
+
+.as-seen-section .logo-item {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.as-seen-section .logo-item img {
+  height: 40px !important;
+  width: auto !important;
+  max-width: 180px !important;
+  object-fit: contain !important;
+  opacity: 0.85 !important;
+  transition: opacity 0.3s ease !important;
+}
+
+.as-seen-section .logo-item:hover img {
+  opacity: 1 !important;
+}
+
+/* RESPONSIVE - TABLETTE */
+@media (max-width: 768px) {
+  .as-seen-section {
+    padding: 50px 20px !important;
+  }
+  
+  .as-seen-section .section-heading {
+    font-size: 16px !important;
+    margin-bottom: 35px !important;
+  }
+  
+  .as-seen-section .logo-slider {
+    gap: 50px !important;
+  }
+  
+  .as-seen-section .logo-item img {
+    height: 35px !important;
+    max-width: 150px !important;
+  }
+}
+
+/* RESPONSIVE - MOBILE */
+@media (max-width: 480px) {
+  .as-seen-section {
+    padding: 40px 15px !important;
+  }
+  
+  .as-seen-section .section-heading {
+    font-size: 14px !important;
+    margin-bottom: 30px !important;
+  }
+  
+  .as-seen-section .logo-slider {
+    gap: 30px !important;
+  }
+  
+  .as-seen-section .logo-item img {
+    height: 28px !important;
+    max-width: 120px !important;
+  }
 }
