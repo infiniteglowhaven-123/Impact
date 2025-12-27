@@ -10115,3 +10115,20 @@ shopify-accelerated-checkout, shopify-accelerated-checkout-cart {
   display: -webkit-box;
   overflow: hidden;
 }
+
+.as-seen-section {
+  padding: 60px 20px;
+  /* ↑ Ça dit: "Mets 60px d'espace en haut/bas, 20px gauche/droite" */
+}
+
+.section-heading {
+  color: #CAB587;
+  /* ↑ Ça dit: "Change la couleur du texte en or doré" */
+  font-size: 18px;
+  /* ↑ Ça dit: "Rends le texte à 18 pixels de hauteur" */
+}
+
+.logo-item img {
+  height: 40px;
+  /* ↑ Ça dit: "Les logos doivent faire 40px de haut" */
+}
