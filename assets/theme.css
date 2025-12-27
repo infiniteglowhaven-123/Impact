@@ -10117,3 +10117,10 @@ shopify-accelerated-checkout, shopify-accelerated-checkout-cart {
 }
 
 
+/* Change toutes les couleurs grises en or doré */
+h1, h2, h3, h4, h5, h6,
+.section-heading,
+.heading,
+.title {
+  color: #CAB587 !important;
+}
