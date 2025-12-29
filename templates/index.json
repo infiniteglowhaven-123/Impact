@@ -188,56 +188,17 @@
         "input_text_color": ""
       }
     },
-    "faq": {
-      "type": "faq",
-      "blocks": {
-        "166442457738b23caf-0": {
-          "type": "item",
-          "settings": {
-            "title": "Do you ship overseas?",
-            "content": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.</p>"
-          }
-        },
-        "166442457738b23caf-1": {
-          "type": "item",
-          "settings": {
-            "title": "How long will it take to get my orders?",
-            "content": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.</p>"
-          }
-        },
-        "166442457738b23caf-2": {
-          "type": "item",
-          "settings": {
-            "title": "Any question?",
-            "content": "<p>You can contact us through our contact page! We will be happy to assist you.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "166442457738b23caf-0",
-        "166442457738b23caf-1",
-        "166442457738b23caf-2"
-      ],
+    "custom_liquid_qpDVqC": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
       "settings": {
-        "full_width": false,
-        "subheading": "",
-        "title": "FAQ",
-        "content": "<p>Use this text to share information about your product or shipping policies.</p>",
-        "team_avatar_width": 160,
-        "support_hours": "Our customer support is available Monday to Friday: 8am-8:30pm.",
-        "answer_time": "Average answer time: 24h",
-        "button_text": "",
-        "button_url": "",
-        "text_position": "start",
-        "background": "#ffffff",
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<style>\n.faq-section {\n  width: 100vw;\n  margin-left: calc(50% - 50vw);\n  padding: 80px 20px;\n  background: transparent;\n}\n\n.faq-container {\n  max-width: 800px;\n  margin: 0 auto;\n}\n\n.faq-title {\n  text-align: center;\n  font-size: 42px;\n  font-weight: 600;\n  margin-bottom: 20px;\n  color: #000000;\n}\n\n.faq-subtitle {\n  text-align: center;\n  font-size: 18px;\n  font-weight: 400;\n  margin-bottom: 50px;\n  color: #666;\n}\n\n.faq-item {\n  background: #ffffff;\n  border-radius: 12px;\n  margin-bottom: 16px;\n  overflow: hidden;\n  box-shadow: 0 2px 8px rgba(0,0,0,0.06);\n  transition: all 0.3s ease;\n}\n\n.faq-item:hover {\n  box-shadow: 0 4px 16px rgba(0,0,0,0.1);\n}\n\n.faq-question {\n  width: 100%;\n  padding: 24px;\n  background: transparent;\n  border: none;\n  text-align: left;\n  font-size: 18px;\n  font-weight: 600;\n  color: #000000;\n  cursor: pointer;\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n  transition: all 0.3s ease;\n}\n\n.faq-question:hover {\n  color: #CAB587;\n}\n\n.faq-icon {\n  width: 24px;\n  height: 24px;\n  transition: transform 0.3s ease;\n  flex-shrink: 0;\n  margin-left: 16px;\n}\n\n.faq-item.active .faq-icon {\n  transform: rotate(180deg);\n}\n\n.faq-answer {\n  max-height: 0;\n  overflow: hidden;\n  transition: max-height 0.3s ease, padding 0.3s ease;\n  padding: 0 24px;\n}\n\n.faq-item.active .faq-answer {\n  max-height: 500px;\n  padding: 0 24px 24px 24px;\n}\n\n.faq-answer p {\n  font-size: 16px;\n  line-height: 1.6;\n  color: #666;\n  margin: 0;\n}\n\n/* RESPONSIVE */\n@media (max-width: 768px) {\n  .faq-section {\n    padding: 60px 15px;\n  }\n  \n  .faq-title {\n    font-size: 32px;\n  }\n  \n  .faq-subtitle {\n    font-size: 16px;\n    margin-bottom: 40px;\n  }\n  \n  .faq-question {\n    padding: 20px;\n    font-size: 16px;\n  }\n  \n  .faq-answer p {\n    font-size: 15px;\n  }\n}\n</style>\n\n<div class=\"faq-section\">\n  <div class=\"faq-container\">\n    <h2 class=\"faq-title\">Questions & Answers</h2>\n    <p class=\"faq-subtitle\">Everything you need to know about our ICY MAMI Lip Kit</p>\n    \n    <!-- Question 1 -->\n    <div class=\"faq-item\">\n      <button class=\"faq-question\" onclick=\"toggleFAQ(this)\">\n        How long does it last?\n        <svg class=\"faq-icon\" viewBox=\"0 0 24 24\" fill=\"currentColor\">\n          <path d=\"M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z\"/>\n        </svg>\n      </button>\n      <div class=\"faq-answer\">\n        <p>Our ICY MAMI Lip Kit lasts 8+ hours with minimal touch-ups. The long-lasting adhesive formula keeps your glitter in place all night long, whether you're dancing, eating, or drinking. Perfect for events, parties, and special occasions!</p>\n      </div>\n    </div>\n    \n    <!-- Question 2 -->\n    <div class=\"faq-item\">\n      <button class=\"faq-question\" onclick=\"toggleFAQ(this)\">\n        Is it hard to apply?\n        <svg class=\"faq-icon\" viewBox=\"0 0 24 24\" fill=\"currentColor\">\n          <path d=\"M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z\"/>\n        </svg>\n      </button>\n      <div class=\"faq-answer\">\n        <p>Not at all! Our kit includes everything you need with easy 3-step application: 1) Line and fill your lips with the included liner, 2) Apply the adhesive evenly, 3) Pat the glitter on top with the brush. Takes less than 2 minutes and you're ready to shine!</p>\n      </div>\n    </div>\n    \n    <!-- Question 3 -->\n    <div class=\"faq-item\">\n      <button class=\"faq-question\" onclick=\"toggleFAQ(this)\">\n        Does it feel sticky or heavy?\n        <svg class=\"faq-icon\" viewBox=\"0 0 24 24\" fill=\"currentColor\">\n          <path d=\"M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z\"/>\n        </svg>\n      </button>\n      <div class=\"faq-answer\">\n        <p>No! Our 2025 upgraded formula is lightweight, silky, and comfortable. It doesn't feel sticky or heavy on your lips. The non-sticky adhesive keeps the glitter in place without that uncomfortable tacky feeling.</p>\n      </div>\n    </div>\n    \n    <!-- Question 4 -->\n    <div class=\"faq-item\">\n      <button class=\"faq-question\" onclick=\"toggleFAQ(this)\">\n        Will it flake or fall off?\n        <svg class=\"faq-icon\" viewBox=\"0 0 24 24\" fill=\"currentColor\">\n          <path d=\"M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z\"/>\n        </svg>\n      </button>\n      <div class=\"faq-answer\">\n        <p>Zero flaking! Our diamond glitter formula is designed to stay put. The long-wear adhesive keeps every sparkle in place, so you won't have glitter fallout on your face or clothes. Smudge-proof and drink-resistant too!</p>\n      </div>\n    </div>\n    \n    <!-- Question 5 -->\n    <div class=\"faq-item\">\n      <button class=\"faq-question\" onclick=\"toggleFAQ(this)\">\n        Can I wear it over my regular lipstick?\n        <svg class=\"faq-icon\" viewBox=\"0 0 24 24\" fill=\"currentColor\">\n          <path d=\"M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z\"/>\n        </svg>\n      </button>\n      <div class=\"faq-answer\">\n        <p>Absolutely! The glitter adapts to your base lip color — nude, red, or brown — for a high-shine shimmer that flatters every skin tone. You can wear it alone or layer it over your favorite lipstick for a custom look.</p>\n      </div>\n    </div>\n    \n    <!-- Question 6 -->\n    <div class=\"faq-item\">\n      <button class=\"faq-question\" onclick=\"toggleFAQ(this)\">\n        What's included in the kit?\n        <svg class=\"faq-icon\" viewBox=\"0 0 24 24\" fill=\"currentColor\">\n          <path d=\"M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z\"/>\n        </svg>\n      </button>\n      <div class=\"faq-answer\">\n        <p>Your complete kit includes: 💎 Diamond Glitter Powder (high-shine shimmer), 💋 Long-Lasting Lip Adhesive (non-sticky formula), 🖌️ Professional Application Brush (precise placement), and ✏️ Precision Lip Liner (soft glide, perfect contour). Everything you need in one luxurious box!</p>\n      </div>\n    </div>\n    \n    <!-- Question 7 -->\n    <div class=\"faq-item\">\n      <button class=\"faq-question\" onclick=\"toggleFAQ(this)\">\n        How do I remove it?\n        <svg class=\"faq-icon\" viewBox=\"0 0 24 24\" fill=\"currentColor\">\n          <path d=\"M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z\"/>\n        </svg>\n      </button>\n      <div class=\"faq-answer\">\n        <p>Easy removal! Use a makeup remover or micellar water on a cotton pad. Gently wipe away the glitter and adhesive. For stubborn glitter, use an oil-based cleanser. Follow with your regular cleansing routine.</p>\n      </div>\n    </div>\n    \n    <!-- Question 8 -->\n    <div class=\"faq-item\">\n      <button class=\"faq-question\" onclick=\"toggleFAQ(this)\">\n        What if I'm not satisfied?\n        <svg class=\"faq-icon\" viewBox=\"0 0 24 24\" fill=\"currentColor\">\n          <path d=\"M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z\"/>\n        </svg>\n      </button>\n      <div class=\"faq-answer\">\n        <p>We offer a 30-day money-back guarantee! If you're not completely in love with your ICY MAMI Lip Kit, contact us at hello@icymami.com and we'll process your refund. We stand behind our product 100%.</p>\n      </div>\n    </div>\n    \n    <!-- Question 9 -->\n    <div class=\"faq-item\">\n      <button class=\"faq-question\" onclick=\"toggleFAQ(this)\">\n        How long does shipping take?\n        <svg class=\"faq-icon\" viewBox=\"0 0 24 24\" fill=\"currentColor\">\n          <path d=\"M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z\"/>\n        </svg>\n      </button>\n      <div class=\"faq-answer\">\n        <p>Orders are processed within 24-48 hours. Delivery takes 7-14 business days. You'll receive a confirmation email with tracking once your order ships. Free shipping on all orders!</p>\n      </div>\n    </div>\n    \n    <!-- Question 10 -->\n    <div class=\"faq-item\">\n      <button class=\"faq-question\" onclick=\"toggleFAQ(this)\">\n        Is it safe for sensitive skin?\n        <svg class=\"faq-icon\" viewBox=\"0 0 24 24\" fill=\"currentColor\">\n          <path d=\"M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z\"/>\n        </svg>\n      </button>\n      <div class=\"faq-answer\">\n        <p>Yes! Our formula is cruelty-free and designed to be gentle. However, if you have very sensitive skin or allergies, we recommend doing a patch test first. Apply a small amount to your inner wrist and wait 24 hours before full application.</p>\n      </div>\n    </div>\n    \n  </div>\n</div>\n\n<script>\nfunction toggleFAQ(button) {\n  const faqItem = button.parentElement;\n  const allItems = document.querySelectorAll('.faq-item');\n  \n  // Close all other items\n  allItems.forEach(item => {\n    if (item !== faqItem) {\n      item.classList.remove('active');\n    }\n  });\n  \n  // Toggle current item\n  faqItem.classList.toggle('active');\n}\n</script>",
+        "background": "",
         "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "",
-        "button_background": "",
-        "button_text_color": "",
-        "accordion_background": "",
-        "accordion_text_color": ""
+        "text_color": ""
       }
     }
   },
@@ -247,6 +208,6 @@
     "image_with_text_overlay_NdPfft",
     "custom_liquid_emWYqF",
     "featured-product",
-    "faq"
+    "custom_liquid_qpDVqC"
   ]
 }
