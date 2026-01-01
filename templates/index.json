@@ -147,15 +147,10 @@
           "type": "quantity_selector",
           "settings": {}
         },
-        "buy-buttons": {
-          "type": "buy_buttons",
+        "liquid_9ckBVR": {
+          "type": "liquid",
           "settings": {
-            "show_payment_button": true,
-            "show_gift_card_recipient": true,
-            "atc_button_background": "",
-            "atc_button_text_color": "",
-            "payment_button_background": "",
-            "payment_button_text_color": ""
+            "liquid": "{% comment %}\n  Simple Buy Buttons pour IcyMami\n  Ajouter dans un bloc \"Custom Liquid\" sur votre page produit\n{% endcomment %}\n\n<style>\n  .simple-buy {\n    margin: 30px auto;\n    max-width: 450px;\n  }\n  \n  /* Stock */\n  .stock {\n    display: inline-block;\n    padding: 8px 16px;\n    background: #ffebee;\n    border-radius: 6px;\n    margin-bottom: 16px;\n  }\n  \n  .stock-text {\n    font-size: 13px;\n    color: #d32f2f;\n    font-weight: 600;\n  }\n  \n  /* Buttons */\n  .buy-buttons {\n    display: flex;\n    flex-direction: column;\n    gap: 10px;\n  }\n  \n  .btn {\n    width: 100%;\n    padding: 16px;\n    font-size: 15px;\n    font-weight: 600;\n    border-radius: 6px;\n    cursor: pointer;\n    transition: 0.2s;\n  }\n  \n  .btn-cart {\n    background: #FFD700;\n    color: #000;\n    border: none;\n  }\n  \n  .btn-cart:hover {\n    background: #FFA500;\n  }\n  \n  .btn-buy {\n    background: #000;\n    color: #fff;\n    border: none;\n  }\n  \n  .btn-buy:hover {\n    background: #333;\n  }\n  \n  @media (max-width: 768px) {\n    .simple-buy {\n      margin: 20px 15px;\n    }\n  }\n</style>\n\n<div class=\"simple-buy\">\n  \n  <div class=\"stock\">\n    <span class=\"stock-text\">⚠️ Only 3 in stock</span>\n  </div>\n  \n  <form method=\"post\" action=\"/cart/add\" id=\"buyForm\">\n    <input type=\"hidden\" name=\"id\" value=\"{{ product.selected_or_first_available_variant.id }}\">\n    \n    <div class=\"buy-buttons\">\n      <button type=\"submit\" class=\"btn btn-cart\">Add to Cart</button>\n      <button type=\"button\" class=\"btn btn-buy\" onclick=\"buyNow()\">Buy Now</button>\n    </div>\n  </form>\n  \n</div>\n\n<script>\nfunction buyNow() {\n  const form = document.getElementById('buyForm');\n  const formData = new FormData(form);\n  \n  fetch('/cart/add.js', {\n    method: 'POST',\n    body: formData\n  })\n  .then(response => response.json())\n  .then(() => window.location.href = '/checkout')\n  .catch(error => console.error('Error:', error));\n}\n</script>"
           }
         }
       },
@@ -168,7 +163,7 @@
         "description",
         "variant-picker",
         "quantity-selector",
-        "buy-buttons"
+        "liquid_9ckBVR"
       ],
       "settings": {
         "full_width": false,
