@@ -17,7 +17,7 @@
           "settings": {
             "image": "shopify://shop_images/b2fcc7f3-564b-48b5-98d4-7fe92c2fe57e.png",
             "mobile_image": "shopify://shop_images/b2fcc7f3-564b-48b5-98d4-7fe92c2fe57e.png",
-            "content_max_width": 780,
+            "content_max_width": 700,
             "mobile_text_position": "place-self-end-start text-start",
             "desktop_text_position": "sm:place-self-end-start sm:text-start",
             "subheading": "The safety seat belt highly recommended for pregnant women.This device has been independently crash tested for vehicle safety",
@@ -25,8 +25,8 @@
             "heading_tag": "h2",
             "button_text": "GET YOURS NOW",
             "button_link": "shopify://collections/all",
-            "text_color": "#1a1a1a",
-            "button_background": "#f4cab1",
+            "text_color": "#ffadad",
+            "button_background": "#ffadad",
             "button_text_color": "#ffffff",
             "overlay_color": "#000000",
             "overlay_opacity": 0,
@@ -62,21 +62,6 @@
         "background": "",
         "background_gradient": "",
         "text_color": ""
-      }
-    },
-    "image_with_text_overlay_NdPfft": {
-      "type": "image-with-text-overlay",
-      "name": "Image with text overlay",
-      "settings": {
-        "full_width": true,
-        "allow_transparent_header": false,
-        "enable_parallax": false,
-        "image_size": "auto",
-        "mobile_text_position": "place-self-center text-center",
-        "desktop_text_position": "sm:place-self-center sm:text-center",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 0
       }
     },
     "custom_liquid_emWYqF": {
@@ -190,7 +175,6 @@
   "order": [
     "slideshow",
     "custom_liquid_UVQmTK",
-    "image_with_text_overlay_NdPfft",
     "custom_liquid_emWYqF",
     "featured-product",
     "custom_liquid_qpDVqC"
