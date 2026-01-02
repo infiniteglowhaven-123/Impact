@@ -93,7 +93,7 @@
     "featured-product": {
       "type": "featured-product",
       "blocks": {
-        "kaching_bundles_app_block_GiQ3ik": {
+        "kaching_bundles_app_block_Pjr9Fx": {
           "type": "shopify://apps/kaching-bundles/blocks/app-block/6c637362-a106-4a32-94ac-94dcfd68cdb8",
           "settings": {
             "product": "pregnancy-safety-belt",
@@ -153,7 +153,7 @@
         }
       },
       "block_order": [
-        "kaching_bundles_app_block_GiQ3ik",
+        "kaching_bundles_app_block_Pjr9Fx",
         "liquid_9ckBVR",
         "title",
         "liquid_bRLLWV",
