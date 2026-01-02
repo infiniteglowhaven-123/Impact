@@ -15,8 +15,8 @@
         "slide-1": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/ChatGPT_Image_Dec_22_2025_09_01_42_PM.png",
-            "mobile_image": "shopify://shop_images/ChatGPT_Image_Dec_22_2025_09_01_42_PM.png",
+            "image": "shopify://shop_images/b2fcc7f3-564b-48b5-98d4-7fe92c2fe57e.png",
+            "mobile_image": "shopify://shop_images/b2fcc7f3-564b-48b5-98d4-7fe92c2fe57e.png",
             "content_max_width": 780,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
@@ -72,8 +72,6 @@
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
-        "image": "shopify://shop_images/Plumper-looking_lips..svg",
-        "mobile_image": "shopify://shop_images/Plumper-looking_lips._60a4e146-dd1f-4904-b930-d3db73279220.svg",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
@@ -106,13 +104,6 @@
         "badges": {
           "type": "badges",
           "settings": {}
-        },
-        "kaching_bundles_app_block_4BgBfw": {
-          "type": "shopify://apps/kaching-bundles/blocks/app-block/6c637362-a106-4a32-94ac-94dcfd68cdb8",
-          "settings": {
-            "product": "{{section.settings.product}}",
-            "manual_deal_block_id": ""
-          }
         },
         "rating": {
           "type": "rating",
@@ -157,7 +148,6 @@
       "block_order": [
         "title",
         "badges",
-        "kaching_bundles_app_block_4BgBfw",
         "rating",
         "separator",
         "description",
