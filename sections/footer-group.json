@@ -79,31 +79,13 @@
           "settings": {
             "image_width": 150,
             "heading_size": "h3",
-            "title": "SIGN UP",
+            "title": "Subscribe to our emails",
             "content": ""
-          }
-        },
-        "links": {
-          "type": "links",
-          "settings": {
-            "menu": "footer",
-            "show_menu_title": false,
-            "menu_title": ""
-          }
-        },
-        "text": {
-          "type": "text",
-          "settings": {
-            "title": "About",
-            "content": "<p><em>We are a passionate team committed to offering the very best for women.</em></p>",
-            "enable_follow_on_shop": true
           }
         }
       },
       "block_order": [
-        "newsletter",
-        "links",
-        "text"
+        "newsletter"
       ],
       "settings": {
         "show_social_media": true,
