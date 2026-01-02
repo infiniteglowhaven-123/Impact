@@ -40,9 +40,9 @@
         "text_size": "text-xs",
         "navigation_mode": "arrows",
         "scrolling_speed": 26,
-        "background": "#f1d8b6",
+        "background": "#f4cab1",
         "background_gradient": "",
-        "text_color": "#000000"
+        "text_color": "#ffffff"
       }
     },
     "header": {
@@ -78,7 +78,7 @@
       "settings": {
         "enable_sticky": true,
         "hide_on_scroll": true,
-        "logo": "shopify://shop_images/ChatGPT_Image_Dec_22_2025_09_21_30_PM.png",
+        "logo": "shopify://shop_images/Oh-3.svg",
         "logo_max_width": 240,
         "logo_mobile_max_width": 100,
         "menu": "main-menu",
