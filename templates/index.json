@@ -198,6 +198,32 @@
         "background_gradient": "",
         "text_color": ""
       }
+    },
+    "custom_liquid_6mUdGD": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<style>\n  .acc-wrap{\n    position: relative;\n    padding: 72px 18px;\n    overflow: hidden;\n    font-family: inherit;\n    color:#111;\n  }\n\n  /* the moving \"blob/rectangle\" */\n  .acc-blob{\n    position:absolute;\n    left:50%;\n    top:50%;\n    width:min(1100px, 94vw);\n    height: 340px;\n    transform: translate(-50%, -50%);\n    background: rgba(248, 205, 205, .75);\n    border-radius: 999px;\n    filter: blur(0px);\n    z-index: 0;\n  }\n\n  /* top/bottom wave edges (like a soft moving rectangle) */\n  .acc-blob::before,\n  .acc-blob::after{\n    content:\"\";\n    position:absolute;\n    left:-12%;\n    width:124%;\n    height: 54%;\n    background: rgba(248, 205, 205, .75);\n    border-radius: 999px;\n    transform: rotate(-2deg);\n  }\n\n  .acc-blob::before{ top:-22%; }\n  .acc-blob::after{ bottom:-22%; }\n\n  /* subtle movement */\n  @keyframes accFloat {\n    0%   { transform: translate(-50%, -50%) rotate(-1deg) scaleX(1); }\n    50%  { transform: translate(-50%, -52%) rotate(1deg)  scaleX(1.03); }\n    100% { transform: translate(-50%, -50%) rotate(-1deg) scaleX(1); }\n  }\n  .acc-blob{\n    animation: accFloat 8s ease-in-out infinite;\n  }\n\n  /* content */\n  .acc-inner{\n    position: relative;\n    z-index: 1;\n    max-width: 900px;\n    margin: 0 auto;\n    text-align: center;\n  }\n\n  .acc-title{\n    font-size: clamp(30px, 3vw, 44px);\n    font-weight: 800;\n    letter-spacing: -0.02em;\n    margin: 0 0 12px 0;\n  }\n\n  .acc-sub{\n    font-size: clamp(16px, 1.6vw, 20px);\n    font-weight: 700;\n    margin: 0 0 18px 0;\n    color: rgba(17,17,17,.9);\n  }\n\n  .acc-list{\n    display: inline-grid;\n    gap: 8px;\n    text-align: left;\n    margin: 0 auto;\n    padding: 0;\n    list-style: none;\n  }\n\n  .acc-item{\n    display:flex;\n    align-items:flex-start;\n    gap: 10px;\n    font-size: 16px;\n    font-weight: 600;\n    color: rgba(17,17,17,.9);\n  }\n\n  .acc-x{\n    width: 18px;\n    height: 18px;\n    margin-top: 2px;\n    flex: 0 0 auto;\n    color: #E21B1B;\n  }\n\n  /* responsive height */\n  @media (max-width: 700px){\n    .acc-wrap{ padding: 54px 14px; }\n    .acc-blob{ height: 320px; }\n    .acc-item{ font-size: 15px; }\n  }\n\n  /* accessibility: reduce motion */\n  @media (prefers-reduced-motion: reduce){\n    .acc-blob{ animation: none; }\n  }\n</style>\n\n<section class=\"acc-wrap\">\n  <div class=\"acc-blob\" aria-hidden=\"true\"></div>\n\n  <div class=\"acc-inner\">\n    <h2 class=\"acc-title\">Did You Know...</h2>\n    <p class=\"acc-sub\">Thousands of Pregnancies Are Lost in Car Accidents Every Year</p>\n\n    <ul class=\"acc-list\">\n      <li class=\"acc-item\">\n        <svg class=\"acc-x\" viewBox=\"0 0 24 24\" fill=\"none\" aria-hidden=\"true\">\n          <path d=\"M6 6l12 12M18 6L6 18\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linecap=\"round\"/>\n        </svg>\n        <span>Over 170,000 pregnant women experience car accidents every year.</span>\n      </li>\n\n      <li class=\"acc-item\">\n        <svg class=\"acc-x\" viewBox=\"0 0 24 24\" fill=\"none\" aria-hidden=\"true\">\n          <path d=\"M6 6l12 12M18 6L6 18\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linecap=\"round\"/>\n        </svg>\n        <span>Over 3,000 pregnancies are lost from car accidents every year.</span>\n      </li>\n    </ul>\n  </div>\n</section>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "custom_liquid_P4xehY": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<style>\n  .inst-wrap{\n    background:#fff;\n    padding: 70px 20px;\n    font-family: inherit;\n    color:#121212;\n  }\n\n  .inst-inner{\n    max-width: 1200px;\n    margin: 0 auto;\n  }\n\n  .inst-title{\n    text-align:center;\n    font-weight: 800;\n    font-size: clamp(28px, 3vw, 44px);\n    letter-spacing: -0.02em;\n    margin: 0 0 34px 0;\n  }\n\n  .inst-grid{\n    display:grid;\n    grid-template-columns: repeat(4, 1fr);\n    gap: 28px;\n  }\n\n  .inst-card{\n    background:#F7F7F7;\n    border-radius: 22px;\n    padding: 34px 26px 28px;\n    text-align:center;\n    box-shadow: 0 8px 24px rgba(0,0,0,.06);\n  }\n\n  .inst-circle{\n    width: 190px;\n    height: 190px;\n    border-radius: 999px;\n    margin: 0 auto 22px;\n    border: 4px solid #F2A3A0; /* rose */\n    overflow:hidden;\n    background:#fff;\n    display:grid;\n    place-items:center;\n  }\n\n  .inst-circle img{\n    width: 100%;\n    height: 100%;\n    object-fit: cover;\n    display:block;\n  }\n\n  .inst-step{\n    font-size: 22px;\n    font-weight: 800;\n    letter-spacing: -0.01em;\n    margin: 0 0 10px 0;\n  }\n\n  .inst-text{\n    font-size: 18px;\n    line-height: 1.75;\n    color: rgba(18,18,18,.75);\n    margin: 0;\n    font-weight: 500;\n  }\n\n  /* Tablet */\n  @media (max-width: 1100px){\n    .inst-grid{ grid-template-columns: repeat(2, 1fr); }\n    .inst-circle{ width: 180px; height: 180px; }\n  }\n\n  /* Mobile */\n  @media (max-width: 640px){\n    .inst-wrap{ padding: 54px 14px; }\n    .inst-grid{ grid-template-columns: 1fr; gap: 18px; }\n    .inst-circle{ width: 170px; height: 170px; }\n    .inst-step{ font-size: 20px; }\n    .inst-text{ font-size: 16px; }\n  }\n</style>\n\n<section class=\"inst-wrap\">\n  <div class=\"inst-inner\">\n    <h2 class=\"inst-title\">Easy Installation Instructions</h2>\n\n    <div class=\"inst-grid\">\n      <!-- Step 1 -->\n      <div class=\"inst-card\">\n        <div class=\"inst-circle\">\n          <img src=\"https://cdn.shopify.com/s/files/1/0644/3224/2751/files/8636c455-a14b-45ba-aacd-cf0bae253ca3_png.avif?v=1767326563\" alt=\"Step 1\">\n        </div>\n        <div class=\"inst-step\">Step 1 of 4</div>\n        <p class=\"inst-text\">\n          The adjuster's belt should be pulled through the gap between the seat and the backrest\n        </p>\n      </div>\n\n      <!-- Step 2 -->\n      <div class=\"inst-card\">\n        <div class=\"inst-circle\">\n          <img src=\"https://cdn.shopify.com/s/files/1/0644/3224/2751/files/eb3478e9-33bb-4d0e-9b88-6828e7527d62_png.avif?v=1767326619\" alt=\"Step 2\">\n        </div>\n        <div class=\"inst-step\">Step 2 of 4</div>\n        <p class=\"inst-text\">\n          Then the belt should be pulled underneath the seat, ensuring that the belt is not twisted\n        </p>\n      </div>\n\n      <!-- Step 3 -->\n      <div class=\"inst-card\">\n        <div class=\"inst-circle\">\n          <img src=\"https://cdn.shopify.com/s/files/1/0644/3224/2751/files/a5ef154c-43fd-45b8-9ecb-5f7492803e2a_png.avif?v=1767326624\" alt=\"Step 3\">\n        </div>\n        <div class=\"inst-step\">Step 3 of 4</div>\n        <p class=\"inst-text\">\n          The end of the belt should be looped through the upper and lower hole of the buckle respectively\n        </p>\n      </div>\n\n      <!-- Step 4 -->\n      <div class=\"inst-card\">\n        <div class=\"inst-circle\">\n          <img src=\"https://cdn.shopify.com/s/files/1/0644/3224/2751/files/16474bdf-9b57-4897-a432-6a956a6f852e_png.avif?v=1767326564\" alt=\"Step 4\">\n        </div>\n        <div class=\"inst-step\">Step 4 of 4</div>\n        <p class=\"inst-text\">\n          The belt should be tightened securely by pulling it downwards\n        </p>\n      </div>\n    </div>\n  </div>\n</section>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
     }
   },
   "order": [
@@ -207,6 +233,8 @@
     "custom_liquid_emWYqF",
     "featured-product",
     "custom_liquid_k33RBt",
-    "custom_liquid_xFTpVb"
+    "custom_liquid_xFTpVb",
+    "custom_liquid_6mUdGD",
+    "custom_liquid_P4xehY"
   ]
 }
