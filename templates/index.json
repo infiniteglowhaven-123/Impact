@@ -142,7 +142,7 @@
       ],
       "settings": {
         "full_width": false,
-        "product": "icy-mami-lip-kit-champagne",
+        "product": "pregnancy-safety-belt",
         "desktop_media_width": 55,
         "desktop_media_layout": "carousel_thumbnails_left",
         "mobile_media_size": "expanded",
@@ -170,11 +170,25 @@
         "background_gradient": "",
         "text_color": ""
       }
+    },
+    "custom_liquid_qjHgQX": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "{% comment %}\n  Section Insurance - A little piece of insurance\n  Ajouter dans un bloc \"Custom Liquid\"\n{% endcomment %}\n\n<style>\n.insurance-section {\n  width: 100%;\n  padding: 60px 20px;\n  background: #fef5f5;\n}\n\n.insurance-title {\n  text-align: center;\n  font-size: 42px;\n  font-weight: 700;\n  color: #ff8b8b;\n  margin-bottom: 60px;\n  letter-spacing: -0.5px;\n  line-height: 1.3;\n}\n\n.insurance-grid {\n  display: grid;\n  grid-template-columns: repeat(3, 1fr);\n  gap: 50px;\n  max-width: 1300px;\n  margin: 0 auto;\n}\n\n.insurance-item {\n  text-align: center;\n  padding: 20px;\n}\n\n.insurance-icon {\n  width: 80px;\n  height: 80px;\n  margin: 0 auto 25px;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n}\n\n.insurance-icon svg {\n  width: 100%;\n  height: 100%;\n}\n\n.insurance-item-title {\n  font-size: 26px;\n  font-weight: 700;\n  color: #000;\n  margin-bottom: 18px;\n  line-height: 1.2;\n}\n\n.insurance-item-text {\n  font-size: 17px;\n  color: #333;\n  line-height: 1.7;\n  max-width: 380px;\n  margin: 0 auto;\n}\n\n.insurance-item-text strong {\n  font-weight: 700;\n  color: #000;\n}\n\n/* RESPONSIVE */\n@media (max-width: 1024px) {\n  .insurance-grid {\n    grid-template-columns: 1fr;\n    gap: 45px;\n  }\n  \n  .insurance-title {\n    font-size: 36px;\n  }\n}\n\n@media (max-width: 768px) {\n  .insurance-section {\n    padding: 50px 15px;\n  }\n  \n  .insurance-title {\n    font-size: 32px;\n    margin-bottom: 45px;\n  }\n  \n  .insurance-item-title {\n    font-size: 24px;\n  }\n  \n  .insurance-item-text {\n    font-size: 16px;\n  }\n}\n\n@media (max-width: 480px) {\n  .insurance-title {\n    font-size: 28px;\n  }\n  \n  .insurance-item-title {\n    font-size: 22px;\n  }\n}\n</style>\n\n<div class=\"insurance-section\">\n  <h2 class=\"insurance-title\">A little piece of insurance, for a great peace of mind!</h2>\n  \n  <div class=\"insurance-grid\">\n    \n    <!-- Tested and Certified -->\n    <div class=\"insurance-item\">\n      <div class=\"insurance-icon\">\n        <svg viewBox=\"0 0 100 100\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n          <circle cx=\"50\" cy=\"50\" r=\"40\" stroke=\"#000\" stroke-width=\"3\"/>\n          <circle cx=\"50\" cy=\"50\" r=\"30\" stroke=\"#000\" stroke-width=\"2\"/>\n          <path d=\"M35 50 L45 60 L65 40\" stroke=\"#000\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"/>\n          <circle cx=\"75\" cy=\"75\" r=\"12\" fill=\"#fff\" stroke=\"#000\" stroke-width=\"2\"/>\n          <path d=\"M75 69 L75 75 M75 75 L75 81\" stroke=\"#000\" stroke-width=\"2\" stroke-linecap=\"round\"/>\n          <circle cx=\"75\" cy=\"75\" r=\"2\" fill=\"#000\"/>\n        </svg>\n      </div>\n      <h3 class=\"insurance-item-title\">Tested and Certified</h3>\n      <p class=\"insurance-item-text\">\n        Dramatically reduces the chances of lost pregnancies in car accidents by over <strong>82.7%</strong> compared to regular seatbelts.\n      </p>\n    </div>\n    \n    <!-- One Size Fits All -->\n    <div class=\"insurance-item\">\n      <div class=\"insurance-icon\">\n        <svg viewBox=\"0 0 100 100\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n          <path d=\"M30 30 L30 70 L50 85 L70 70 L70 30 L50 15 Z\" stroke=\"#000\" stroke-width=\"3\" fill=\"none\"/>\n          <path d=\"M40 40 L40 65 L50 73 L60 65 L60 40 L50 32 Z\" stroke=\"#ff8b8b\" stroke-width=\"2\" fill=\"#ff8b8b\" opacity=\"0.2\"/>\n          <circle cx=\"50\" cy=\"50\" r=\"5\" fill=\"#ff8b8b\"/>\n        </svg>\n      </div>\n      <h3 class=\"insurance-item-title\">One Size Fits All</h3>\n      <p class=\"insurance-item-text\">\n        The product can be easily <strong>fastened securely</strong> to any car seat, and no matter the size, it won't budge!\n      </p>\n    </div>\n    \n    <!-- Safe and Secure -->\n    <div class=\"insurance-item\">\n      <div class=\"insurance-icon\">\n        <svg viewBox=\"0 0 100 100\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n          <path d=\"M50 15 L70 25 L70 50 C70 65 60 75 50 85 C40 75 30 65 30 50 L30 25 Z\" stroke=\"#000\" stroke-width=\"3\" fill=\"none\"/>\n          <path d=\"M50 25 L62 32 L62 50 C62 60 56 67 50 73 C44 67 38 60 38 50 L38 32 Z\" fill=\"#ff8b8b\" opacity=\"0.3\"/>\n          <path d=\"M43 50 L48 55 L58 42\" stroke=\"#ff8b8b\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"/>\n        </svg>\n      </div>\n      <h3 class=\"insurance-item-title\">Safe and Secure</h3>\n      <p class=\"insurance-item-text\">\n        Improved design feature to <strong>soften</strong> the impact pressure of the seatbelt pressed on thighs when using lap-sash configuration.\n      </p>\n    </div>\n    \n  </div>\n</div>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
     }
   },
   "order": [
     "slideshow",
     "custom_liquid_UVQmTK",
+    "custom_liquid_qjHgQX",
     "custom_liquid_emWYqF",
     "featured-product",
     "custom_liquid_qpDVqC"
