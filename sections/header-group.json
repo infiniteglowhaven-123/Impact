@@ -11,6 +11,44 @@
   "type": "header",
   "name": "Header group",
   "sections": {
+    "custom_liquid_nWb4bL": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<style>\n.top-announcement-bar {\n  background: linear-gradient(90deg, #D32F2F 0%, #C62828 100%);\n  padding: 12px 20px;\n  text-align: center;\n  position: relative;\n  overflow: hidden;\n  width: 100vw;\n  margin-left: calc(50% - 50vw);\n  margin-right: calc(50% - 50vw);\n  margin-top: 0;\n  margin-bottom: 0;\n}\n\n.announcement-content {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  gap: 15px;\n  flex-wrap: wrap;\n}\n\n.announcement-star {\n  color: #FFD700;\n  font-size: 18px;\n  animation: pulse 2s infinite;\n}\n\n.announcement-text {\n  font-family: Arial, sans-serif;\n  font-size: 14px;\n  font-weight: 600;\n  color: white;\n  letter-spacing: 0.5px;\n  text-transform: uppercase;\n}\n\n.announcement-highlight {\n  background: rgba(255, 255, 255, 0.2);\n  padding: 4px 12px;\n  border-radius: 20px;\n  margin: 0 5px;\n}\n\n.shop-now-btn {\n  background: white;\n  color: #D32F2F;\n  padding: 6px 20px;\n  border-radius: 20px;\n  text-decoration: none;\n  font-family: Arial, sans-serif;\n  font-size: 12px;\n  font-weight: 700;\n  text-transform: uppercase;\n  letter-spacing: 0.5px;\n  transition: all 0.3s ease;\n  display: inline-block;\n}\n\n.shop-now-btn:hover {\n  background: #FFD700;\n  transform: scale(1.05);\n}\n\n@keyframes pulse {\n  0%, 100% {\n    transform: scale(1);\n  }\n  50% {\n    transform: scale(1.2);\n  }\n}\n\n/* RESPONSIVE */\n@media (max-width: 768px) {\n  .top-announcement-bar {\n    padding: 10px 15px;\n  }\n  \n  .announcement-text {\n    font-size: 12px;\n  }\n  \n  .shop-now-btn {\n    font-size: 11px;\n    padding: 5px 15px;\n  }\n}\n\n@media (max-width: 480px) {\n  .announcement-content {\n    gap: 8px;\n  }\n  \n  .announcement-text {\n    font-size: 11px;\n  }\n  \n  .announcement-star {\n    font-size: 16px;\n  }\n}\n</style>\n\n<div class=\"top-announcement-bar\">\n  <div class=\"announcement-content\">\n    <span class=\"announcement-star\">⭐</span>\n    <span class=\"announcement-text\">\n      NEW YEAR SALE\n      <span class=\"announcement-highlight\">Buy 2, Get 1 Free</span>\n    </span>\n    <a href=\"/collections/all\" class=\"shop-now-btn\">SHOP NOW</a>\n  </div>\n</div>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "header": {
+      "type": "header",
+      "settings": {
+        "enable_sticky": true,
+        "hide_on_scroll": true,
+        "logo": "shopify://shop_images/ChatGPT_Image_Dec_22_2025_09_21_30_PM.png",
+        "logo_max_width": 130,
+        "logo_mobile_max_width": 80,
+        "menu": "main-menu",
+        "sidebar_menu": "",
+        "secondary_menu": "",
+        "menu_open_trigger": "click",
+        "opening_from": "bottom",
+        "layout": "logo_left_navigation_inline",
+        "show_social_media": true,
+        "show_locale_selector": true,
+        "show_country_selector": true,
+        "show_country_flag": true,
+        "show_country_name": false,
+        "transparent_header_text_color": "#ffffff",
+        "reduce_padding": false,
+        "background_opacity": 0,
+        "background_blur_radius": 0
+      }
+    },
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
@@ -48,53 +86,15 @@
         "text_size": "text-xs",
         "navigation_mode": "scrolling",
         "scrolling_speed": 26,
-        "background": "#f0f0f0",
+        "background": "#000000",
         "background_gradient": "",
-        "text_color": "#1a1a1a"
-      }
-    },
-    "custom_liquid_nWb4bL": {
-      "type": "custom-liquid",
-      "name": "Custom Liquid",
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "liquid": "<style>\n.top-announcement-bar {\n  background: linear-gradient(90deg, #D32F2F 0%, #C62828 100%);\n  padding: 12px 20px;\n  text-align: center;\n  position: relative;\n  overflow: hidden;\n  width: 100vw;\n  margin-left: calc(50% - 50vw);\n  margin-right: calc(50% - 50vw);\n  margin-top: 0;\n  margin-bottom: 0;\n}\n\n.announcement-content {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  gap: 15px;\n  flex-wrap: wrap;\n}\n\n.announcement-star {\n  color: #FFD700;\n  font-size: 18px;\n  animation: pulse 2s infinite;\n}\n\n.announcement-text {\n  font-family: Arial, sans-serif;\n  font-size: 14px;\n  font-weight: 600;\n  color: white;\n  letter-spacing: 0.5px;\n  text-transform: uppercase;\n}\n\n.announcement-highlight {\n  background: rgba(255, 255, 255, 0.2);\n  padding: 4px 12px;\n  border-radius: 20px;\n  margin: 0 5px;\n}\n\n.shop-now-btn {\n  background: white;\n  color: #D32F2F;\n  padding: 6px 20px;\n  border-radius: 20px;\n  text-decoration: none;\n  font-family: Arial, sans-serif;\n  font-size: 12px;\n  font-weight: 700;\n  text-transform: uppercase;\n  letter-spacing: 0.5px;\n  transition: all 0.3s ease;\n  display: inline-block;\n}\n\n.shop-now-btn:hover {\n  background: #FFD700;\n  transform: scale(1.05);\n}\n\n@keyframes pulse {\n  0%, 100% {\n    transform: scale(1);\n  }\n  50% {\n    transform: scale(1.2);\n  }\n}\n\n/* RESPONSIVE */\n@media (max-width: 768px) {\n  .top-announcement-bar {\n    padding: 10px 15px;\n  }\n  \n  .announcement-text {\n    font-size: 12px;\n  }\n  \n  .shop-now-btn {\n    font-size: 11px;\n    padding: 5px 15px;\n  }\n}\n\n@media (max-width: 480px) {\n  .announcement-content {\n    gap: 8px;\n  }\n  \n  .announcement-text {\n    font-size: 11px;\n  }\n  \n  .announcement-star {\n    font-size: 16px;\n  }\n}\n</style>\n\n<div class=\"top-announcement-bar\">\n  <div class=\"announcement-content\">\n    <span class=\"announcement-star\">⭐</span>\n    <span class=\"announcement-text\">\n      NEW YEAR SALE\n      <span class=\"announcement-highlight\">Buy 2, Get 1 Free</span>\n    </span>\n    <a href=\"/collections/all\" class=\"shop-now-btn\">SHOP NOW</a>\n  </div>\n</div>",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
-    "header": {
-      "type": "header",
-      "settings": {
-        "enable_sticky": true,
-        "hide_on_scroll": true,
-        "logo": "shopify://shop_images/ChatGPT_Image_Dec_22_2025_09_21_30_PM.png",
-        "logo_max_width": 130,
-        "logo_mobile_max_width": 100,
-        "menu": "main-menu",
-        "sidebar_menu": "",
-        "secondary_menu": "",
-        "menu_open_trigger": "click",
-        "opening_from": "bottom",
-        "layout": "logo_left_navigation_inline",
-        "show_social_media": true,
-        "show_locale_selector": true,
-        "show_country_selector": true,
-        "show_country_flag": true,
-        "show_country_name": false,
-        "transparent_header_text_color": "#ffffff",
-        "reduce_padding": false,
-        "background_opacity": 0,
-        "background_blur_radius": 0
+        "text_color": "#ffffff"
       }
     }
   },
   "order": [
-    "announcement-bar",
     "custom_liquid_nWb4bL",
-    "header"
+    "header",
+    "announcement-bar"
   ]
 }
