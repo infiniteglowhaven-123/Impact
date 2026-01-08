@@ -15,7 +15,7 @@
         "slide-1": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/b3a93e60-111f-4c46-a301-eeb9364b261b_08e61b57-e4a0-4176-9703-3e01b2946e18.png",
+            "image": "shopify://shop_images/JOURNAL-3.svg",
             "mobile_image": "shopify://shop_images/BANNER_MOBILE.svg",
             "content_max_width": 700,
             "mobile_text_position": "place-self-end-start text-start",
@@ -29,7 +29,7 @@
             "button_background": "#f0f0f0",
             "button_text_color": "#cabd89",
             "overlay_color": "#000000",
-            "overlay_opacity": 0,
+            "overlay_opacity": 13,
             "background": "",
             "background_gradient": ""
           }
@@ -62,101 +62,6 @@
         "background": "",
         "background_gradient": "",
         "text_color": ""
-      }
-    },
-    "featured-product": {
-      "type": "featured-product",
-      "blocks": {
-        "title": {
-          "type": "title",
-          "settings": {
-            "heading_tag": "h5"
-          }
-        },
-        "liquid_bRLLWV": {
-          "type": "liquid",
-          "settings": {
-            "liquid": "<style>\n.product-features-wrapper {\n  background: #F4F1EC;\n  border-radius: 12px;\n  padding: 20px 20px;\n  margin: 15px 0;\n  max-width: 470px;\n}\n\n.features-grid {\n  display: grid !important;\n  grid-template-columns: 1fr 1fr !important;\n  grid-template-rows: auto auto !important;\n  gap: 12px;\n  margin-bottom: 20px;\n}\n\n.feature-card {\n  background: white;\n  border-radius: 12px;\n  padding: 20px 15px;\n  text-align: center;\n  transition: transform 0.3s ease;\n  display: block !important;\n}\n\n.feature-card:hover {\n  transform: translateY(-2px);\n}\n\n.feature-icon {\n  font-size: 15px;\n  margin-bottom: 5px;\n  display: block;\n}\n\n.feature-title {\n  font-family: Arial, sans-serif;\n  font-size: 10px;\n  font-weight: 50;\n  color: #2C2C2C;\n  line-height: 1.3;\n  margin: 0;\n  display: block;\n}\n\n.stock-alert {\n  background: white;\n  border-radius: 10px;\n  padding: 12px;\n  text-align: center;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  gap: 6px;\n}\n\n.stock-dot {\n  width: 8px;\n  height: 8px;\n  background: #C9A961;\n  border-radius: 50%;\n  display: inline-block;\n}\n\n.stock-text {\n  font-family: Arial, sans-serif;\n  font-size: 12px;\n  font-weight: 600;\n  color: #C9A961;\n  text-transform: uppercase;\n  letter-spacing: 0.5px;\n  margin: 0;\n}\n\n/* RESPONSIVE */\n@media screen and (max-width: 768px) {\n  .product-features-wrapper {\n    padding: 20px 15px;\n    max-width: 100%;\n  }\n  \n  .features-grid {\n    display: grid !important;\n    grid-template-columns: 1fr 1fr !important;\n    gap: 10px;\n    margin-bottom: 15px;\n  }\n  \n  .feature-card {\n    padding: 18px 12px;\n  }\n  \n  .feature-icon {\n    font-size: 24px;\n    margin-bottom: 8px;\n  }\n  \n  .feature-title {\n    font-size: 12px;\n  }\n  \n  .stock-alert {\n    padding: 10px;\n  }\n  \n  .stock-text {\n    font-size: 11px;\n  }\n}\n\n@media screen and (max-width: 480px) {\n  .product-features-wrapper {\n    padding: 18px 12px;\n    border-radius: 12px;\n    max-width: 100%;\n    margin: 15px 0;\n  }\n  \n  .features-grid {\n    display: grid !important;\n    grid-template-columns: 1fr 1fr !important;\n    grid-template-rows: auto auto !important;\n    gap: 8px !important;\n    margin-bottom: 12px;\n  }\n  \n  .feature-card {\n    padding: 15px 8px;\n    border-radius: 10px;\n    width: 100%;\n    box-sizing: border-box;\n  }\n  \n  .feature-icon {\n    font-size: 20px;\n    margin-bottom: 6px;\n  }\n  \n  .feature-title {\n    font-size: 10px;\n    line-height: 1.2;\n  }\n  \n  .stock-alert {\n    padding: 10px;\n  }\n  \n  .stock-dot {\n    width: 7px;\n    height: 7px;\n  }\n  \n  .stock-text {\n    font-size: 10px;\n  }\n}\n</style>\n\n<div class=\"product-features-wrapper\">\n  <div class=\"features-grid\">\n    <div class=\"feature-card\">\n      <div class=\"feature-icon\">✨</div>\n      <h3 class=\"feature-title\">No Tarnish &<br>No Fade</h3>\n    </div>\n    \n    <div class=\"feature-card\">\n      <div class=\"feature-icon\">💧</div>\n      <h3 class=\"feature-title\">Waterproof &<br>Sweatproof</h3>\n    </div>\n    \n    <div class=\"feature-card\">\n      <div class=\"feature-icon\">🌿</div>\n      <h3 class=\"feature-title\">Hypoallergenic &<br>Skin-Safe</h3>\n    </div>\n    \n    <div class=\"feature-card\">\n      <div class=\"feature-icon\">👑</div>\n      <h3 class=\"feature-title\">Lifetime Color<br>Warranty</h3>\n    </div>\n  </div>\n  \n  <div class=\"stock-alert\">\n    <span class=\"stock-dot\"></span>\n    <p class=\"stock-text\">Almost Out of Stock</p>\n  </div>\n</div>"
-          }
-        },
-        "badges": {
-          "type": "badges",
-          "settings": {}
-        },
-        "rating": {
-          "type": "rating",
-          "settings": {
-            "show_empty": false
-          }
-        },
-        "separator": {
-          "type": "separator",
-          "settings": {}
-        },
-        "description": {
-          "type": "description",
-          "settings": {
-            "icon": "none",
-            "icon_width": 20,
-            "collapse_content": false
-          }
-        },
-        "buy_buttons_wcXph7": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_payment_button": true,
-            "show_gift_card_recipient": true,
-            "atc_button_background": "#ffadad",
-            "atc_button_text_color": "",
-            "payment_button_background": "",
-            "payment_button_text_color": ""
-          }
-        },
-        "liquid_89nnzr": {
-          "type": "liquid",
-          "settings": {
-            "liquid": "<style>\n.product-accordions {\n  margin: 30px 0;\n  width: 100%;\n}\n\n.accordion-item {\n  border-bottom: 1px solid #E5E5E5;\n}\n\n.accordion-header {\n  width: 100%;\n  padding: 20px 0;\n  background: transparent;\n  border: none;\n  text-align: left;\n  cursor: pointer;\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n  transition: all 0.3s ease;\n}\n\n.accordion-header:hover {\n  opacity: 0.7;\n}\n\n.accordion-title {\n  display: flex;\n  align-items: center;\n  gap: 12px;\n  font-family: Arial, sans-serif;\n  font-size: 14px;\n  font-weight: 600;\n  color: #2C2C2C;\n  text-transform: uppercase;\n  letter-spacing: 0.5px;\n}\n\n.accordion-icon {\n  font-size: 20px;\n}\n\n.accordion-chevron {\n  font-size: 18px;\n  color: #666;\n  transition: transform 0.3s ease;\n}\n\n.accordion-header.active .accordion-chevron {\n  transform: rotate(180deg);\n}\n\n.accordion-content {\n  max-height: 0;\n  overflow: hidden;\n  transition: max-height 0.4s ease, padding 0.4s ease;\n  padding: 0;\n}\n\n.accordion-content.active {\n  max-height: 800px;\n  padding: 0 0 25px 0;\n}\n\n.accordion-text {\n  font-family: Arial, sans-serif;\n  font-size: 14px;\n  color: #666;\n  line-height: 1.7;\n}\n\n.accordion-text strong {\n  color: #2C2C2C;\n  font-weight: 600;\n}\n\n.accordion-list {\n  margin: 15px 0;\n  padding-left: 0;\n  list-style: none;\n}\n\n.accordion-list li {\n  padding: 8px 0;\n  padding-left: 20px;\n  position: relative;\n  font-family: Arial, sans-serif;\n  font-size: 14px;\n  color: #666;\n  line-height: 1.6;\n}\n\n.accordion-list li:before {\n  content: \"•\";\n  position: absolute;\n  left: 0;\n  color: #C9A961;\n  font-weight: bold;\n}\n\n/* RESPONSIVE */\n@media (max-width: 768px) {\n  .accordion-header {\n    padding: 18px 0;\n  }\n  \n  .accordion-title {\n    font-size: 13px;\n    gap: 10px;\n  }\n  \n  .accordion-icon {\n    font-size: 18px;\n  }\n  \n  .accordion-text {\n    font-size: 13px;\n  }\n  \n  .accordion-list li {\n    font-size: 13px;\n  }\n}\n\n@media (max-width: 480px) {\n  .accordion-header {\n    padding: 16px 0;\n  }\n  \n  .accordion-title {\n    font-size: 12px;\n  }\n  \n  .accordion-text {\n    font-size: 12px;\n  }\n  \n  .accordion-list li {\n    font-size: 12px;\n  }\n}\n</style>\n\n<div class=\"product-accordions\">\n  <!-- LIFETIME COLOR WARRANTY -->\n  <div class=\"accordion-item\">\n    <button class=\"accordion-header\" onclick=\"toggleAccordion(this)\">\n      <div class=\"accordion-title\">\n        <span class=\"accordion-icon\">∞</span>\n        <span>LIFETIME COLOR WARRANTY</span>\n      </div>\n      <span class=\"accordion-chevron\">⌄</span>\n    </button>\n    <div class=\"accordion-content\">\n      <div class=\"accordion-text\">\n        <p>We stand behind our jewelry with a <strong>Lifetime Color Warranty</strong>. If your piece ever tarnishes or fades (which it won't), we'll replace it free of charge—no questions asked.</p>\n        <p>Our PVD gold plating is designed to last forever, maintaining its radiant shine through daily wear, showers, swims, and workouts. Your confidence is guaranteed for life.</p>\n      </div>\n    </div>\n  </div>\n\n  <!-- DELIVERY | PACKAGING -->\n  <div class=\"accordion-item\">\n    <button class=\"accordion-header\" onclick=\"toggleAccordion(this)\">\n      <div class=\"accordion-title\">\n        <span class=\"accordion-icon\">📦</span>\n        <span>DELIVERY | PACKAGING</span>\n      </div>\n      <span class=\"accordion-chevron\">⌄</span>\n    </button>\n    <div class=\"accordion-content\">\n      <div class=\"accordion-text\">\n        <p><strong>Free Worldwide Shipping</strong> on all orders</p>\n        <ul class=\"accordion-list\">\n          <li><strong>Processing Time:</strong> 1-2 business days</li>\n          <li><strong>Delivery Time:</strong> 5-12 business days (depending on location)</li>\n          <li><strong>Tracking:</strong> You'll receive a tracking number once your order ships</li>\n        </ul>\n        <p>Each piece arrives in elegant, eco-friendly packaging—perfect for gifting or treating yourself. Your jewelry comes with a care card and storage pouch to keep it beautiful.</p>\n      </div>\n    </div>\n  </div>\n\n  <!-- FINE JEWELRY MATERIALS -->\n  <div class=\"accordion-item\">\n    <button class=\"accordion-header\" onclick=\"toggleAccordion(this)\">\n      <div class=\"accordion-title\">\n        <span class=\"accordion-icon\">⚙️</span>\n        <span>FINE JEWELRY MATERIALS</span>\n      </div>\n      <span class=\"accordion-chevron\">⌄</span>\n    </button>\n    <div class=\"accordion-content\">\n      <div class=\"accordion-text\">\n        <p><strong>Premium Materials for Lasting Beauty:</strong></p>\n        <ul class=\"accordion-list\">\n          <li><strong>Base Metal:</strong> 316L Surgical-Grade Stainless Steel—hypoallergenic and durable</li>\n          <li><strong>Plating:</strong> 18k PVD Gold Coating—molecularly bonded for permanent color</li>\n          <li><strong>Stones:</strong> High-quality Cubic Zirconia—brilliant, clear, and stunning</li>\n          <li><strong>Finish:</strong> Hand-polished to perfection for maximum shine</li>\n        </ul>\n        <p>Every piece is crafted with precision and designed to be 100% waterproof, sweatproof, and tarnish-free. Built for your active, confident lifestyle.</p>\n      </div>\n    </div>\n  </div>\n\n  <!-- TRUSTPILOT REVIEWS -->\n  <div class=\"accordion-item\">\n    <button class=\"accordion-header\" onclick=\"toggleAccordion(this)\">\n      <div class=\"accordion-title\">\n        <span class=\"accordion-icon\">⭐</span>\n        <span>TRUSTPILOT REVIEWS</span>\n      </div>\n      <span class=\"accordion-chevron\">⌄</span>\n    </button>\n    <div class=\"accordion-content\">\n      <div class=\"accordion-text\">\n        <p><strong>Loved by 221,029+ Confident Women Worldwide</strong></p>\n        <p>Our customers rate us ⭐⭐⭐⭐⭐ 4.9/5.0 on Trustpilot. Here's what they're saying:</p>\n        <ul class=\"accordion-list\">\n          <li>\"I'm absolutely in love with this jewelry! The designs are so elegant and versatile.\"</li>\n          <li>\"The pieces are lightweight and waterproof, so I never have to worry about taking them off.\"</li>\n          <li>\"Thanks to the Buy 3, Get 20% OFF deal, I got 3 stunning pieces for a fraction of the price.\"</li>\n          <li>\"These are my go-to accessories ever since I discovered them!\"</li>\n        </ul>\n        <p>Join thousands of women who've made confidence their daily habit. 💎</p>\n      </div>\n    </div>\n  </div>\n</div>\n\n<script>\nfunction toggleAccordion(button) {\n  const content = button.nextElementSibling;\n  const isActive = button.classList.contains('active');\n  \n  // Close all accordions\n  document.querySelectorAll('.accordion-header').forEach(header => {\n    header.classList.remove('active');\n    header.nextElementSibling.classList.remove('active');\n  });\n  \n  // Open clicked accordion if it wasn't active\n  if (!isActive) {\n    button.classList.add('active');\n    content.classList.add('active');\n  }\n}\n</script>"
-          }
-        },
-        "variant-picker": {
-          "type": "variant_picker",
-          "settings": {
-            "hide_sold_out_variants": false,
-            "stack_blocks": true,
-            "selector_style": "block",
-            "swatch_selector_style": "color",
-            "variant_image_options": "",
-            "size_chart_page": ""
-          }
-        }
-      },
-      "block_order": [
-        "title",
-        "liquid_bRLLWV",
-        "badges",
-        "rating",
-        "separator",
-        "description",
-        "buy_buttons_wcXph7",
-        "liquid_89nnzr",
-        "variant-picker"
-      ],
-      "settings": {
-        "full_width": true,
-        "product": "monaco-classic-tennis-bracelet",
-        "desktop_media_width": 45,
-        "desktop_media_layout": "carousel_thumbnails_left",
-        "mobile_media_size": "contained",
-        "mobile_carousel_control": "thumbnails",
-        "enable_video_autoplay": true,
-        "enable_video_looping": false,
-        "enable_image_zoom": true,
-        "max_image_zoom_level": 4,
-        "background": "#efe8dd",
-        "background_gradient": "",
-        "text_color": "",
-        "input_background": "#ffffff",
-        "input_text_color": ""
       }
     },
     "custom_liquid_Ck7rqL": {
@@ -202,7 +107,6 @@
   "order": [
     "slideshow",
     "custom_liquid_UVQmTK",
-    "featured-product",
     "custom_liquid_Ck7rqL",
     "custom_liquid_eKKrbF",
     "custom_liquid_ahVAXE"
