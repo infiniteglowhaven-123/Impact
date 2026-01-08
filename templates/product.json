@@ -12,6 +12,12 @@
     "main": {
       "type": "main-product",
       "blocks": {
+        "liquid_ERkgNx": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<style>\n.trust-mini {\n  display: inline-flex;\n  align-items: center;\n  gap: 10px;\n  font-family: inherit;\n}\n\n/* AVATARS */\n.trust-mini-avatars {\n  display: flex;\n  align-items: center;\n}\n\n.trust-mini-avatar {\n  position: relative;\n  width: 30px;\n  height: 30px;\n  border-radius: 50%;\n  overflow: hidden;\n  border: 2px solid #fff;\n}\n\n.trust-mini-avatar + .trust-mini-avatar {\n  margin-left: -8px;\n}\n\n.trust-mini-avatar img {\n  width: 100%;\n  height: 100%;\n  object-fit: cover;\n}\n\n/* CHECK BADGE */\n.trust-mini-check {\n  position: absolute;\n  top: -4px;\n  left: -4px;\n  width: 14px;\n  height: 14px;\n  background: #6B2FD1;\n  border-radius: 50%;\n  display: grid;\n  place-items: center;\n}\n\n.trust-mini-check svg {\n  width: 8px;\n  height: 8px;\n}\n\n/* TEXTE */\n.trust-mini-pill {\n  background: #EFEAFF;\n  border-radius: 999px;\n  padding: 6px 12px;\n  line-height: 1.2;\n}\n\n.trust-mini-title {\n  font-size: 14px;\n  font-weight: 600;\n  color: #111;\n}\n\n.trust-mini-sub {\n  font-size: 12px;\n  color: #333;\n}\n</style>\n\n<div class=\"trust-mini\">\n  <div class=\"trust-mini-avatars\">\n\n    <div class=\"trust-mini-avatar\">\n      <span class=\"trust-mini-check\">\n        <svg viewBox=\"0 0 24 24\" fill=\"none\">\n          <path d=\"M20 7L10 17l-5-5\" stroke=\"#fff\" stroke-width=\"3\" stroke-linecap=\"round\"/>\n        </svg>\n      </span>\n      <img src=\"https://cdn.shopify.com/s/files/1/0644/3224/2751/files/facebook-profile-pic.jpg?v=1767324082\">\n    </div>\n\n    <div class=\"trust-mini-avatar\">\n      <span class=\"trust-mini-check\">\n        <svg viewBox=\"0 0 24 24\" fill=\"none\">\n          <path d=\"M20 7L10 17l-5-5\" stroke=\"#fff\" stroke-width=\"3\" stroke-linecap=\"round\"/>\n        </svg>\n      </span>\n      <img src=\"https://cdn.shopify.com/s/files/1/0644/3224/2751/files/images-4.jpg?v=1767324021\">\n    </div>\n\n    <div class=\"trust-mini-avatar\">\n      <span class=\"trust-mini-check\">\n        <svg viewBox=\"0 0 24 24\" fill=\"none\">\n          <path d=\"M20 7L10 17l-5-5\" stroke=\"#fff\" stroke-width=\"3\" stroke-linecap=\"round\"/>\n        </svg>\n      </span>\n      <img src=\"https://cdn.shopify.com/s/files/1/0644/3224/2751/files/images-3.jpg?v=1767324028\">\n    </div>\n\n    <div class=\"trust-mini-avatar\">\n      <span class=\"trust-mini-check\">\n        <svg viewBox=\"0 0 24 24\" fill=\"none\">\n          <path d=\"M20 7L10 17l-5-5\" stroke=\"#fff\" stroke-width=\"3\" stroke-linecap=\"round\"/>\n        </svg>\n      </span>\n      <img src=\"https://cdn.shopify.com/s/files/1/0644/3224/2751/files/images-5.jpg?v=1767324017\">\n    </div>\n\n  </div>\n\n  <div class=\"trust-mini-pill\">\n    <div class=\"trust-mini-title\">Bought by 15.2k+</div>\n    <div class=\"trust-mini-sub\">in the last month</div>\n  </div>\n</div>"
+          }
+        },
         "price": {
           "type": "price",
           "settings": {
@@ -44,6 +50,7 @@
         }
       },
       "block_order": [
+        "liquid_ERkgNx",
         "price",
         "title",
         "liquid_MX6mxt",
