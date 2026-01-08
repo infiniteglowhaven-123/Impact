@@ -96,12 +96,12 @@
         "variant_picker_wbeidF": {
           "type": "variant_picker",
           "settings": {
-            "hide_sold_out_variants": false,
+            "hide_sold_out_variants": true,
             "stack_blocks": true,
             "selector_style": "block",
             "swatch_selector_style": "swatch",
             "variant_image_options": "",
-            "size_chart_page": ""
+            "size_chart_page": "monaco-classic-tennis-bracelet"
           }
         },
         "quantity_selector_3xKxGp": {
