@@ -142,7 +142,7 @@
         "variant-picker"
       ],
       "settings": {
-        "full_width": false,
+        "full_width": true,
         "product": "monaco-classic-tennis-bracelet",
         "desktop_media_width": 55,
         "desktop_media_layout": "carousel_thumbnails_left",
