@@ -56,8 +56,8 @@
     "header": {
       "type": "header",
       "settings": {
-        "enable_sticky": false,
-        "hide_on_scroll": true,
+        "enable_sticky": true,
+        "hide_on_scroll": false,
         "logo": "shopify://shop_images/ChatGPT_Image_Dec_22_2025_09_21_30_PM.png",
         "logo_max_width": 130,
         "logo_mobile_max_width": 80,
