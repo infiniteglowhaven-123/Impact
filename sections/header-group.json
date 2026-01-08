@@ -27,6 +27,7 @@
     },
     "header": {
       "type": "header",
+      "disabled": true,
       "settings": {
         "enable_sticky": true,
         "hide_on_scroll": true,
@@ -94,8 +95,8 @@
     }
   },
   "order": [
-    "custom_liquid_nWb4bL",
     "header",
+    "custom_liquid_nWb4bL",
     "announcement-bar"
   ]
 }
