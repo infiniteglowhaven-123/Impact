@@ -14,22 +14,30 @@
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
+        "message_zQeWLB": {
+          "type": "message",
+          "settings": {
+            "text": "🌟Tarnish-Free • Lifetime Guarantee🌟",
+            "url": ""
+          }
+        },
         "message_awDrh9": {
           "type": "message",
           "settings": {
-            "text": "More Than 45000+ Happy Customers ✨",
+            "text": "More Than 245 000+ Happy Customers ✨",
             "url": ""
           }
         },
         "message": {
           "type": "message",
           "settings": {
-            "text": "FREE SHIPPING",
+            "text": "Free Shipping",
             "url": ""
           }
         }
       },
       "block_order": [
+        "message_zQeWLB",
         "message_awDrh9",
         "message"
       ],
@@ -38,7 +46,7 @@
         "autoplay": false,
         "cycle_speed": 6,
         "text_size": "text-xs",
-        "navigation_mode": "arrows",
+        "navigation_mode": "scrolling",
         "scrolling_speed": 26,
         "background": "#f0f0f0",
         "background_gradient": "",
