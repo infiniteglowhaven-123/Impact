@@ -91,25 +91,11 @@
         "background_gradient": "",
         "text_color": "#ffffff"
       }
-    },
-    "custom_liquid_hYC7Py": {
-      "type": "custom-liquid",
-      "name": "Custom Liquid",
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": true,
-        "remove_horizontal_spacing": true,
-        "liquid": "<style>\n.category-menu {\n  background: #2C2C2C;\n  padding: 0;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  flex-wrap: wrap;\n  gap: 0;\n  overflow-x: auto;\n}\n\n.category-item {\n  padding: 18px 25px;\n  text-decoration: none;\n  font-family: Arial, sans-serif;\n  font-size: 13px;\n  font-weight: 700;\n  color: white;\n  text-transform: uppercase;\n  letter-spacing: 0.5px;\n  transition: all 0.3s ease;\n  position: relative;\n  white-space: nowrap;\n  display: flex;\n  align-items: center;\n  gap: 8px;\n}\n\n.category-item:hover {\n  background: #3A3A3A;\n  color: #FFD700;\n}\n\n.category-badge {\n  background: linear-gradient(135deg, #FFD700 0%, #FFA500 100%);\n  color: #1A1A1A;\n  font-size: 9px;\n  font-weight: 800;\n  padding: 3px 8px;\n  border-radius: 12px;\n  letter-spacing: 0.5px;\n  display: inline-flex;\n  align-items: center;\n  gap: 3px;\n}\n\n.badge-icon {\n  font-size: 10px;\n}\n\n.badge-pick {\n  background: linear-gradient(135deg, #FF6B6B 0%, #FF4444 100%);\n  color: white;\n}\n\n/* RESPONSIVE */\n@media (max-width: 768px) {\n  .category-menu {\n    justify-content: flex-start;\n    padding: 0 10px;\n  }\n  \n  .category-item {\n    padding: 15px 20px;\n    font-size: 12px;\n  }\n  \n  .category-badge {\n    font-size: 8px;\n    padding: 2px 6px;\n  }\n}\n\n@media (max-width: 480px) {\n  .category-item {\n    padding: 12px 15px;\n    font-size: 11px;\n  }\n}\n</style>\n\n<div class=\"category-menu\">\n  <a href=\"/collections/bestsellers\" class=\"category-item\">\n    BESTSELLERS\n  </a>\n  \n  <a href=\"/pages/our-story\" class=\"category-item\">\n    OUR STORY\n  </a>\n  \n  <a href=\"/collections/tennis\" class=\"category-item\">\n    <span class=\"category-badge\">\n      <span class=\"badge-icon\">🔥</span>\n      #1 SELLER\n    </span>\n    TENNIS\n  </a>\n  \n  <a href=\"/collections/miami-2-0\" class=\"category-item\">\n    <span class=\"category-badge badge-pick\">\n      <span class=\"badge-icon\">🔥</span>\n      #1 PICK\n    </span>\n    \"MIAMI\" 2.0\n  </a>\n  \n  <a href=\"/collections/miami-classic\" class=\"category-item\">\n    <span class=\"category-badge badge-pick\">\n      <span class=\"badge-icon\">🔥</span>\n      #2 PICK\n    </span>\n    \"MIAMI\" CLASSIC\n  </a>\n  \n  <a href=\"/collections/silver\" class=\"category-item\">\n    SILVER\n  </a>\n  \n  <a href=\"/collections/bracelets\" class=\"category-item\">\n    BRACELETS\n  </a>\n  \n  <a href=\"/collections/necklaces\" class=\"category-item\">\n    NECKLACES\n  </a>\n  \n  <a href=\"/collections/earrings\" class=\"category-item\">\n    EARRINGS\n  </a>\n  \n  <a href=\"/collections/rings\" class=\"category-item\">\n    RINGS\n  </a>\n</div>",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
     }
   },
   "order": [
     "custom_liquid_nWb4bL",
     "header",
-    "announcement-bar",
-    "custom_liquid_hYC7Py"
+    "announcement-bar"
   ]
 }
