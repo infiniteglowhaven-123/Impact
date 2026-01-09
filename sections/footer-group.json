@@ -11,81 +11,20 @@
   "type": "footer",
   "name": "Footer group",
   "sections": {
-    "text-with-icons": {
-      "type": "text-with-icons",
-      "blocks": {
-        "free-shipping": {
-          "type": "item",
-          "settings": {
-            "icon": "picto-box",
-            "mobile_icon_width": 24,
-            "icon_width": 24,
-            "icon_background_type": "none",
-            "icon_background": "",
-            "icon_color": "",
-            "title": "Free shipping",
-            "content": ""
-          }
-        },
-        "customer-support": {
-          "type": "item",
-          "settings": {
-            "icon": "picto-customer-support",
-            "mobile_icon_width": 24,
-            "icon_width": 24,
-            "icon_background_type": "none",
-            "icon_background": "",
-            "icon_color": "",
-            "title": "Customer service 24/7",
-            "content": ""
-          }
-        },
-        "payment": {
-          "type": "item",
-          "settings": {
-            "icon": "picto-lock",
-            "mobile_icon_width": 24,
-            "icon_width": 24,
-            "icon_background_type": "none",
-            "icon_background": "",
-            "icon_color": "",
-            "title": "Secure payment",
-            "content": ""
-          }
-        }
-      },
-      "block_order": [
-        "free-shipping",
-        "customer-support",
-        "payment"
-      ],
-      "settings": {
-        "full_width": true,
-        "stack_on_mobile": false,
-        "title": "",
-        "heading_tag": "h6",
-        "text_alignment": "center",
-        "icon_spacing": "small",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
     "footer": {
       "type": "footer",
       "blocks": {
-        "newsletter": {
-          "type": "newsletter",
+        "text_QBPV6X": {
+          "type": "text",
           "settings": {
-            "image_width": 150,
-            "heading_size": "h3",
-            "title": "Subscribe to our emails",
-            "content": ""
+            "title": "Icy Mami",
+            "content": "<p>At IcyMami, we believe in jewelry that empowers you to live every moment. Our waterproof, hypoallergenic, and non-tarnish pieces bring endless summer vibes to everyday wear.</p><p>Need help? Reach out to us at: <a href=\"mailto:hello@mylovemytreasure.com\" title=\"mailto:hello@mylovemytreasure.com\">hello@icymami.com</a></p>",
+            "enable_follow_on_shop": false
           }
         }
       },
       "block_order": [
-        "newsletter"
+        "text_QBPV6X"
       ],
       "settings": {
         "show_social_media": true,
@@ -99,7 +38,6 @@
     }
   },
   "order": [
-    "text-with-icons",
     "footer"
   ]
 }
