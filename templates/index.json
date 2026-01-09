@@ -15,8 +15,8 @@
         "slide-1": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/JOURNAL-3.svg",
-            "mobile_image": "shopify://shop_images/MIAMI_CLASSICTENNISBRACELET2_0_6_2_jpg.webp",
+            "image": "shopify://shop_images/JOURNAL-4.svg",
+            "mobile_image": "shopify://shop_images/JOURNAL-4.svg",
             "content_max_width": 700,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-end-start sm:text-start",
