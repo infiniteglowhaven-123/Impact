@@ -17,14 +17,23 @@
         "text_QBPV6X": {
           "type": "text",
           "settings": {
-            "title": "Icy Mami",
+            "title": "ICY MAMI",
             "content": "<p>At IcyMami, we believe in jewelry that empowers you to live every moment. Our waterproof, hypoallergenic, and non-tarnish pieces bring endless summer vibes to everyday wear.</p><p>Need help? Reach out to us at: <a href=\"mailto:hello@mylovemytreasure.com\" title=\"mailto:hello@mylovemytreasure.com\">hello@icymami.com</a></p>",
             "enable_follow_on_shop": false
+          }
+        },
+        "links_ANEGnh": {
+          "type": "links",
+          "settings": {
+            "menu": "support",
+            "show_menu_title": true,
+            "menu_title": "SUPPORT"
           }
         }
       },
       "block_order": [
-        "text_QBPV6X"
+        "text_QBPV6X",
+        "links_ANEGnh"
       ],
       "settings": {
         "show_social_media": true,
