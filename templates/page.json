@@ -21,25 +21,42 @@
       "name": "Contact form",
       "settings": {
         "full_width": true,
-        "subheading": "Questions ?",
-        "title": "You need an answer ? We're here !",
-        "content": "<p>Please don't leave without your answer. We will get back to you as soon as possible, usually within 24 hours! <strong>💛</strong></p>",
-        "text_position": "start",
-        "contact_form_size": "large",
-        "background": "",
+        "subheading": "Get In Touch !",
+        "title": "We're Here to Help",
+        "content": "<p>We'd love to hear from you. Whether you have questions about our products, need support with your order, or just want to say hello - don't hesitate to reach out to our team.</p>",
+        "text_position": "center",
+        "contact_form_size": "small",
+        "background": "#efe8dd",
         "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
+        "text_color": "#000000",
+        "heading_color": "#f0c417",
         "heading_gradient": "",
         "contact_background": "",
         "contact_text_color": "",
         "button_background": "",
         "button_text_color": ""
       }
+    },
+    "scrolling_text_AyiebV": {
+      "type": "scrolling-text",
+      "name": "Scrolling text",
+      "settings": {
+        "full_width": true,
+        "text": "OR EMAIL US DIRECTLY ----    hello@icymami.com",
+        "text_size": "xsmall",
+        "text_style": "fill",
+        "scrolling_mode": "auto",
+        "scrolling_speed": 10,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "text_gradient": ""
+      }
     }
   },
   "order": [
     "main",
-    "contact_nhqYRR"
+    "contact_nhqYRR",
+    "scrolling_text_AyiebV"
   ]
 }
