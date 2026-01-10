@@ -11,34 +11,25 @@
   "type": "footer",
   "name": "Footer group",
   "sections": {
+    "custom_liquid_G3EfH7": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": true,
+        "remove_horizontal_spacing": true,
+        "liquid": "<style>\n.footer-support-section {\n  background: #2C2C2C;\n  padding: 60px 20px;\n  color: white;\n}\n\n.footer-container {\n  max-width: 1200px;\n  margin: 0 auto;\n  display: grid;\n  grid-template-columns: repeat(4, 1fr);\n  gap: 40px;\n}\n\n.footer-column {\n  display: flex;\n  flex-direction: column;\n}\n\n.footer-column-title {\n  font-family: Arial, sans-serif;\n  font-size: 14px;\n  font-weight: 700;\n  color: #A8C5E6;\n  text-transform: uppercase;\n  letter-spacing: 1.5px;\n  margin-bottom: 20px;\n}\n\n.footer-links {\n  display: flex;\n  flex-direction: column;\n  gap: 12px;\n}\n\n.footer-link {\n  font-family: Arial, sans-serif;\n  font-size: 14px;\n  color: #e0e0e0;\n  text-decoration: none;\n  transition: color 0.3s ease;\n  line-height: 1.5;\n}\n\n.footer-link:hover {\n  color: #C9A961;\n}\n\n.footer-text {\n  font-family: Arial, sans-serif;\n  font-size: 14px;\n  color: #e0e0e0;\n  line-height: 1.7;\n  margin-bottom: 20px;\n}\n\n.footer-email {\n  color: #C9A961;\n  text-decoration: none;\n  font-weight: 600;\n}\n\n.footer-email:hover {\n  text-decoration: underline;\n}\n\n/* RESPONSIVE */\n@media (max-width: 1024px) {\n  .footer-container {\n    grid-template-columns: repeat(2, 1fr);\n    gap: 30px;\n  }\n}\n\n@media (max-width: 768px) {\n  .footer-support-section {\n    padding: 40px 20px;\n  }\n  \n  .footer-container {\n    grid-template-columns: 1fr;\n    gap: 30px;\n  }\n}\n\n@media (max-width: 480px) {\n  .footer-column-title {\n    font-size: 13px;\n  }\n  \n  .footer-link {\n    font-size: 13px;\n  }\n  \n  .footer-text {\n    font-size: 13px;\n  }\n}\n</style>\n\n<div class=\"footer-support-section\">\n  <div class=\"footer-container\">\n    \n    <!-- Column 1: About Us -->\n    <div class=\"footer-column\">\n      <h3 class=\"footer-column-title\">ICY MAMI</h3>\n      <p class=\"footer-text\">\n        At IcyMami, we believe in jewelry that empowers you to live every moment. Our waterproof, hypoallergenic, and non-tarnish pieces bring endless summer vibes to everyday wear.\n      </p>\n      <p class=\"footer-text\">\n        Need help? Reach out to us at:<br>\n        <a href=\"mailto:hello@icymami.com\" class=\"footer-email\">hello@icymami.com</a>\n      </p>\n    </div>\n    \n    <!-- Column 2: Discover -->\n    <div class=\"footer-column\">\n      <h3 class=\"footer-column-title\">DISCOVER</h3>\n      <div class=\"footer-links\">\n        <a href=\"/collections/bestsellers\" class=\"footer-link\">Best Sellers</a>\n        <a href=\"/collections/miami-2-0\" class=\"footer-link\">\"Miami\" 2.0</a>\n        <a href=\"/collections/miami-classic\" class=\"footer-link\">\"Miami\" Classic</a>\n        <a href=\"/collections/tennis\" class=\"footer-link\">Tennis Jewelry</a>\n        <a href=\"/collections/waterproof\" class=\"footer-link\">Waterproof Jewelry</a>\n        <a href=\"/collections/gym\" class=\"footer-link\">Gym Jewelry</a>\n        <a href=\"/collections/all\" class=\"footer-link\">Shop All</a>\n      </div>\n    </div>\n    \n    <!-- Column 3: About Us -->\n    <div class=\"footer-column\">\n      <h3 class=\"footer-column-title\">ABOUT US</h3>\n      <div class=\"footer-links\">\n        <a href=\"/pages/our-story\" class=\"footer-link\">Our Story</a>\n        <a href=\"/pages/lifetime-warranty\" class=\"footer-link\">Lifetime Color Warranty</a>\n        <a href=\"/pages/our-mission\" class=\"footer-link\">Our Mission</a>\n        <a href=\"/pages/our-values\" class=\"footer-link\">Our Values</a>\n        <a href=\"/pages/sustainability\" class=\"footer-link\">Sustainability</a>\n        <a href=\"/pages/ambassador-program\" class=\"footer-link\">Ambassador Program</a>\n        <a href=\"/pages/wholesale\" class=\"footer-link\">Wholesale Inquiries</a>\n      </div>\n    </div>\n    \n    <!-- Column 4: Support -->\n    <div class=\"footer-column\">\n      <h3 class=\"footer-column-title\">SUPPORT</h3>\n      <div class=\"footer-links\">\n        <a href=\"/account\" class=\"footer-link\">Account</a>\n        <a href=\"/pages/faq\" class=\"footer-link\">Questions?</a>\n        <a href=\"/pages/track-order\" class=\"footer-link\">Track Your Order</a>\n        <a href=\"/pages/shipping-delivery\" class=\"footer-link\">Shipping & Delivery</a>\n        <a href=\"/pages/returns\" class=\"footer-link\">Return and Refund Policy</a>\n        <a href=\"/pages/terms\" class=\"footer-link\">Terms and Conditions</a>\n        <a href=\"/pages/privacy-policy\" class=\"footer-link\">Privacy Policy</a>\n      </div>\n    </div>\n    \n  </div>\n</div>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "footer": {
       "type": "footer",
-      "blocks": {
-        "text_QBPV6X": {
-          "type": "text",
-          "settings": {
-            "title": "ICY MAMI",
-            "content": "<p>At IcyMami, we believe in jewelry that empowers you to live every moment. Our waterproof, hypoallergenic, and non-tarnish pieces bring endless summer vibes to everyday wear.</p><p>Need help? Reach out to us at: <a href=\"mailto:hello@mylovemytreasure.com\" title=\"mailto:hello@mylovemytreasure.com\">hello@icymami.com</a></p>",
-            "enable_follow_on_shop": false
-          }
-        },
-        "links_ANEGnh": {
-          "type": "links",
-          "settings": {
-            "menu": "support",
-            "show_menu_title": true,
-            "menu_title": "SUPPORT"
-          }
-        }
-      },
-      "block_order": [
-        "text_QBPV6X",
-        "links_ANEGnh"
-      ],
       "settings": {
         "show_social_media": true,
         "show_payment_icons": true,
-        "show_policy_links": true,
+        "show_policy_links": false,
         "show_country_selector": true,
         "show_country_flag": true,
         "show_country_name": true,
@@ -47,6 +38,7 @@
     }
   },
   "order": [
+    "custom_liquid_G3EfH7",
     "footer"
   ]
 }
