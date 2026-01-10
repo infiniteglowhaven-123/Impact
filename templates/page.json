@@ -36,27 +36,10 @@
         "button_background": "",
         "button_text_color": ""
       }
-    },
-    "scrolling_text_AyiebV": {
-      "type": "scrolling-text",
-      "name": "Scrolling text",
-      "settings": {
-        "full_width": true,
-        "text": "OR EMAIL US DIRECTLY ----    hello@icymami.com",
-        "text_size": "xsmall",
-        "text_style": "fill",
-        "scrolling_mode": "auto",
-        "scrolling_speed": 10,
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "text_gradient": ""
-      }
     }
   },
   "order": [
     "main",
-    "contact_nhqYRR",
-    "scrolling_text_AyiebV"
+    "contact_nhqYRR"
   ]
 }
