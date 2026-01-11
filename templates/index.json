@@ -77,6 +77,25 @@
         "text_color": ""
       }
     },
+    "impact_text_6HyyJ4": {
+      "type": "impact-text",
+      "name": "Impact text",
+      "settings": {
+        "full_width": true,
+        "stack_mobile": true,
+        "text_alignment": "center",
+        "impact_text_style": "fill",
+        "text_divider": "none",
+        "impact_text_size_ratio": 1,
+        "background": "",
+        "background_gradient": "",
+        "heading_text_color": "",
+        "heading_gradient": "",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
+    },
     "featured_product_7dQ3mP": {
       "type": "featured-product",
       "blocks": {
@@ -214,6 +233,7 @@
     "slideshow",
     "custom_liquid_UVQmTK",
     "custom_liquid_hkgtxA",
+    "impact_text_6HyyJ4",
     "featured_product_7dQ3mP",
     "custom_liquid_eKKrbF",
     "custom_liquid_nqzFYA",
