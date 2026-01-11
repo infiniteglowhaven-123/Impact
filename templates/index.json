@@ -157,19 +157,6 @@
         "input_text_color": ""
       }
     },
-    "custom_liquid_Ck7rqL": {
-      "type": "custom-liquid",
-      "name": "mot founder",
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "liquid": "<style>\n.founder-section {\n  width: 100%;\n  background: #EFE8DD;\n  padding: 60px 20px;\n  text-align: center;\n}\n\n.founder-container {\n  max-width: 700px;\n  margin: 0 auto;\n}\n\n.founder-title {\n  font-family: 'Playfair Display', serif;\n  font-size: 33px;\n  font-weight: 400;\n  color: #2C2C2C;\n  margin-bottom: 30px;\n  line-height: 1.3;\n}\n\n.founder-quote {\n  font-family: Georgia, serif;\n  font-size: 14px;\n  font-style: italic;\n  color: #6B6B6B;\n  line-height: 1.7;\n  margin-bottom: 40px;\n  max-width: 650px;\n  margin-left: auto;\n  margin-right: auto;\n}\n\n.founder-signature {\n  font-family: 'Brush Script MT', cursive;\n  font-size: 40px;\n  color: #C9A961;\n  margin-bottom: 12px;\n  font-weight: 400;\n}\n\n.founder-name {\n  font-family: Arial, sans-serif;\n  font-size: 10px;\n  color: #A8A8A8;\n  letter-spacing: 1px;\n  margin-bottom: 40px;\n}\n\n.founder-cta {\n  display: inline-block;\n  background: #C9A961;\n  color: white;\n  padding: 16px 45px;\n  border-radius: 50px;\n  text-decoration: none;\n  font-family: Arial, sans-serif;\n  font-size: 13px;\n  font-weight: 600;\n  letter-spacing: 1.5px;\n  text-transform: uppercase;\n  transition: all 0.3s ease;\n  border: none;\n  cursor: pointer;\n}\n\n.founder-cta:hover {\n  background: #B89551;\n  transform: translateY(-2px);\n  box-shadow: 0 5px 15px rgba(201, 169, 97, 0.3);\n}\n\n/* RESPONSIVE */\n@media (max-width: 768px) {\n  .founder-section {\n    padding: 50px 20px;\n  }\n  \n  .founder-title {\n    font-size: 32px;\n    margin-bottom: 25px;\n  }\n  \n  .founder-quote {\n    font-size: 15px;\n    margin-bottom: 35px;\n  }\n  \n  .founder-signature {\n    font-size: 42px;\n  }\n  \n  .founder-name {\n    font-size: 12px;\n    margin-bottom: 35px;\n  }\n  \n  .founder-cta {\n    padding: 15px 38px;\n    font-size: 12px;\n  }\n}\n\n@media (max-width: 480px) {\n  .founder-section {\n    padding: 40px 15px;\n  }\n  \n  .founder-title {\n    font-size: 26px;\n    margin-bottom: 20px;\n  }\n  \n  .founder-quote {\n    font-size: 14px;\n    line-height: 1.6;\n  }\n  \n  .founder-signature {\n    font-size: 36px;\n  }\n  \n  .founder-cta {\n    padding: 13px 32px;\n    font-size: 11px;\n  }\n}\n</style>\n\n<div class=\"founder-section\">\n  <div class=\"founder-container\">\n    <h2 class=\"founder-title\">Building a Better Standard<br>Together</h2>\n    \n    <p class=\"founder-quote\">\n      \"Every woman deserves to feel confident in her own skin, wearing high-quality products for an affordable price. This isn't a privilege, it's a universal right. For too long, industries have convinced women that quality requires compromise - either financial or personal. We're proving them wrong, one honest product at a time.\"\n    </p>\n    \n    <div class=\"founder-signature\">Monique</div>\n    \n    <p class=\"founder-name\">Monique E. | Founder & Revolutionary</p>\n    \n    <a href=\"#\" class=\"founder-cta\">SHOP CARE-FREE JEWELRY</a>\n  </div>\n</div>",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
     "custom_liquid_eKKrbF": {
       "type": "custom-liquid",
       "name": "Difference ",
@@ -196,6 +183,19 @@
         "text_color": ""
       }
     },
+    "custom_liquid_Ck7rqL": {
+      "type": "custom-liquid",
+      "name": "mot founder",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<style>\n.founder-section {\n  width: 100%;\n  background: #EFE8DD;\n  padding: 60px 20px;\n  text-align: center;\n}\n\n.founder-container {\n  max-width: 700px;\n  margin: 0 auto;\n}\n\n.founder-title {\n  font-family: 'Playfair Display', serif;\n  font-size: 33px;\n  font-weight: 400;\n  color: #2C2C2C;\n  margin-bottom: 30px;\n  line-height: 1.3;\n}\n\n.founder-quote {\n  font-family: Georgia, serif;\n  font-size: 14px;\n  font-style: italic;\n  color: #6B6B6B;\n  line-height: 1.7;\n  margin-bottom: 40px;\n  max-width: 650px;\n  margin-left: auto;\n  margin-right: auto;\n}\n\n.founder-signature {\n  font-family: 'Brush Script MT', cursive;\n  font-size: 40px;\n  color: #C9A961;\n  margin-bottom: 12px;\n  font-weight: 400;\n}\n\n.founder-name {\n  font-family: Arial, sans-serif;\n  font-size: 10px;\n  color: #A8A8A8;\n  letter-spacing: 1px;\n  margin-bottom: 40px;\n}\n\n.founder-cta {\n  display: inline-block;\n  background: #C9A961;\n  color: white;\n  padding: 16px 45px;\n  border-radius: 50px;\n  text-decoration: none;\n  font-family: Arial, sans-serif;\n  font-size: 13px;\n  font-weight: 600;\n  letter-spacing: 1.5px;\n  text-transform: uppercase;\n  transition: all 0.3s ease;\n  border: none;\n  cursor: pointer;\n}\n\n.founder-cta:hover {\n  background: #B89551;\n  transform: translateY(-2px);\n  box-shadow: 0 5px 15px rgba(201, 169, 97, 0.3);\n}\n\n/* RESPONSIVE */\n@media (max-width: 768px) {\n  .founder-section {\n    padding: 50px 20px;\n  }\n  \n  .founder-title {\n    font-size: 32px;\n    margin-bottom: 25px;\n  }\n  \n  .founder-quote {\n    font-size: 15px;\n    margin-bottom: 35px;\n  }\n  \n  .founder-signature {\n    font-size: 42px;\n  }\n  \n  .founder-name {\n    font-size: 12px;\n    margin-bottom: 35px;\n  }\n  \n  .founder-cta {\n    padding: 15px 38px;\n    font-size: 12px;\n  }\n}\n\n@media (max-width: 480px) {\n  .founder-section {\n    padding: 40px 15px;\n  }\n  \n  .founder-title {\n    font-size: 26px;\n    margin-bottom: 20px;\n  }\n  \n  .founder-quote {\n    font-size: 14px;\n    line-height: 1.6;\n  }\n  \n  .founder-signature {\n    font-size: 36px;\n  }\n  \n  .founder-cta {\n    padding: 13px 32px;\n    font-size: 11px;\n  }\n}\n</style>\n\n<div class=\"founder-section\">\n  <div class=\"founder-container\">\n    <h2 class=\"founder-title\">Building a Better Standard<br>Together</h2>\n    \n    <p class=\"founder-quote\">\n      \"Every woman deserves to feel confident in her own skin, wearing high-quality products for an affordable price. This isn't a privilege, it's a universal right. For too long, industries have convinced women that quality requires compromise - either financial or personal. We're proving them wrong, one honest product at a time.\"\n    </p>\n    \n    <div class=\"founder-signature\">Monique</div>\n    \n    <p class=\"founder-name\">Monique E. | Founder & Revolutionary</p>\n    \n    <a href=\"#\" class=\"founder-cta\">SHOP CARE-FREE JEWELRY</a>\n  </div>\n</div>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "custom_liquid_ahVAXE": {
       "type": "custom-liquid",
       "name": "faq",
@@ -215,9 +215,9 @@
     "custom_liquid_UVQmTK",
     "custom_liquid_hkgtxA",
     "featured_product_7dQ3mP",
-    "custom_liquid_Ck7rqL",
     "custom_liquid_eKKrbF",
     "custom_liquid_nqzFYA",
+    "custom_liquid_Ck7rqL",
     "custom_liquid_ahVAXE"
   ]
 }
