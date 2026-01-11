@@ -14,16 +14,25 @@
     "footer": {
       "type": "footer",
       "blocks": {
-        "links_4YARKj": {
+        "links_QRwrkr": {
           "type": "links",
           "settings": {
             "menu": "footer",
             "show_menu_title": true,
             "menu_title": ""
           }
+        },
+        "links_4YARKj": {
+          "type": "links",
+          "settings": {
+            "menu": "support",
+            "show_menu_title": true,
+            "menu_title": ""
+          }
         }
       },
       "block_order": [
+        "links_QRwrkr",
         "links_4YARKj"
       ],
       "settings": {
