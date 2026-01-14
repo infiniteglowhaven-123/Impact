@@ -248,19 +248,6 @@
         "background_gradient": "",
         "text_color": ""
       }
-    },
-    "custom_liquid_iFFRyz": {
-      "type": "custom-liquid",
-      "name": "Custom Liquid",
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "liquid": "{% comment %}\n  Reviews COMPLET 1296 avis + Show More + Pagination - MyLoveMyTreasure\n{% endcomment %}\n\n<style>\n.review-hidden { display:none; }\n.pagination-dots { display:flex; gap:8px; justify-content:center; margin:40px 0; }\n.dot { width:12px; height:12px; border-radius:50%; background:#ddd; cursor:pointer; transition:.2s; }\n.dot.active { background:#f39c12; }\n</style>\n\n<div style=\"max-width:1000px; margin:40px auto;\">\n\n  <!-- Header 4.7 (1296 avis) -->\n  <div style=\"display:flex; align-items:baseline; gap:24px; margin-bottom:40px;\">\n    <div style=\"color:#f39c12; font-size:40px; line-height:1;\">★★★★☆</div>\n    <div>\n      <div style=\"font-size:36px; font-weight:800; color:#000;\">4.7</div>\n      <div style=\"font-size:18px; color:#666;\">(1,296 reviews)</div>\n    </div>\n  </div>\n\n  <!-- 10 Reviews initiales -->\n  <div id=\"reviews-container\">\n    \n    <!-- Review 1-10 (affichées) -->\n    <div class=\"review-item\" style=\"background:#FAF7F0; padding:32px 28px; border-radius:24px; margin-bottom:24px;\">\n      <div style=\"display:flex; gap:20px; align-items:flex-start; margin-bottom:20px;\">\n        <div style=\"color:#f39c12; font-size:20px;\">★★★★★</div>\n        <div style=\"flex:1;\">\n          <div style=\"font-weight:700; font-size:17px; margin-bottom:8px;\">Sarah K.</div>\n          <p style=\"font-size:16px; line-height:1.65; color:#333;\">\"Perfect necklace! Waterproof coating lasts through workouts.\"</p>\n        </div>\n      </div>\n    </div>\n\n    <!-- Répéter pattern pour 9 autres reviews visibles -->\n    <!-- ... 9 reviews similaires ... -->\n\n  </div>\n\n  <!-- Show More -->\n  <div style=\"text-align:center; margin:40px 0;\">\n    <button onclick=\"showMoreReviews()\" style=\"background:#000; color:#fff; padding:16px 40px; border:none; border-radius:12px; font-size:16px; font-weight:600; cursor:pointer;\">\n      Show More Reviews\n    </button>\n  </div>\n\n  <!-- Pagination dots (cachée initialement) -->\n  <div id=\"pagination-dots\" class=\"pagination-dots\" style=\"display:none;\">\n    <div class=\"dot active\" onclick=\"goToPage(1)\"></div>\n    <div class=\"dot\" onclick=\"goToPage(2)\"></div>\n    <div class=\"dot\" onclick=\"goToPage(3)\"></div>\n    <div class=\"dot\" onclick=\"goToPage(4)\"></div>\n  </div>\n\n</div>\n\n<script>\nlet currentPage = 1;\nconst reviewsPerPage = 10;\nconst totalReviews = 1296;\n\nfunction showMoreReviews() {\n  document.querySelectorAll('.review-hidden')[0].style.display = 'block';\n  if (document.querySelectorAll('.review-hidden').length === 0) {\n    document.getElementById('pagination-dots').style.display = 'flex';\n  }\n}\n\nfunction goToPage(page) {\n  currentPage = page;\n  document.querySelectorAll('.dot').forEach((dot, i) => {\n    dot.classList.toggle('active', i + 1",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
     }
   },
   "order": [
@@ -273,7 +260,6 @@
     "custom_liquid_nqzFYA",
     "custom_liquid_QtKEHY",
     "custom_liquid_Ck7rqL",
-    "custom_liquid_ahVAXE",
-    "custom_liquid_iFFRyz"
+    "custom_liquid_ahVAXE"
   ]
 }
