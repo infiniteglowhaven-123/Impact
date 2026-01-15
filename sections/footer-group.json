@@ -11,42 +11,6 @@
   "type": "footer",
   "name": "Footer group",
   "sections": {
-    "impact_text_Ej78YK": {
-      "type": "impact-text",
-      "blocks": {
-        "item_AhwR3a": {
-          "type": "item",
-          "settings": {
-            "title": "100%",
-            "subheading": "Showcase a benefit of your product",
-            "content": "",
-            "button_text": "",
-            "button_url": "",
-            "animate_impact_text": false,
-            "animate_impact_text_duration": 2
-          }
-        }
-      },
-      "block_order": [
-        "item_AhwR3a"
-      ],
-      "name": "Impact text",
-      "settings": {
-        "full_width": true,
-        "stack_mobile": true,
-        "text_alignment": "center",
-        "impact_text_style": "fill",
-        "text_divider": "none",
-        "impact_text_size_ratio": 1,
-        "background": "",
-        "background_gradient": "",
-        "heading_text_color": "",
-        "heading_gradient": "",
-        "text_color": "",
-        "button_background": "",
-        "button_text_color": ""
-      }
-    },
     "footer": {
       "type": "footer",
       "blocks": {
@@ -83,7 +47,6 @@
     }
   },
   "order": [
-    "impact_text_Ej78YK",
     "footer"
   ]
 }
