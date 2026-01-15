@@ -29,7 +29,7 @@
             "button_background": "#f0f0f0",
             "button_text_color": "#cabd89",
             "overlay_color": "#000000",
-            "overlay_opacity": 13,
+            "overlay_opacity": 0,
             "background": "",
             "background_gradient": ""
           }
