@@ -10135,17 +10135,3 @@ shopify-accelerated-checkout, shopify-accelerated-checkout-cart {
 
 
 
-
-
-/* AMÉLIORATION ESPACEMENT PREMIUM */
-.shopify-section {
-  padding-top: 80px !important;
-  padding-bottom: 80px !important;
-}
-
-@media (max-width: 768px) {
-  .shopify-section {
-    padding-top: 60px !important;
-    padding-bottom: 60px !important;
-  }
-}
