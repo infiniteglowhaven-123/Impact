@@ -10123,15 +10123,6 @@ shopify-accelerated-checkout, shopify-accelerated-checkout-cart {
 
 
 
-@media screen and (min-width: 1000px) {
-  .product__media-container {
-    position: sticky !important;
-    top: var(--header-height, 80px) !important;
-    align-self: flex-start !important;
-  }
-}
-
-
 
 
 
