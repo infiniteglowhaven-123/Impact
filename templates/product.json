@@ -40,12 +40,15 @@
           "type": "payment_terms",
           "settings": {}
         },
-        "description": {
-          "type": "description",
+        "buy_buttons_gpHFwk": {
+          "type": "buy_buttons",
           "settings": {
-            "icon": "none",
-            "icon_width": 20,
-            "collapse_content": false
+            "show_payment_button": false,
+            "show_gift_card_recipient": false,
+            "atc_button_background": "#1a1a1a",
+            "atc_button_text_color": "#ffffff",
+            "payment_button_background": "",
+            "payment_button_text_color": ""
           }
         }
       },
@@ -55,7 +58,7 @@
         "liquid_MX6mxt",
         "liquid_DttMpr",
         "payment_terms",
-        "description"
+        "buy_buttons_gpHFwk"
       ],
       "settings": {
         "full_width": true,
