@@ -80,6 +80,7 @@
     },
     "custom_liquid_bA8fcP": {
       "type": "custom-liquid",
+      "custom_css": [],
       "name": "Custom Liquid",
       "settings": {
         "full_width": true,
