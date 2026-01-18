@@ -10134,3 +10134,22 @@ shopify-accelerated-checkout, shopify-accelerated-checkout-cart {
 
 
 
+
+
+
+
+.badge.bestseller,
+.badge--bestseller {
+  background: transparent !important;
+  color: #9c7c38 !important;
+  border: 1px solid #e5d8b0;
+  font-size: 11px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  padding: 5px 10px;
+  border-radius: 999px;
+}
+
+
+
+
