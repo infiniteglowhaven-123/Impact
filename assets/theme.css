@@ -10138,22 +10138,6 @@ shopify-accelerated-checkout, shopify-accelerated-checkout-cart {
 
 
 
-/* 1) KILL ALL SALE / SAVE RED BADGES */
-.badge--sale,
-.badge.sale,
-.badge--discount,
-.price__badge-sale,
-.price__badge--sale,
-.product__badge--sale,
-.product-badge--sale,
-.card__badge .badge--sale,
-.card__badge .badge--discount,
-span[class*="badge"][class*="sale"],
-span[class*="badge"][class*="discount"],
-span[class*="badge"][class*="save"]{
-  display: none !important;
-}
-
 /* 2) ULTRA LUXE BEST SELLER (si ton badge a une classe) */
 .badge.bestseller,
 .badge--bestseller,
