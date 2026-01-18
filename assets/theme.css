@@ -10138,21 +10138,5 @@ shopify-accelerated-checkout, shopify-accelerated-checkout-cart {
 
 
 
-/* 2) ULTRA LUXE BEST SELLER (si ton badge a une classe) */
-.badge.bestseller,
-.badge--bestseller,
-span[class*="badge"][class*="bestseller"]{
-  background: transparent !important;
-  color: #9c7c38 !important;
-  border: 1px solid #e5d8b0 !important;
-  font-size: 11px !important;
-  letter-spacing: 1px !important;
-  text-transform: uppercase !important;
-  padding: 5px 10px !important;
-  border-radius: 999px !important;
-  font-weight: 500 !important;
-}
-
-
 
 
