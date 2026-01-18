@@ -181,6 +181,9 @@
     },
     "custom_liquid_QtKEHY": {
       "type": "custom-liquid",
+      "custom_css": [
+        ".icymami-marquee-container {width: 100vw !important; /* Largeur = 100% du viewport */ position: relative; left: 50%; /* Centrer */ right: 50%; margin-left: -50vw !important; /* Sortir du container parent */ margin-right: -50vw !important; /* Sortir du container parent */ padding: 0 !important; /* Supprimer tout padding */ max-width: none !important; /* Supprimer max-width */}"
+      ],
       "name": "Custom Liquid",
       "settings": {
         "full_width": true,
