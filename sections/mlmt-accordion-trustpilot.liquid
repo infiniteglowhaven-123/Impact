@@ -1,0 +1,41 @@
+{% schema %}
+{
+  "name": "MLMT Accordion",
+  "settings": [],
+  "blocks": [
+    {
+      "type": "simple",
+      "name": "Accordion item",
+      "settings": [
+        { "type": "text", "id": "title", "label": "Title", "default": "DELIVERY | PACKAGING" },
+        { "type": "html", "id": "icon", "label": "Icon (SVG / HTML)", "default": "<span></span>" },
+        { "type": "richtext", "id": "content", "label": "Content", "default": "<p>Your content here.</p>" }
+      ]
+    },
+    {
+      "type": "trustpilot",
+      "name": "Trustpilot reviews",
+      "settings": [
+        { "type": "text", "id": "title", "label": "Title", "default": "TRUSTPILOT REVIEWS" },
+        { "type": "html", "id": "icon", "label": "Icon (SVG / HTML)", "default": "<span></span>" },
+
+        { "type": "text", "id": "rating", "label": "Rating", "default": "4.7" },
+        { "type": "text", "id": "reviews_count", "label": "Reviews count", "default": "6,334+" },
+
+        { "type": "text", "id": "card1_title", "label": "Card 1 title", "default": "My Go-To Summer Jewelry" },
+        { "type": "textarea", "id": "card1_text", "label": "Card 1 text", "default": "I've worn my necklace daily this summer... Completely waterproof and tarnish-free." },
+        { "type": "text", "id": "card1_name", "label": "Card 1 name", "default": "Sofia L." },
+        { "type": "text", "id": "card1_time", "label": "Card 1 time", "default": "2 hours ago" },
+
+        { "type": "text", "id": "card2_title", "label": "Card 2 title", "default": "Beautiful & Durable" },
+        { "type": "textarea", "id": "card2_text", "label": "Card 2 text", "default": "I can’t believe how lightweight these pieces are! I’ve worn them swimming..." },
+        { "type": "text", "id": "card2_name", "label": "Card 2 name", "default": "Camilla S." },
+        { "type": "text", "id": "card2_time", "label": "Card 2 time", "default": "1 day ago" }
+      ]
+    }
+  ],
+  "presets": [
+    { "name": "MLMT Accordion" }
+  ]
+}
+{% endschema %}
