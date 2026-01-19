@@ -1,3 +1,153 @@
+{% comment %}
+  MLMT Accordion + Trustpilot (Impact)
+{% endcomment %}
+
+<style>
+  .mlmt-acc { margin: 28px 0; border-top: 1px solid rgba(0,0,0,.12); }
+  .mlmt-acc__item { border-bottom: 1px solid rgba(0,0,0,.12); padding: 14px 0; }
+  .mlmt-acc__btn {
+    width: 100%;
+    background: none;
+    border: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 14px;
+    cursor: pointer;
+    text-align: left;
+  }
+  .mlmt-acc__left { display: flex; align-items: center; gap: 12px; min-width: 0; }
+  .mlmt-acc__title {
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: .04em;
+    text-transform: uppercase;
+    color: #1f1f1f;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .mlmt-acc__icon { display: inline-flex; align-items: center; justify-content: center; }
+  .mlmt-acc__icon svg { width: 18px; height: 18px; opacity: .75; }
+  .mlmt-acc__chev { width: 18px; height: 18px; transition: transform .2s ease; opacity: .75; flex: 0 0 auto; }
+  .mlmt-acc__btn[aria-expanded="true"] .mlmt-acc__chev { transform: rotate(180deg); }
+
+  .mlmt-acc__panel {
+    display: none;
+    padding: 12px 0 0 30px;
+    font-size: 14px;
+    line-height: 1.65;
+    color: rgba(0,0,0,.75);
+  }
+  .mlmt-acc__panel.is-open { display: block; }
+
+  /* Trustpilot */
+  .mlmt-tp-top { display: flex; justify-content: space-between; align-items: center; gap: 12px; margin: 6px 0 14px; flex-wrap: wrap; }
+  .mlmt-tp-cards { display: grid; grid-template-columns: repeat(2, minmax(0,1fr)); gap: 14px; }
+  .mlmt-tp-card { background: #fff; border: 1px solid rgba(0,0,0,.08); border-radius: 10px; padding: 14px; }
+  .mlmt-tp-stars { display: flex; gap: 4px; margin-bottom: 10px; }
+  .mlmt-tp-star {
+    background: #00B67A; color: #fff;
+    width: 16px; height: 16px;
+    display: inline-flex; align-items: center; justify-content: center;
+    font-size: 12px; border-radius: 3px; line-height: 1;
+  }
+  .mlmt-tp-card h4 { margin: 0 0 6px; font-size: 14px; color: #1f1f1f; }
+  .mlmt-tp-card p { margin: 0 0 10px; font-size: 13px; color: rgba(0,0,0,.75); line-height: 1.6; }
+  .mlmt-tp-meta { display: flex; justify-content: space-between; gap: 10px; font-size: 12px; color: rgba(0,0,0,.55); }
+
+  @media (max-width: 740px) {
+    .mlmt-acc__panel { padding-left: 0; }
+    .mlmt-tp-cards { grid-template-columns: 1fr; }
+  }
+</style>
+
+<div class="mlmt-acc" data-mlmt-acc>
+  {% for block in section.blocks %}
+    <div class="mlmt-acc__item" {{ block.shopify_attributes }}>
+      <button class="mlmt-acc__btn" type="button" aria-expanded="{% if forloop.first %}true{% else %}false{% endif %}">
+        <span class="mlmt-acc__left">
+          <span class="mlmt-acc__icon">
+            {{ block.settings.icon }}
+          </span>
+          <span class="mlmt-acc__title">{{ block.settings.title }}</span>
+        </span>
+
+        <svg class="mlmt-acc__chev" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+          <path d="M5 7.5L10 12.5L15 7.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </button>
+
+      <div class="mlmt-acc__panel {% if forloop.first %}is-open{% endif %}">
+        {% if block.type == 'trustpilot' %}
+          <div class="mlmt-tp-top">
+            <div>
+              Rated <strong>{{ block.settings.rating }}</strong> / 5 based on <strong>{{ block.settings.reviews_count }}</strong> reviews.
+            </div>
+            <div style="display:flex;align-items:center;gap:8px;">
+              <span style="color:#00B67A;font-weight:700;">★</span>
+              <span style="font-weight:700;">Trustpilot</span>
+            </div>
+          </div>
+
+          <div class="mlmt-tp-cards">
+            <div class="mlmt-tp-card">
+              <div class="mlmt-tp-stars">{% for i in (1..5) %}<span class="mlmt-tp-star">★</span>{% endfor %}</div>
+              <h4>{{ block.settings.card1_title }}</h4>
+              <p>{{ block.settings.card1_text }}</p>
+              <div class="mlmt-tp-meta">
+                <span>{{ block.settings.card1_name }}</span>
+                <span>{{ block.settings.card1_time }}</span>
+              </div>
+            </div>
+
+            <div class="mlmt-tp-card">
+              <div class="mlmt-tp-stars">{% for i in (1..5) %}<span class="mlmt-tp-star">★</span>{% endfor %}</div>
+              <h4>{{ block.settings.card2_title }}</h4>
+              <p>{{ block.settings.card2_text }}</p>
+              <div class="mlmt-tp-meta">
+                <span>{{ block.settings.card2_name }}</span>
+                <span>{{ block.settings.card2_time }}</span>
+              </div>
+            </div>
+          </div>
+        {% else %}
+          {{ block.settings.content }}
+        {% endif %}
+      </div>
+    </div>
+  {% endfor %}
+</div>
+
+<script>
+  (function() {
+    const root = document.querySelector('[data-mlmt-acc]');
+    if (!root) return;
+
+    const items = root.querySelectorAll('.mlmt-acc__item');
+    items.forEach((item) => {
+      const btn = item.querySelector('.mlmt-acc__btn');
+      const panel = item.querySelector('.mlmt-acc__panel');
+      if (!btn || !panel) return;
+
+      btn.addEventListener('click', () => {
+        const isOpen = btn.getAttribute('aria-expanded') === 'true';
+
+        items.forEach((it) => {
+          it.querySelector('.mlmt-acc__btn')?.setAttribute('aria-expanded', 'false');
+          it.querySelector('.mlmt-acc__panel')?.classList.remove('is-open');
+        });
+
+        if (!isOpen) {
+          btn.setAttribute('aria-expanded', 'true');
+          panel.classList.add('is-open');
+        }
+      });
+    });
+  })();
+</script>
+
 {% schema %}
 {
   "name": "MLMT Accordion",
