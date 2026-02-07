@@ -16,7 +16,7 @@
     "block_shadow_opacity": 10,
     "block_shadow_vertical_offset": 18,
     "icon_stroke_width": 2,
-    "background": "#faf7f0",
+    "background": "#c5e2f9",
     "text_color": "#1a1a1a",
     "header_background": "#f0f0f0",
     "header_text_color": "#1a1a1a",
@@ -40,19 +40,7 @@
     "favicon": "shopify://shop_images/ChatGPT_Image_Dec_22_2025_09_21_30_PM.png",
     "checkout_accent_color": "#f0c417",
     "checkout_button_color": "#1a1a1a",
-    "content_for_index": [],
-    "blocks": {
-      "13223602749629917723": {
-        "type": "shopify://apps/kaching-cart/blocks/embed/7705621e-3c0f-4e97-9d29-5c8528b19fb7",
-        "disabled": false,
-        "settings": {}
-      },
-      "15557474716127144420": {
-        "type": "shopify://apps/kaching-bundles/blocks/app-embed-block/6c637362-a106-4a32-94ac-94dcfd68cdb8",
-        "disabled": false,
-        "settings": {}
-      }
-    }
+    "content_for_index": []
   },
   "presets": {
     "Sound": {
