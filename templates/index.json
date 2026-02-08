@@ -84,12 +84,56 @@
     },
     "custom_liquid_Ff99AM": {
       "type": "custom-liquid",
+      "custom_css": [],
       "name": "barre verte déroulante  sans ogm sans hormone ",
       "settings": {
         "full_width": true,
         "remove_vertical_spacing": true,
         "remove_horizontal_spacing": true,
         "liquid": "<style>\n.marquee-section{\n  width:100vw;\n  margin-left:calc(50% - 50vw);\n  background: #DEF46C;\n  padding: 18px 0;\n  overflow:hidden;\n  position:relative;\n  border-top: 2px solid #000;\n  border-bottom: 2px solid #000;\n}\n\n.marquee-track{\n  display:flex;\n  align-items:center;\n  gap: 64px;\n  animation: marquee 50s linear infinite;\n  width: max-content;\n  will-change: transform;\n}\n\n.marquee-item{\n  flex:0 0 auto;\n  font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Arial, sans-serif;\n  font-size: 15px;\n  font-weight: 500;\n  color: #000;\n  letter-spacing: .14em;\n  text-transform: uppercase;\n  white-space: nowrap;\n}\n\n@keyframes marquee{\n  0%{ transform: translateX(0); }\n  100%{ transform: translateX(-50%); }\n}\n\n.marquee-section:hover .marquee-track{\n  animation-play-state: paused;\n}\n\n/* Responsive */\n@media (max-width:768px){\n  .marquee-section{ padding: 14px 0; border-width: 1.5px; }\n  .marquee-item{ font-size: 13px; letter-spacing: .12em; }\n  .marquee-track{ gap: 48px; }\n}\n\n@media (max-width:480px){\n  .marquee-section{ padding: 12px 0; border-width: 1px; }\n  .marquee-item{ font-size: 12px; font-weight: 400; }\n  .marquee-track{ gap: 36px; }\n}\n</style>\n\n<div class=\"marquee-section\">\n  <div class=\"marquee-track\">\n    <span class=\"marquee-item\">SANS OGM</span>\n    <span class=\"marquee-item\">SANS GLYPHOSATE</span>\n    <span class=\"marquee-item\">SANS HORMONES</span>\n    <span class=\"marquee-item\">SANS ANTIBIOTIQUES</span>\n    <span class=\"marquee-item\">SANS SOJA</span>\n    <span class=\"marquee-item\">SANS MATIÈRE GRASSE</span>\n    <span class=\"marquee-item\">SANS CASÉINE</span>\n    <span class=\"marquee-item\">SANS ADDITIFS ARTIFICIELS</span>\n    <span class=\"marquee-item\">SANS SUCRE</span>\n    <span class=\"marquee-item\">SANS GLUTEN</span>\n    \n    <!-- Duplicate pour boucle fluide -->\n    <span class=\"marquee-item\">SANS OGM</span>\n    <span class=\"marquee-item\">SANS GLYPHOSATE</span>\n    <span class=\"marquee-item\">SANS HORMONES</span>\n    <span class=\"marquee-item\">SANS ANTIBIOTIQUES</span>\n    <span class=\"marquee-item\">SANS SOJA</span>\n    <span class=\"marquee-item\">SANS MATIÈRE GRASSE</span>\n    <span class=\"marquee-item\">SANS CASÉINE</span>\n    <span class=\"marquee-item\">SANS ADDITIFS ARTIFICIELS</span>\n    <span class=\"marquee-item\">SANS SUCRE</span>\n    <span class=\"marquee-item\">SANS GLUTEN</span>\n  </div>\n</div>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "image_with_text_overlay_VCtMtg": {
+      "type": "image-with-text-overlay",
+      "name": "Image with text overlay",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/O_ORIGINE-6.svg",
+        "mobile_image": "shopify://shop_images/O_ORIGINE-6_d5d29f73-f7c5-418f-82ad-7d91e0569e33.svg",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "custom_liquid_nhTjHr": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "custom_liquid_BYFFMy": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": true,
+        "remove_horizontal_spacing": true,
+        "liquid": "<style>\n.badges-marquee{\n  width:100vw;\n  margin-left:calc(50% - 50vw);\n  background: #fff;\n  padding: 30px 0;\n  overflow:hidden;\n  position:relative;\n  border-top: 2px solid #000;\n  border-bottom: 2px solid #000;\n}\n.badges-track{\n  display:flex;\n  align-items:center;\n  gap: 50px;\n  animation: marquee 40s linear infinite;\n  width: max-content;\n  will-change: transform;\n}\n.badge-item{\n  flex:0 0 auto;\n  width: 100px;\n  height: 100px;\n}\n.badge-item img{\n  width: 100%;\n  height: 100%;\n  object-fit: contain;\n}\n@keyframes marquee{\n  0%{ transform: translateX(0); }\n  100%{ transform: translateX(-50%); }\n}\n.badges-marquee:hover .badges-track{\n  animation-play-state: paused;\n}\n@media (max-width:768px){\n  .badges-marquee{ padding: 20px 0; border-width: 1.5px; }\n  .badge-item{ width: 80px; height: 80px; }\n  .badges-track{ gap: 40px; }\n}\n@media (max-width:480px){\n  .badges-marquee{ padding: 15px 0; border-width: 1px; }\n  .badge-item{ width: 70px; height: 70px; }\n  .badges-track{ gap: 30px; }\n}\n</style>\n<div class=\"badges-marquee\">\n  <div class=\"badges-track\">\n    <div class=\"badge-item\"><img src=\"https://cdn.shopify.com/s/files/1/0713/6952/3289/files/14.svg?v=1770591252\" alt=\"Validation Médicale\"></div>\n    <div class=\"badge-item\"><img src=\"https://cdn.shopify.com/s/files/1/0713/6952/3289/files/15.svg?v=1770591252\" alt=\"Bioactive 400+\"></div>\n    <div class=\"badge-item\"><img src=\"https://cdn.shopify.com/s/files/1/0713/6952/3289/files/16.svg?v=1770591252\" alt=\"Peptides Prébiotiques\"></div>\n    <div class=\"badge-item\"><img src=\"https://cdn.shopify.com/s/files/1/0713/6952/3289/files/17.svg?v=1770591252\" alt=\"Chaîne du Froid\"></div>\n    <div class=\"badge-item\"><img src=\"https://cdn.shopify.com/s/files/1/0713/6952/3289/files/18.svg?v=1770591252\" alt=\"Colostrum\"></div>\n    <div class=\"badge-item\"><img src=\"https://cdn.shopify.com/s/files/1/0713/6952/3289/files/19.svg?v=1770591252\" alt=\"Engagement Veau\"></div>\n    \n    <!-- Duplicate pour boucle fluide -->\n    <div class=\"badge-item\"><img src=\"https://cdn.shopify.com/s/files/1/0713/6952/3289/files/14.svg?v=1770591252\" alt=\"Validation Médicale\"></div>\n    <div class=\"badge-item\"><img src=\"https://cdn.shopify.com/s/files/1/0713/6952/3289/files/15.svg?v=1770591252\" alt=\"Bioactive 400+\"></div>\n    <div class=\"badge-item\"><img src=\"https://cdn.shopify.com/s/files/1/0713/6952/3289/files/16.svg?v=1770591252\" alt=\"Peptides Prébiotiques\"></div>\n    <div class=\"badge-item\"><img src=\"https://cdn.shopify.com/s/files/1/0713/6952/3289/files/17.svg?v=1770591252\" alt=\"Chaîne du Froid\"></div>\n    <div class=\"badge-item\"><img src=\"https://cdn.shopify.com/s/files/1/0713/6952/3289/files/18.svg?v=1770591252\" alt=\"Colostrum\"></div>\n    <div class=\"badge-item\"><img src=\"https://cdn.shopify.com/s/files/1/0713/6952/3289/files/19.svg?v=1770591252\" alt=\"Engagement Veau\"></div>\n  </div>\n</div>",
         "background": "",
         "background_gradient": "",
         "text_color": ""
@@ -127,36 +171,6 @@
         "overlay_color": "#000000",
         "overlay_opacity": 0
       }
-    },
-    "custom_liquid_nhTjHr": {
-      "type": "custom-liquid",
-      "name": "Custom Liquid",
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "liquid": "",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
-    "image_with_text_overlay_VCtMtg": {
-      "type": "image-with-text-overlay",
-      "name": "Image with text overlay",
-      "settings": {
-        "full_width": true,
-        "allow_transparent_header": false,
-        "enable_parallax": false,
-        "image_size": "auto",
-        "image": "shopify://shop_images/La_vie_moderne_fragilise_vos_barrieres_immunitaires-2.svg",
-        "mobile_image": "shopify://shop_images/La_vie_moderne_fragilise_vos_barrieres_immunitaires-2_5c351591-0b61-47e6-9d22-fa47b7a93cb6.svg",
-        "mobile_text_position": "place-self-center text-center",
-        "desktop_text_position": "sm:place-self-center sm:text-center",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 0
-      }
     }
   },
   "order": [
@@ -164,8 +178,9 @@
     "custom_liquid_H4nCyj",
     "image_with_text_overlay_ytgTbB",
     "custom_liquid_Ff99AM",
-    "video_UGiwQC",
+    "image_with_text_overlay_VCtMtg",
     "custom_liquid_nhTjHr",
-    "image_with_text_overlay_VCtMtg"
+    "custom_liquid_BYFFMy",
+    "video_UGiwQC"
   ]
 }
