@@ -237,12 +237,26 @@
         "input_background": "rgba(0,0,0,0)",
         "input_text_color": ""
       }
+    },
+    "custom_liquid_nhTjHr": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<p style=\"text-align: center\">Write or copy/paste Liquid code</p>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
     }
   },
   "order": [
     "slideshow",
     "custom_liquid_Ff99AM",
     "image_with_text_overlay_VCtMtg",
+    "custom_liquid_nhTjHr",
     "logo_list_bHyHiE",
     "featured_product_nL3Gm9"
   ]
