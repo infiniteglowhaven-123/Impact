@@ -23,7 +23,7 @@
             "subheading": "",
             "title": "",
             "heading_tag": "h2",
-            "button_text": "Découvrir votre nouveau soi",
+            "button_text": "",
             "button_link": "shopify://collections/all",
             "text_color": "#efe8dd",
             "button_background": "#f0f0f0",
@@ -56,9 +56,9 @@
       "name": "Vur sur : ",
       "settings": {
         "full_width": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "liquid": "Vu sur :",
+        "remove_vertical_spacing": true,
+        "remove_horizontal_spacing": true,
+        "liquid": "<div class=\"featured-in-section\" style=\"text-align: center; padding: 40px 20px; background-color: #f9f9f9;\">\n  <h2 style=\"font-family: serif; font-size: 36px; font-weight: 400; margin-bottom: 30px; color: #000;\">Vu sur :</h2>\n  \n  <div class=\"logo-container\" style=\"display: flex; justify-content: center; align-items: center; flex-wrap: wrap; gap: 20px; max-width: 1200px; margin: 0 auto;\">\n    \n    <div class=\"logo-box\" style=\"background-color: #fff; padding: 40px 60px; min-width: 200px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);\">\n      <img src=\"{{ 'vogue-logo.png' | asset_url }}\" alt=\"Vogue\" style=\"max-height: 40px; width: auto; filter: grayscale(100%);\">\n    </div>\n    \n    <div class=\"logo-box\" style=\"background-color: #fff; padding: 40px 60px; min-width: 200px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);\">\n      <img src=\"{{ 'cosmopolitan-logo.png' | asset_url }}\" alt=\"Cosmopolitan\" style=\"max-height: 40px; width: auto;\">\n    </div>\n    \n    <div class=\"logo-box\" style=\"background-color: #fff; padding: 40px 60px; min-width: 200px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);\">\n      <img src=\"{{ 'marie-claire-logo.png' | asset_url }}\" alt=\"Marie Claire\" style=\"max-height: 40px; width: auto; filter: grayscale(100%);\">\n    </div>\n    \n    <div class=\"logo-box\" style=\"background-color: #fff; padding: 40px 60px; min-width: 200px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);\">\n      <img src=\"{{ 'allure-logo.png' | asset_url }}\" alt=\"Allure\" style=\"max-height: 40px; width: auto; filter: grayscale(100%);\">\n    </div>\n    \n  </div>\n</div>\n\n<style>\n  @media (max-width: 768px) {\n    .featured-in-section h2 {\n      font-size: 28px;\n    }\n    .logo-box {\n      min-width: 150px !important;\n      padding: 30px 40px !important;\n    }\n  }\n</style>",
         "background": "",
         "background_gradient": "",
         "text_color": ""
