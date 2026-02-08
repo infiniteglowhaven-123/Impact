@@ -54,9 +54,9 @@
     "header": {
       "type": "header",
       "settings": {
-        "enable_sticky": true,
-        "hide_on_scroll": true,
-        "logo": "shopify://shop_images/Creation_sans_titre-6.svg",
+        "enable_sticky": false,
+        "hide_on_scroll": false,
+        "logo": "shopify://shop_images/fd2dfc9d-ead7-4e1b-88bb-17e2f3947712.png",
         "logo_max_width": 195,
         "logo_mobile_max_width": 120,
         "menu": "",
@@ -72,7 +72,7 @@
         "show_country_name": false,
         "transparent_header_text_color": "#ffffff",
         "reduce_padding": false,
-        "background_opacity": 0,
+        "background_opacity": 100,
         "background_blur_radius": 0
       }
     }

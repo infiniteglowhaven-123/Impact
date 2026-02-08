@@ -15,15 +15,15 @@
         "slide-1": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/image.png",
-            "mobile_image": "shopify://shop_images/image_29a12994-3d70-4f71-ba2e-528012860ea4.png",
+            "image": "shopify://shop_images/La_vie_moderne_fragilise_vos_barrieres_immunitaires_1300_x_1500_px.svg",
+            "mobile_image": "shopify://shop_images/La_vie_moderne_fragilise_vos_barrieres_immunitaires_1300_x_1500_px_13783442-29bb-436a-a325-1cd37299004c.svg",
             "content_max_width": 640,
             "mobile_text_position": "place-self-end-start text-start",
             "desktop_text_position": "sm:place-self-end-start sm:text-start",
             "subheading": "",
             "title": "",
             "heading_tag": "h2",
-            "button_text": "",
+            "button_text": "Découvrir votre nouveau soi",
             "button_link": "shopify://collections/all",
             "text_color": "#efe8dd",
             "button_background": "#f0f0f0",
@@ -125,7 +125,7 @@
         "full_width": true,
         "remove_vertical_spacing": false,
         "remove_horizontal_spacing": false,
-        "liquid": "<p style=\"text-align: center\">Write or copy/paste Liquid code</p>",
+        "liquid": "",
         "background": "",
         "background_gradient": "",
         "text_color": ""
