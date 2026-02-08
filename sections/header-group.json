@@ -18,7 +18,7 @@
         "full_width": true,
         "remove_vertical_spacing": true,
         "remove_horizontal_spacing": true,
-        "liquid": "<style>\n.announcement-bar-custom{\n  width:100vw;\n  margin-left:calc(50% - 50vw);\n  background: #CEE9E9;\n  padding: 12px 0;\n  overflow:hidden;\n  position:relative;\n  text-align:center;\n}\n\n.announcement-text{\n  font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Arial, sans-serif;\n  font-size: 13px;\n  font-weight: 500;\n  color: #000;\n  letter-spacing: .12em;\n  text-transform: uppercase;\n  white-space: nowrap;\n}\n\n/* Responsive */\n@media (max-width:768px){\n  .announcement-bar-custom{ padding: 10px 0; }\n  .announcement-text{ font-size: 12px; letter-spacing: .1em; }\n}\n</style>\n\n<div class=\"announcement-bar-custom\">\n  <span class=\"announcement-text\">LIVRAISON GRATUITE </span>\n</div>",
+        "liquid": "<style>\n.announcement-bar-custom{\n  width:100vw;\n  margin-left:calc(50% - 50vw);\n  background: #DEF46C;\n  padding: 12px 0;\n  overflow:hidden;\n  position:relative;\n  text-align:center;\n}\n\n.announcement-text{\n  font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Arial, sans-serif;\n  font-size: 13px;\n  font-weight: 500;\n  color: #000;\n  letter-spacing: .12em;\n  text-transform: uppercase;\n  white-space: nowrap;\n}\n\n/* Responsive */\n@media (max-width:768px){\n  .announcement-bar-custom{ padding: 10px 0; }\n  .announcement-text{ font-size: 12px; letter-spacing: .1em; }\n}\n</style>\n\n<div class=\"announcement-bar-custom\">\n  <span class=\"announcement-text\">LIVRAISON GRATUITE </span>\n</div>",
         "background": "",
         "background_gradient": "",
         "text_color": ""
