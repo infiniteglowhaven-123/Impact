@@ -15,7 +15,9 @@
         "slide-1": {
           "type": "image",
           "settings": {
-            "content_max_width": 760,
+            "image": "shopify://shop_images/image.png",
+            "mobile_image": "shopify://shop_images/image_29a12994-3d70-4f71-ba2e-528012860ea4.png",
+            "content_max_width": 640,
             "mobile_text_position": "place-self-end-start text-start",
             "desktop_text_position": "sm:place-self-end-start sm:text-start",
             "subheading": "",
@@ -27,7 +29,7 @@
             "button_background": "#f0f0f0",
             "button_text_color": "#cabd89",
             "overlay_color": "#000000",
-            "overlay_opacity": 28,
+            "overlay_opacity": 0,
             "background": "",
             "background_gradient": ""
           }
@@ -49,9 +51,63 @@
         "background_gradient": "linear-gradient(60deg, rgba(60, 65, 68, 1), rgba(23, 29, 33, 1) 98%)"
       }
     },
+    "custom_liquid_H4nCyj": {
+      "type": "custom-liquid",
+      "name": "Vur sur : ",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "Vu sur :",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "image_with_text_overlay_ytgTbB": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "subheading_7EPrtG": {
+          "type": "subheading",
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "heading_rzYzkF": {
+          "type": "heading",
+          "settings": {
+            "text": "Image with text overlay",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_xaNVct": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_7EPrtG",
+        "heading_rzYzkF",
+        "richtext_xaNVct"
+      ],
+      "name": "benefice ",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
     "custom_liquid_Ff99AM": {
       "type": "custom-liquid",
-      "name": "Custom Liquid",
+      "name": "barre verte déroulante  sans ogm sans hormone ",
       "settings": {
         "full_width": true,
         "remove_vertical_spacing": false,
@@ -60,23 +116,6 @@
         "background": "",
         "background_gradient": "",
         "text_color": ""
-      }
-    },
-    "image_with_text_overlay_VCtMtg": {
-      "type": "image-with-text-overlay",
-      "name": "Image with text overlay",
-      "settings": {
-        "full_width": true,
-        "allow_transparent_header": false,
-        "enable_parallax": false,
-        "image_size": "auto",
-        "image": "shopify://shop_images/La_vie_moderne_fragilise_vos_barrieres_immunitaires-2.svg",
-        "mobile_image": "shopify://shop_images/La_vie_moderne_fragilise_vos_barrieres_immunitaires-2_5c351591-0b61-47e6-9d22-fa47b7a93cb6.svg",
-        "mobile_text_position": "place-self-center text-center",
-        "desktop_text_position": "sm:place-self-center sm:text-center",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 0
       }
     },
     "custom_liquid_nhTjHr": {
@@ -250,14 +289,33 @@
         "input_background": "rgba(0,0,0,0)",
         "input_text_color": ""
       }
+    },
+    "image_with_text_overlay_VCtMtg": {
+      "type": "image-with-text-overlay",
+      "name": "Image with text overlay",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/La_vie_moderne_fragilise_vos_barrieres_immunitaires-2.svg",
+        "mobile_image": "shopify://shop_images/La_vie_moderne_fragilise_vos_barrieres_immunitaires-2_5c351591-0b61-47e6-9d22-fa47b7a93cb6.svg",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
     }
   },
   "order": [
     "slideshow",
+    "custom_liquid_H4nCyj",
+    "image_with_text_overlay_ytgTbB",
     "custom_liquid_Ff99AM",
-    "image_with_text_overlay_VCtMtg",
     "custom_liquid_nhTjHr",
     "logo_list_bHyHiE",
-    "featured_product_nL3Gm9"
+    "featured_product_nL3Gm9",
+    "image_with_text_overlay_VCtMtg"
   ]
 }

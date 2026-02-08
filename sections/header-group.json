@@ -56,6 +56,7 @@
       "settings": {
         "enable_sticky": true,
         "hide_on_scroll": true,
+        "logo": "shopify://shop_images/Creation_sans_titre-6.svg",
         "logo_max_width": 195,
         "logo_mobile_max_width": 120,
         "menu": "",
