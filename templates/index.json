@@ -171,6 +171,123 @@
         "overlay_color": "#000000",
         "overlay_opacity": 0
       }
+    },
+    "custom_liquid_YWW737": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": true,
+        "remove_horizontal_spacing": true,
+        "liquid": "<style>\n.reviews-carousel{\n  background: #f5f5f5;\n  padding: 80px 20px;\n  position: relative;\n  overflow: hidden;\n}\n.reviews-container{\n  max-width: 1100px;\n  margin: 0 auto;\n  position: relative;\n}\n.reviews-wrapper{\n  display: flex;\n  transition: transform 0.6s cubic-bezier(0.4, 0, 0.2, 1);\n}\n.review-slide{\n  min-width: 100%;\n  text-align: center;\n  padding: 0 100px;\n}\n.stars{\n  font-size: 26px;\n  color: #000;\n  margin-bottom: 35px;\n  letter-spacing: 6px;\n}\n.review-text{\n  font-size: 26px;\n  line-height: 1.5;\n  color: #000;\n  margin-bottom: 40px;\n  font-family: Georgia, serif;\n  font-weight: 400;\n  max-width: 950px;\n  margin-left: auto;\n  margin-right: auto;\n}\n.review-text em{\n  font-style: italic;\n}\n.review-author{\n  font-size: 13px;\n  letter-spacing: 1.5px;\n  text-transform: uppercase;\n  color: #000;\n  font-weight: 400;\n}\n.nav-arrow{\n  position: absolute;\n  top: 50%;\n  transform: translateY(-50%);\n  background: transparent;\n  border: none;\n  font-size: 50px;\n  color: #000;\n  cursor: pointer;\n  padding: 20px;\n  z-index: 10;\n  transition: opacity 0.3s;\n  opacity: 0.4;\n  font-weight: 300;\n}\n.nav-arrow:hover{\n  opacity: 0.8;\n}\n.nav-arrow.prev{\n  left: 20px;\n}\n.nav-arrow.next{\n  right: 20px;\n}\n@media (max-width: 768px){\n  .review-slide{\n    padding: 0 60px;\n  }\n  .review-text{\n    font-size: 22px;\n  }\n  .nav-arrow{\n    font-size: 40px;\n  }\n}\n@media (max-width: 480px){\n  .reviews-carousel{\n    padding: 60px 15px;\n  }\n  .review-slide{\n    padding: 0 40px;\n  }\n  .review-text{\n    font-size: 19px;\n  }\n  .stars{\n    font-size: 22px;\n    margin-bottom: 25px;\n  }\n  .nav-arrow{\n    font-size: 35px;\n    padding: 10px;\n  }\n}\n</style>\n\n<div class=\"reviews-carousel\">\n  <div class=\"reviews-container\">\n    <button class=\"nav-arrow prev\" onclick=\"slideReview(-1)\">‹</button>\n    <button class=\"nav-arrow next\" onclick=\"slideReview(1)\">›</button>\n    \n    <div class=\"reviews-wrapper\" id=\"reviewsWrapper\">\n      <!-- Avis 1 -->\n      <div class=\"review-slide\">\n        <div class=\"stars\">★★★★★</div>\n        <p class=\"review-text\">\n          Je prends OORIGINE depuis environ quatre mois maintenant. Depuis que j'ai commencé, je me sens incroyable... extrêmement <em>en bonne santé, énergisée</em> et je peux même voir un <em>changement dans ma peau, mes cheveux et mon corps</em> pour le mieux.*\n        </p>\n        <p class=\"review-author\">- GINA</p>\n      </div>\n      \n      <!-- Avis 2 -->\n      <div class=\"review-slide\">\n        <div class=\"stars\">★★★★★</div>\n        <p class=\"review-text\">\n          Ce produit est incroyable ! Facilement l'un de mes suppléments préférés. L'<em>énergie que je ressens est pure et durable.</em> Ça favorise vraiment la <em>clarté d'esprit et un grand bien-être !</em> Content d'avoir essayé !*\n        </p>\n        <p class=\"review-author\">- MARTIN</p>\n      </div>\n    </div>\n  </div>\n</div>\n\n<script>\nlet currentSlide = 0;\nconst wrapper = document.getElementById('reviewsWrapper');\n\nfunction slideReview(direction) {\n  currentSlide += direction;\n  if (currentSlide < 0) currentSlide = 1;\n  if (currentSlide > 1) currentSlide = 0;\n  wrapper.style.transform = `translateX(-${currentSlide * 100}%)`;\n}\n\n// Swipe pour mobile\nlet touchStartX = 0;\nlet touchEndX = 0;\n\nwrapper.addEventListener('touchstart', (e) => {\n  touchStartX = e.changedTouches[0].screenX;\n});\n\nwrapper.addEventListener('touchend', (e) => {\n  touchEndX = e.changedTouches[0].screenX;\n  if (touchStartX - touchEndX > 50) slideReview(1);\n  if (touchEndX - touchStartX > 50) slideReview(-1);\n});\n</script>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "featured_product_EdLGbg": {
+      "type": "featured-product",
+      "blocks": {
+        "vendor_WM7xMC": {
+          "type": "vendor",
+          "settings": {}
+        },
+        "title_LqLgyV": {
+          "type": "title",
+          "settings": {
+            "heading_tag": "h2"
+          }
+        },
+        "badges_x6A4nF": {
+          "type": "badges",
+          "settings": {}
+        },
+        "price_KgxabK": {
+          "type": "price",
+          "settings": {
+            "show_taxes_notice": false
+          }
+        },
+        "rating_qwfiGh": {
+          "type": "rating",
+          "settings": {
+            "show_empty": false
+          }
+        },
+        "separator_XPVJxk": {
+          "type": "separator",
+          "settings": {}
+        },
+        "description_U9fc3q": {
+          "type": "description",
+          "settings": {
+            "icon": "none",
+            "icon_width": 20,
+            "collapse_content": false
+          }
+        },
+        "variant_picker_683zbW": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "stack_blocks": true,
+            "selector_style": "block",
+            "swatch_selector_style": "swatch",
+            "variant_image_options": "",
+            "size_chart_page": ""
+          }
+        },
+        "quantity_selector_exfjbL": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons_6kwNjU": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": true,
+            "show_gift_card_recipient": true,
+            "atc_button_background": "",
+            "atc_button_text_color": "",
+            "payment_button_background": "",
+            "payment_button_text_color": ""
+          }
+        },
+        "pickup_availability_XQECiL": {
+          "type": "pickup_availability",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "vendor_WM7xMC",
+        "title_LqLgyV",
+        "badges_x6A4nF",
+        "price_KgxabK",
+        "rating_qwfiGh",
+        "separator_XPVJxk",
+        "description_U9fc3q",
+        "variant_picker_683zbW",
+        "quantity_selector_exfjbL",
+        "buy_buttons_6kwNjU",
+        "pickup_availability_XQECiL"
+      ],
+      "name": "Featured product",
+      "settings": {
+        "full_width": true,
+        "product": "",
+        "desktop_media_width": 55,
+        "desktop_media_layout": "carousel_thumbnails_left",
+        "mobile_media_size": "expanded",
+        "mobile_carousel_control": "floating_dots",
+        "enable_video_autoplay": true,
+        "enable_video_looping": false,
+        "enable_image_zoom": true,
+        "max_image_zoom_level": 3,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "input_background": "rgba(0,0,0,0)",
+        "input_text_color": ""
+      }
     }
   },
   "order": [
@@ -181,6 +298,8 @@
     "image_with_text_overlay_VCtMtg",
     "custom_liquid_nhTjHr",
     "custom_liquid_BYFFMy",
-    "video_UGiwQC"
+    "video_UGiwQC",
+    "custom_liquid_YWW737",
+    "featured_product_EdLGbg"
   ]
 }
