@@ -73,6 +73,8 @@
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
+        "image": "shopify://shop_images/O_ORIGINE-5_de32e24d-9999-40ee-a761-ed07f75158c4.svg",
+        "mobile_image": "shopify://shop_images/O_ORIGINE-5.svg",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
@@ -85,12 +87,45 @@
       "name": "barre verte déroulante  sans ogm sans hormone ",
       "settings": {
         "full_width": true,
-        "remove_vertical_spacing": false,
+        "remove_vertical_spacing": true,
         "remove_horizontal_spacing": true,
         "liquid": "<style>\n.marquee-section{\n  width:100vw;\n  margin-left:calc(50% - 50vw);\n  background: #DEF46C;\n  padding: 18px 0;\n  overflow:hidden;\n  position:relative;\n  border-top: 2px solid #000;\n  border-bottom: 2px solid #000;\n}\n\n.marquee-track{\n  display:flex;\n  align-items:center;\n  gap: 64px;\n  animation: marquee 50s linear infinite;\n  width: max-content;\n  will-change: transform;\n}\n\n.marquee-item{\n  flex:0 0 auto;\n  font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Arial, sans-serif;\n  font-size: 15px;\n  font-weight: 500;\n  color: #000;\n  letter-spacing: .14em;\n  text-transform: uppercase;\n  white-space: nowrap;\n}\n\n@keyframes marquee{\n  0%{ transform: translateX(0); }\n  100%{ transform: translateX(-50%); }\n}\n\n.marquee-section:hover .marquee-track{\n  animation-play-state: paused;\n}\n\n/* Responsive */\n@media (max-width:768px){\n  .marquee-section{ padding: 14px 0; border-width: 1.5px; }\n  .marquee-item{ font-size: 13px; letter-spacing: .12em; }\n  .marquee-track{ gap: 48px; }\n}\n\n@media (max-width:480px){\n  .marquee-section{ padding: 12px 0; border-width: 1px; }\n  .marquee-item{ font-size: 12px; font-weight: 400; }\n  .marquee-track{ gap: 36px; }\n}\n</style>\n\n<div class=\"marquee-section\">\n  <div class=\"marquee-track\">\n    <span class=\"marquee-item\">SANS OGM</span>\n    <span class=\"marquee-item\">SANS GLYPHOSATE</span>\n    <span class=\"marquee-item\">SANS HORMONES</span>\n    <span class=\"marquee-item\">SANS ANTIBIOTIQUES</span>\n    <span class=\"marquee-item\">SANS SOJA</span>\n    <span class=\"marquee-item\">SANS MATIÈRE GRASSE</span>\n    <span class=\"marquee-item\">SANS CASÉINE</span>\n    <span class=\"marquee-item\">SANS ADDITIFS ARTIFICIELS</span>\n    <span class=\"marquee-item\">SANS SUCRE</span>\n    <span class=\"marquee-item\">SANS GLUTEN</span>\n    \n    <!-- Duplicate pour boucle fluide -->\n    <span class=\"marquee-item\">SANS OGM</span>\n    <span class=\"marquee-item\">SANS GLYPHOSATE</span>\n    <span class=\"marquee-item\">SANS HORMONES</span>\n    <span class=\"marquee-item\">SANS ANTIBIOTIQUES</span>\n    <span class=\"marquee-item\">SANS SOJA</span>\n    <span class=\"marquee-item\">SANS MATIÈRE GRASSE</span>\n    <span class=\"marquee-item\">SANS CASÉINE</span>\n    <span class=\"marquee-item\">SANS ADDITIFS ARTIFICIELS</span>\n    <span class=\"marquee-item\">SANS SUCRE</span>\n    <span class=\"marquee-item\">SANS GLUTEN</span>\n  </div>\n</div>",
         "background": "",
         "background_gradient": "",
         "text_color": ""
+      }
+    },
+    "video_UGiwQC": {
+      "type": "video",
+      "blocks": {
+        "play_HT83eY": {
+          "type": "play",
+          "settings": {}
+        },
+        "heading_tnJb3y": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "play_HT83eY",
+        "heading_tnJb3y"
+      ],
+      "name": "Video",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "autoplay": true,
+        "video_size": "auto",
+        "video": "shopify://files/videos/202602081722.mp4",
+        "mobile_video": "shopify://files/videos/202602081722.mp4",
+        "external_video_url": "",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
       }
     },
     "custom_liquid_nhTjHr": {
@@ -104,165 +139,6 @@
         "background": "",
         "background_gradient": "",
         "text_color": ""
-      }
-    },
-    "logo_list_bHyHiE": {
-      "type": "logo-list",
-      "blocks": {
-        "logo_3fNFqU": {
-          "type": "logo",
-          "settings": {
-            "logo_width": 120,
-            "link": ""
-          }
-        },
-        "logo_AtBB3g": {
-          "type": "logo",
-          "settings": {
-            "logo_width": 120,
-            "link": ""
-          }
-        },
-        "logo_H3fPnN": {
-          "type": "logo",
-          "settings": {
-            "logo_width": 120,
-            "link": ""
-          }
-        },
-        "logo_tn7pDp": {
-          "type": "logo",
-          "settings": {
-            "logo_width": 120,
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "logo_3fNFqU",
-        "logo_AtBB3g",
-        "logo_H3fPnN",
-        "logo_tn7pDp"
-      ],
-      "name": "Logo list",
-      "settings": {
-        "full_width": true,
-        "stack_mobile": true,
-        "title": "",
-        "content": "",
-        "text_alignment": "start",
-        "items_per_row": 5,
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "",
-        "logo_item_background": "",
-        "logo_item_border": ""
-      }
-    },
-    "featured_product_nL3Gm9": {
-      "type": "featured-product",
-      "blocks": {
-        "vendor_EkAe8p": {
-          "type": "vendor",
-          "settings": {}
-        },
-        "title_fCnVQA": {
-          "type": "title",
-          "settings": {
-            "heading_tag": "h2"
-          }
-        },
-        "badges_gwyUDk": {
-          "type": "badges",
-          "settings": {}
-        },
-        "price_MNpJfL": {
-          "type": "price",
-          "settings": {
-            "show_taxes_notice": false
-          }
-        },
-        "rating_jDrhCX": {
-          "type": "rating",
-          "settings": {
-            "show_empty": false
-          }
-        },
-        "separator_bDGhfA": {
-          "type": "separator",
-          "settings": {}
-        },
-        "description_hwtgga": {
-          "type": "description",
-          "settings": {
-            "icon": "none",
-            "icon_width": 20,
-            "collapse_content": false
-          }
-        },
-        "variant_picker_DHxHzw": {
-          "type": "variant_picker",
-          "settings": {
-            "hide_sold_out_variants": false,
-            "stack_blocks": true,
-            "selector_style": "block",
-            "swatch_selector_style": "swatch",
-            "variant_image_options": "",
-            "size_chart_page": ""
-          }
-        },
-        "quantity_selector_nKeA9R": {
-          "type": "quantity_selector",
-          "settings": {}
-        },
-        "buy_buttons_tXK46i": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_payment_button": true,
-            "show_gift_card_recipient": true,
-            "atc_button_background": "",
-            "atc_button_text_color": "",
-            "payment_button_background": "",
-            "payment_button_text_color": ""
-          }
-        },
-        "pickup_availability_Y9tQqU": {
-          "type": "pickup_availability",
-          "settings": {}
-        }
-      },
-      "block_order": [
-        "vendor_EkAe8p",
-        "title_fCnVQA",
-        "badges_gwyUDk",
-        "price_MNpJfL",
-        "rating_jDrhCX",
-        "separator_bDGhfA",
-        "description_hwtgga",
-        "variant_picker_DHxHzw",
-        "quantity_selector_nKeA9R",
-        "buy_buttons_tXK46i",
-        "pickup_availability_Y9tQqU"
-      ],
-      "name": "Featured product",
-      "settings": {
-        "full_width": true,
-        "product": "colostrum",
-        "desktop_media_width": 55,
-        "desktop_media_layout": "grid_highlight",
-        "mobile_media_size": "expanded",
-        "mobile_carousel_control": "thumbnails",
-        "enable_video_autoplay": true,
-        "enable_video_looping": false,
-        "enable_image_zoom": true,
-        "max_image_zoom_level": 3,
-        "background": "#cee9e9",
-        "background_gradient": "",
-        "text_color": "",
-        "input_background": "rgba(0,0,0,0)",
-        "input_text_color": ""
       }
     },
     "image_with_text_overlay_VCtMtg": {
@@ -288,9 +164,8 @@
     "custom_liquid_H4nCyj",
     "image_with_text_overlay_ytgTbB",
     "custom_liquid_Ff99AM",
+    "video_UGiwQC",
     "custom_liquid_nhTjHr",
-    "logo_list_bHyHiE",
-    "featured_product_nL3Gm9",
     "image_with_text_overlay_VCtMtg"
   ]
 }
