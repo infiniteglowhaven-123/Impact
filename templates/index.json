@@ -69,29 +69,12 @@
       "type": "image-with-text-overlay",
       "name": "benefice ",
       "settings": {
-        "full_width": true,
+        "full_width": false,
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
         "image": "shopify://shop_images/O_ORIGINE-5_de32e24d-9999-40ee-a761-ed07f75158c4.svg",
         "mobile_image": "shopify://shop_images/O_ORIGINE-5.svg",
-        "mobile_text_position": "place-self-center text-center",
-        "desktop_text_position": "sm:place-self-center sm:text-center",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 0
-      }
-    },
-    "image_with_text_overlay_VCtMtg": {
-      "type": "image-with-text-overlay",
-      "name": "Image with text overlay",
-      "settings": {
-        "full_width": true,
-        "allow_transparent_header": false,
-        "enable_parallax": false,
-        "image_size": "auto",
-        "image": "shopify://shop_images/O_ORIGINE-6.svg",
-        "mobile_image": "shopify://shop_images/O_ORIGINE-6_d5d29f73-f7c5-418f-82ad-7d91e0569e33.svg",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
@@ -125,20 +108,6 @@
         "text_color": ""
       }
     },
-    "custom_liquid_Ff99AM": {
-      "type": "custom-liquid",
-      "custom_css": [],
-      "name": "barre verte déroulante  sans ogm sans hormone ",
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": true,
-        "remove_horizontal_spacing": true,
-        "liquid": "<style>\n.marquee-section{\n  width:100vw;\n  margin-left:calc(50% - 50vw);\n  background: #DEF46C;\n  padding: 18px 0;\n  overflow:hidden;\n  position:relative;\n  border-top: 2px solid #000;\n  border-bottom: 2px solid #000;\n}\n\n.marquee-track{\n  display:flex;\n  align-items:center;\n  gap: 64px;\n  animation: marquee 50s linear infinite;\n  width: max-content;\n  will-change: transform;\n}\n\n.marquee-item{\n  flex:0 0 auto;\n  font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Arial, sans-serif;\n  font-size: 15px;\n  font-weight: 500;\n  color: #000;\n  letter-spacing: .14em;\n  text-transform: uppercase;\n  white-space: nowrap;\n}\n\n@keyframes marquee{\n  0%{ transform: translateX(0); }\n  100%{ transform: translateX(-50%); }\n}\n\n.marquee-section:hover .marquee-track{\n  animation-play-state: paused;\n}\n\n/* Responsive */\n@media (max-width:768px){\n  .marquee-section{ padding: 14px 0; border-width: 1.5px; }\n  .marquee-item{ font-size: 13px; letter-spacing: .12em; }\n  .marquee-track{ gap: 48px; }\n}\n\n@media (max-width:480px){\n  .marquee-section{ padding: 12px 0; border-width: 1px; }\n  .marquee-item{ font-size: 12px; font-weight: 400; }\n  .marquee-track{ gap: 36px; }\n}\n</style>\n\n<div class=\"marquee-section\">\n  <div class=\"marquee-track\">\n    <span class=\"marquee-item\">SANS OGM</span>\n    <span class=\"marquee-item\">SANS GLYPHOSATE</span>\n    <span class=\"marquee-item\">SANS HORMONES</span>\n    <span class=\"marquee-item\">SANS ANTIBIOTIQUES</span>\n    <span class=\"marquee-item\">SANS SOJA</span>\n    <span class=\"marquee-item\">SANS MATIÈRE GRASSE</span>\n    <span class=\"marquee-item\">SANS CASÉINE</span>\n    <span class=\"marquee-item\">SANS ADDITIFS ARTIFICIELS</span>\n    <span class=\"marquee-item\">SANS SUCRE</span>\n    <span class=\"marquee-item\">SANS GLUTEN</span>\n    \n    <!-- Duplicate pour boucle fluide -->\n    <span class=\"marquee-item\">SANS OGM</span>\n    <span class=\"marquee-item\">SANS GLYPHOSATE</span>\n    <span class=\"marquee-item\">SANS HORMONES</span>\n    <span class=\"marquee-item\">SANS ANTIBIOTIQUES</span>\n    <span class=\"marquee-item\">SANS SOJA</span>\n    <span class=\"marquee-item\">SANS MATIÈRE GRASSE</span>\n    <span class=\"marquee-item\">SANS CASÉINE</span>\n    <span class=\"marquee-item\">SANS ADDITIFS ARTIFICIELS</span>\n    <span class=\"marquee-item\">SANS SUCRE</span>\n    <span class=\"marquee-item\">SANS GLUTEN</span>\n  </div>\n</div>",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
     "video_UGiwQC": {
       "type": "video",
       "blocks": {
@@ -160,13 +129,44 @@
       ],
       "name": "Video",
       "settings": {
-        "full_width": true,
+        "full_width": false,
         "allow_transparent_header": false,
         "autoplay": true,
         "video_size": "auto",
         "video": "shopify://files/videos/202602081722.mp4",
         "mobile_video": "shopify://files/videos/202602081722.mp4",
         "external_video_url": "",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "custom_liquid_Ff99AM": {
+      "type": "custom-liquid",
+      "custom_css": [],
+      "name": "barre verte déroulante  sans ogm sans hormone ",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": true,
+        "remove_horizontal_spacing": true,
+        "liquid": "<style>\n.marquee-section{\n  width:100vw;\n  margin-left:calc(50% - 50vw);\n  background: #DEF46C;\n  padding: 18px 0;\n  overflow:hidden;\n  position:relative;\n  border-top: 2px solid #000;\n  border-bottom: 2px solid #000;\n}\n\n.marquee-track{\n  display:flex;\n  align-items:center;\n  gap: 64px;\n  animation: marquee 50s linear infinite;\n  width: max-content;\n  will-change: transform;\n}\n\n.marquee-item{\n  flex:0 0 auto;\n  font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Arial, sans-serif;\n  font-size: 15px;\n  font-weight: 500;\n  color: #000;\n  letter-spacing: .14em;\n  text-transform: uppercase;\n  white-space: nowrap;\n}\n\n@keyframes marquee{\n  0%{ transform: translateX(0); }\n  100%{ transform: translateX(-50%); }\n}\n\n.marquee-section:hover .marquee-track{\n  animation-play-state: paused;\n}\n\n/* Responsive */\n@media (max-width:768px){\n  .marquee-section{ padding: 14px 0; border-width: 1.5px; }\n  .marquee-item{ font-size: 13px; letter-spacing: .12em; }\n  .marquee-track{ gap: 48px; }\n}\n\n@media (max-width:480px){\n  .marquee-section{ padding: 12px 0; border-width: 1px; }\n  .marquee-item{ font-size: 12px; font-weight: 400; }\n  .marquee-track{ gap: 36px; }\n}\n</style>\n\n<div class=\"marquee-section\">\n  <div class=\"marquee-track\">\n    <span class=\"marquee-item\">SANS OGM</span>\n    <span class=\"marquee-item\">SANS GLYPHOSATE</span>\n    <span class=\"marquee-item\">SANS HORMONES</span>\n    <span class=\"marquee-item\">SANS ANTIBIOTIQUES</span>\n    <span class=\"marquee-item\">SANS SOJA</span>\n    <span class=\"marquee-item\">SANS MATIÈRE GRASSE</span>\n    <span class=\"marquee-item\">SANS CASÉINE</span>\n    <span class=\"marquee-item\">SANS ADDITIFS ARTIFICIELS</span>\n    <span class=\"marquee-item\">SANS SUCRE</span>\n    <span class=\"marquee-item\">SANS GLUTEN</span>\n    \n    <!-- Duplicate pour boucle fluide -->\n    <span class=\"marquee-item\">SANS OGM</span>\n    <span class=\"marquee-item\">SANS GLYPHOSATE</span>\n    <span class=\"marquee-item\">SANS HORMONES</span>\n    <span class=\"marquee-item\">SANS ANTIBIOTIQUES</span>\n    <span class=\"marquee-item\">SANS SOJA</span>\n    <span class=\"marquee-item\">SANS MATIÈRE GRASSE</span>\n    <span class=\"marquee-item\">SANS CASÉINE</span>\n    <span class=\"marquee-item\">SANS ADDITIFS ARTIFICIELS</span>\n    <span class=\"marquee-item\">SANS SUCRE</span>\n    <span class=\"marquee-item\">SANS GLUTEN</span>\n  </div>\n</div>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "image_with_text_overlay_VCtMtg": {
+      "type": "image-with-text-overlay",
+      "name": "Image with text overlay",
+      "settings": {
+        "full_width": false,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/O_ORIGINE-6.svg",
+        "mobile_image": "shopify://shop_images/O_ORIGINE-6_d5d29f73-f7c5-418f-82ad-7d91e0569e33.svg",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
         "overlay_opacity": 0
