@@ -108,39 +108,6 @@
         "text_color": ""
       }
     },
-    "video_UGiwQC": {
-      "type": "video",
-      "blocks": {
-        "play_HT83eY": {
-          "type": "play",
-          "settings": {}
-        },
-        "heading_tnJb3y": {
-          "type": "heading",
-          "settings": {
-            "text": "",
-            "heading_tag": "h1"
-          }
-        }
-      },
-      "block_order": [
-        "play_HT83eY",
-        "heading_tnJb3y"
-      ],
-      "name": "Video",
-      "settings": {
-        "full_width": true,
-        "allow_transparent_header": false,
-        "autoplay": true,
-        "video_size": "auto",
-        "video": "shopify://files/videos/202602081722.mp4",
-        "mobile_video": "shopify://files/videos/202602081722.mp4",
-        "external_video_url": "",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 0
-      }
-    },
     "custom_liquid_Ff99AM": {
       "type": "custom-liquid",
       "custom_css": [],
@@ -273,15 +240,15 @@
       "name": "Featured product",
       "settings": {
         "full_width": true,
-        "product": "",
-        "desktop_media_width": 55,
-        "desktop_media_layout": "carousel_thumbnails_left",
-        "mobile_media_size": "expanded",
-        "mobile_carousel_control": "floating_dots",
+        "product": "colostrum",
+        "desktop_media_width": 60,
+        "desktop_media_layout": "grid_highlight",
+        "mobile_media_size": "contained",
+        "mobile_carousel_control": "thumbnails",
         "enable_video_autoplay": true,
-        "enable_video_looping": false,
+        "enable_video_looping": true,
         "enable_image_zoom": true,
-        "max_image_zoom_level": 3,
+        "max_image_zoom_level": 2.5,
         "background": "",
         "background_gradient": "",
         "text_color": "",
@@ -296,9 +263,8 @@
     "image_with_text_overlay_ytgTbB",
     "custom_liquid_nhTjHr",
     "custom_liquid_BYFFMy",
-    "video_UGiwQC",
-    "custom_liquid_Ff99AM",
     "image_with_text_overlay_VCtMtg",
+    "custom_liquid_Ff99AM",
     "custom_liquid_YWW737",
     "featured_product_EdLGbg"
   ]
