@@ -162,7 +162,7 @@
         "full_width": true,
         "allow_transparent_header": false,
         "enable_parallax": false,
-        "image_size": "md",
+        "image_size": "auto",
         "image": "shopify://shop_images/O_ORIGINE-6.svg",
         "mobile_image": "shopify://shop_images/O_ORIGINE-6_d5d29f73-f7c5-418f-82ad-7d91e0569e33.svg",
         "mobile_text_position": "place-self-center text-center",
