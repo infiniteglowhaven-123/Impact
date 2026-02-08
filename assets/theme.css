@@ -10196,3 +10196,13 @@ shopify-accelerated-checkout, shopify-accelerated-checkout-cart {
 
 
 
+
+
+
+
+
+/* Header fond blanc */
+.shopify-section--header .header {
+  background: #ffffff !important;
+  border-bottom: 1px solid #e5e5e5;
+}
