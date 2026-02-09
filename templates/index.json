@@ -252,18 +252,34 @@
         "input_text_color": ""
       }
     },
-    "image_with_text_overlay_3iRjwa": {
-      "type": "image-with-text-overlay",
-      "name": "Image with text overlay",
+    "video_Yzd6T7": {
+      "type": "video",
+      "blocks": {
+        "play_DPUYAy": {
+          "type": "play",
+          "settings": {}
+        },
+        "heading_9qmKq4": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "play_DPUYAy",
+        "heading_9qmKq4"
+      ],
+      "name": "Video",
       "settings": {
         "full_width": true,
         "allow_transparent_header": false,
-        "enable_parallax": false,
-        "image_size": "auto",
-        "image": "shopify://shop_images/O_ORIGINE-5.png",
-        "mobile_image": "shopify://shop_images/O_ORIGINE-5_e98f0f95-115f-4d15-8ec7-bd2327ed1488.png",
-        "mobile_text_position": "place-self-center text-center",
-        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "autoplay": true,
+        "video_size": "auto",
+        "video": "shopify://files/videos/202602081722.mp4",
+        "mobile_video": "shopify://files/videos/202602081722.mp4",
+        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
         "overlay_opacity": 0
@@ -280,6 +296,6 @@
     "custom_liquid_Ff99AM",
     "custom_liquid_YWW737",
     "featured_product_EdLGbg",
-    "image_with_text_overlay_3iRjwa"
+    "video_Yzd6T7"
   ]
 }
