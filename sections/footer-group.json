@@ -13,6 +13,29 @@
   "sections": {
     "footer": {
       "type": "footer",
+      "blocks": {
+        "links_k3LTEc": {
+          "type": "links",
+          "settings": {
+            "menu": "footer",
+            "show_menu_title": true,
+            "menu_title": ""
+          }
+        },
+        "newsletter_nAynhY": {
+          "type": "newsletter",
+          "settings": {
+            "image_width": 110,
+            "heading_size": "h6",
+            "title": "Restons connecter",
+            "content": "<p>SUBSCRIBE</p>"
+          }
+        }
+      },
+      "block_order": [
+        "links_k3LTEc",
+        "newsletter_nAynhY"
+      ],
       "settings": {
         "show_social_media": true,
         "show_payment_icons": true,
