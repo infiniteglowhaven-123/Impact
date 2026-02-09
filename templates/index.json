@@ -357,6 +357,23 @@
         "overlay_color": "#000000",
         "overlay_opacity": 0
       }
+    },
+    "image_with_text_overlay_KgDKtn": {
+      "type": "image-with-text-overlay",
+      "name": "Image with text overlay",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/Creation_sans_titre-9.svg",
+        "mobile_image": "shopify://shop_images/Creation_sans_titre-9_0b5f2872-9e46-420b-a0d3-7cdb5b316013.svg",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
     }
   },
   "order": [
@@ -374,6 +391,7 @@
     "custom_liquid_htrzFX",
     "image_with_text_overlay_ytgTbB",
     "image_with_text_overlay_Me8jjt",
-    "image_with_text_overlay_RpqygM"
+    "image_with_text_overlay_RpqygM",
+    "image_with_text_overlay_KgDKtn"
   ]
 }
