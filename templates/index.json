@@ -82,14 +82,15 @@
         "overlay_opacity": 0
       }
     },
-    "custom_liquid_nhTjHr": {
+    "custom_liquid_Ff99AM": {
       "type": "custom-liquid",
-      "name": "Custom Liquid",
+      "custom_css": [],
+      "name": "barre verte déroulante  sans ogm sans hormone ",
       "settings": {
         "full_width": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "liquid": "",
+        "remove_vertical_spacing": true,
+        "remove_horizontal_spacing": true,
+        "liquid": "<style>\n.marquee-section{\n  width:100vw;\n  margin-left:calc(50% - 50vw);\n  background: #DEF46C;\n  padding: 18px 0;\n  overflow:hidden;\n  position:relative;\n  border-top: 2px solid #000;\n  border-bottom: 2px solid #000;\n}\n\n.marquee-track{\n  display:flex;\n  align-items:center;\n  gap: 64px;\n  animation: marquee 50s linear infinite;\n  width: max-content;\n  will-change: transform;\n}\n\n.marquee-item{\n  flex:0 0 auto;\n  font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Arial, sans-serif;\n  font-size: 15px;\n  font-weight: 500;\n  color: #000;\n  letter-spacing: .14em;\n  text-transform: uppercase;\n  white-space: nowrap;\n}\n\n@keyframes marquee{\n  0%{ transform: translateX(0); }\n  100%{ transform: translateX(-50%); }\n}\n\n.marquee-section:hover .marquee-track{\n  animation-play-state: paused;\n}\n\n/* Responsive */\n@media (max-width:768px){\n  .marquee-section{ padding: 14px 0; border-width: 1.5px; }\n  .marquee-item{ font-size: 13px; letter-spacing: .12em; }\n  .marquee-track{ gap: 48px; }\n}\n\n@media (max-width:480px){\n  .marquee-section{ padding: 12px 0; border-width: 1px; }\n  .marquee-item{ font-size: 12px; font-weight: 400; }\n  .marquee-track{ gap: 36px; }\n}\n</style>\n\n<div class=\"marquee-section\">\n  <div class=\"marquee-track\">\n    <span class=\"marquee-item\">SANS OGM</span>\n    <span class=\"marquee-item\">SANS GLYPHOSATE</span>\n    <span class=\"marquee-item\">SANS HORMONES</span>\n    <span class=\"marquee-item\">SANS ANTIBIOTIQUES</span>\n    <span class=\"marquee-item\">SANS SOJA</span>\n    <span class=\"marquee-item\">SANS MATIÈRE GRASSE</span>\n    <span class=\"marquee-item\">SANS CASÉINE</span>\n    <span class=\"marquee-item\">SANS ADDITIFS ARTIFICIELS</span>\n    <span class=\"marquee-item\">SANS SUCRE</span>\n    <span class=\"marquee-item\">SANS GLUTEN</span>\n    \n    <!-- Duplicate pour boucle fluide -->\n    <span class=\"marquee-item\">SANS OGM</span>\n    <span class=\"marquee-item\">SANS GLYPHOSATE</span>\n    <span class=\"marquee-item\">SANS HORMONES</span>\n    <span class=\"marquee-item\">SANS ANTIBIOTIQUES</span>\n    <span class=\"marquee-item\">SANS SOJA</span>\n    <span class=\"marquee-item\">SANS MATIÈRE GRASSE</span>\n    <span class=\"marquee-item\">SANS CASÉINE</span>\n    <span class=\"marquee-item\">SANS ADDITIFS ARTIFICIELS</span>\n    <span class=\"marquee-item\">SANS SUCRE</span>\n    <span class=\"marquee-item\">SANS GLUTEN</span>\n  </div>\n</div>",
         "background": "",
         "background_gradient": "",
         "text_color": ""
@@ -125,15 +126,14 @@
         "overlay_opacity": 0
       }
     },
-    "custom_liquid_Ff99AM": {
+    "custom_liquid_nhTjHr": {
       "type": "custom-liquid",
-      "custom_css": [],
-      "name": "barre verte déroulante  sans ogm sans hormone ",
+      "name": "Custom Liquid",
       "settings": {
         "full_width": true,
-        "remove_vertical_spacing": true,
-        "remove_horizontal_spacing": true,
-        "liquid": "<style>\n.marquee-section{\n  width:100vw;\n  margin-left:calc(50% - 50vw);\n  background: #DEF46C;\n  padding: 18px 0;\n  overflow:hidden;\n  position:relative;\n  border-top: 2px solid #000;\n  border-bottom: 2px solid #000;\n}\n\n.marquee-track{\n  display:flex;\n  align-items:center;\n  gap: 64px;\n  animation: marquee 50s linear infinite;\n  width: max-content;\n  will-change: transform;\n}\n\n.marquee-item{\n  flex:0 0 auto;\n  font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Arial, sans-serif;\n  font-size: 15px;\n  font-weight: 500;\n  color: #000;\n  letter-spacing: .14em;\n  text-transform: uppercase;\n  white-space: nowrap;\n}\n\n@keyframes marquee{\n  0%{ transform: translateX(0); }\n  100%{ transform: translateX(-50%); }\n}\n\n.marquee-section:hover .marquee-track{\n  animation-play-state: paused;\n}\n\n/* Responsive */\n@media (max-width:768px){\n  .marquee-section{ padding: 14px 0; border-width: 1.5px; }\n  .marquee-item{ font-size: 13px; letter-spacing: .12em; }\n  .marquee-track{ gap: 48px; }\n}\n\n@media (max-width:480px){\n  .marquee-section{ padding: 12px 0; border-width: 1px; }\n  .marquee-item{ font-size: 12px; font-weight: 400; }\n  .marquee-track{ gap: 36px; }\n}\n</style>\n\n<div class=\"marquee-section\">\n  <div class=\"marquee-track\">\n    <span class=\"marquee-item\">SANS OGM</span>\n    <span class=\"marquee-item\">SANS GLYPHOSATE</span>\n    <span class=\"marquee-item\">SANS HORMONES</span>\n    <span class=\"marquee-item\">SANS ANTIBIOTIQUES</span>\n    <span class=\"marquee-item\">SANS SOJA</span>\n    <span class=\"marquee-item\">SANS MATIÈRE GRASSE</span>\n    <span class=\"marquee-item\">SANS CASÉINE</span>\n    <span class=\"marquee-item\">SANS ADDITIFS ARTIFICIELS</span>\n    <span class=\"marquee-item\">SANS SUCRE</span>\n    <span class=\"marquee-item\">SANS GLUTEN</span>\n    \n    <!-- Duplicate pour boucle fluide -->\n    <span class=\"marquee-item\">SANS OGM</span>\n    <span class=\"marquee-item\">SANS GLYPHOSATE</span>\n    <span class=\"marquee-item\">SANS HORMONES</span>\n    <span class=\"marquee-item\">SANS ANTIBIOTIQUES</span>\n    <span class=\"marquee-item\">SANS SOJA</span>\n    <span class=\"marquee-item\">SANS MATIÈRE GRASSE</span>\n    <span class=\"marquee-item\">SANS CASÉINE</span>\n    <span class=\"marquee-item\">SANS ADDITIFS ARTIFICIELS</span>\n    <span class=\"marquee-item\">SANS SUCRE</span>\n    <span class=\"marquee-item\">SANS GLUTEN</span>\n  </div>\n</div>",
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "",
         "background": "",
         "background_gradient": "",
         "text_color": ""
@@ -141,10 +141,10 @@
     },
     "custom_liquid_YWW737": {
       "type": "custom-liquid",
-      "name": "Custom Liquid",
+      "name": "2 avis ",
       "settings": {
         "full_width": true,
-        "remove_vertical_spacing": false,
+        "remove_vertical_spacing": true,
         "remove_horizontal_spacing": true,
         "liquid": "<style>\n.reviews-carousel{\n  width: 100vw;\n  margin-left: calc(50% - 50vw);\n  background: #DCF0FD;\n  padding: 80px 0;\n  position: relative;\n  overflow: hidden;\n  border-top: 2px solid #000;\n  border-bottom: 2px solid #000;\n}\n.reviews-container{\n  max-width: 1100px;\n  margin: 0 auto;\n  position: relative;\n  padding: 0 20px;\n  overflow: hidden;\n}\n.reviews-wrapper{\n  display: flex;\n  transition: transform 0.6s cubic-bezier(0.4, 0, 0.2, 1);\n  width: 100%;\n}\n.review-slide{\n  min-width: 100%;\n  flex: 0 0 100%;\n  text-align: center;\n  padding: 0 80px;\n  box-sizing: border-box;\n}\n.stars{\n  font-size: 26px;\n  color: #000;\n  margin-bottom: 35px;\n  letter-spacing: 6px;\n}\n.review-text{\n  font-size: 26px;\n  line-height: 1.5;\n  color: #000;\n  margin-bottom: 40px;\n  font-family: Georgia, serif;\n  font-weight: 400;\n  max-width: 900px;\n  margin-left: auto;\n  margin-right: auto;\n}\n.review-text em{\n  font-style: italic;\n}\n.review-author{\n  font-size: 13px;\n  letter-spacing: 1.5px;\n  text-transform: uppercase;\n  color: #000;\n  font-weight: 400;\n}\n.nav-arrow{\n  position: absolute;\n  top: 50%;\n  transform: translateY(-50%);\n  background: transparent;\n  border: none;\n  font-size: 50px;\n  color: #000;\n  cursor: pointer;\n  padding: 20px;\n  z-index: 10;\n  transition: opacity 0.3s;\n  opacity: 0.4;\n  font-weight: 300;\n  line-height: 1;\n}\n.nav-arrow:hover{\n  opacity: 0.8;\n}\n.nav-arrow.prev{\n  left: 20px;\n}\n.nav-arrow.next{\n  right: 20px;\n}\n@media (max-width: 768px){\n  .reviews-carousel{\n    padding: 60px 0;\n    border-width: 1.5px;\n  }\n  .review-slide{\n    padding: 0 60px;\n  }\n  .review-text{\n    font-size: 18px;\n  }\n  .stars{\n    font-size: 20px;\n  }\n  .nav-arrow{\n    font-size: 40px;\n    padding: 15px;\n  }\n  .nav-arrow.prev{\n    left: 10px;\n  }\n  .nav-arrow.next{\n    right: 10px;\n  }\n}\n@media (max-width: 480px){\n  .reviews-carousel{\n    padding: 50px 0;\n    border-width: 1px;\n  }\n  .review-slide{\n    padding: 0 50px;\n  }\n  .review-text{\n    font-size: 16px;\n    line-height: 1.6;\n  }\n  .stars{\n    font-size: 18px;\n    margin-bottom: 25px;\n    letter-spacing: 4px;\n  }\n  .review-author{\n    font-size: 11px;\n  }\n  .nav-arrow{\n    font-size: 35px;\n    padding: 10px;\n  }\n}\n</style>\n<div class=\"reviews-carousel\">\n  <div class=\"reviews-container\">\n    <button class=\"nav-arrow prev\" onclick=\"slideReview(-1)\">‹</button>\n    <button class=\"nav-arrow next\" onclick=\"slideReview(1)\">›</button>\n    \n    <div class=\"reviews-wrapper\" id=\"reviewsWrapper\">\n      <div class=\"review-slide\">\n        <div class=\"stars\">★★★★★</div>\n        <p class=\"review-text\">\n          Je prends OORIGINE depuis environ quatre mois maintenant. Depuis que j'ai commencé, je me sens incroyable... extrêmement <em>en bonne santé, énergisée</em> et je peux même voir un <em>changement dans ma peau, mes cheveux et mon corps</em> pour le mieux.*\n        </p>\n        <p class=\"review-author\">- GINA</p>\n      </div>\n      \n      <div class=\"review-slide\">\n        <div class=\"stars\">★★★★★</div>\n        <p class=\"review-text\">\n          Ce produit est incroyable ! Facilement l'un de mes suppléments préférés. L'<em>énergie que je ressens est pure et durable.</em> Ça favorise vraiment la <em>clarté d'esprit et un grand bien-être !</em> Content d'avoir essayé !*\n        </p>\n        <p class=\"review-author\">- MARTIN</p>\n      </div>\n    </div>\n  </div>\n</div>\n<script>\nlet currentSlide = 0;\nconst wrapper = document.getElementById('reviewsWrapper');\nfunction slideReview(direction) {\n  currentSlide += direction;\n  if (currentSlide < 0) currentSlide = 1;\n  if (currentSlide > 1) currentSlide = 0;\n  wrapper.style.transform = `translateX(-${currentSlide * 100}%)`;\n}\nlet touchStartX = 0;\nlet touchEndX = 0;\nwrapper.addEventListener('touchstart', (e) => {\n  touchStartX = e.changedTouches[0].screenX;\n});\nwrapper.addEventListener('touchend', (e) => {\n  touchEndX = e.changedTouches[0].screenX;\n  if (touchStartX - touchEndX > 50) slideReview(1);\n  if (touchEndX - touchStartX > 50) slideReview(-1);\n});\n</script>",
         "background": "",
@@ -290,12 +290,12 @@
     "slideshow",
     "custom_liquid_H4nCyj",
     "image_with_text_overlay_ytgTbB",
-    "custom_liquid_nhTjHr",
-    "custom_liquid_BYFFMy",
-    "image_with_text_overlay_VCtMtg",
     "custom_liquid_Ff99AM",
+    "image_with_text_overlay_VCtMtg",
+    "custom_liquid_nhTjHr",
     "custom_liquid_YWW737",
     "featured_product_EdLGbg",
-    "video_Yzd6T7"
+    "video_Yzd6T7",
+    "custom_liquid_BYFFMy"
   ]
 }
