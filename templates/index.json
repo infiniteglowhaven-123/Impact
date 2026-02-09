@@ -340,6 +340,23 @@
         "overlay_color": "#000000",
         "overlay_opacity": 0
       }
+    },
+    "image_with_text_overlay_RpqygM": {
+      "type": "image-with-text-overlay",
+      "name": "Image with text overlay",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/imgi_47_2025_07_30_MacroScience2_1_1_1_7ba9b2a2-c576-489d-a962-f4e8c7c4f5ba.jpg",
+        "mobile_image": "shopify://shop_images/imgi_47_2025_07_30_MacroScience2_1_1_1_7ba9b2a2-c576-489d-a962-f4e8c7c4f5ba.jpg",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
     }
   },
   "order": [
@@ -356,6 +373,7 @@
     "video_Yzd6T7",
     "custom_liquid_htrzFX",
     "image_with_text_overlay_ytgTbB",
-    "image_with_text_overlay_Me8jjt"
+    "image_with_text_overlay_Me8jjt",
+    "image_with_text_overlay_RpqygM"
   ]
 }
