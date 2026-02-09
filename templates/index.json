@@ -104,7 +104,7 @@
         "enable_parallax": false,
         "image_size": "auto",
         "image": "shopify://shop_images/O_ORIGINE-18.svg",
-        "mobile_image": "shopify://shop_images/O_ORIGINE-12_dcb39b2b-6cff-4767-a3b1-2663d144bec6.svg",
+        "mobile_image": "shopify://shop_images/O_ORIGINE-18_2331bd3a-7e62-4359-a72a-7d69a0605be4.svg",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
