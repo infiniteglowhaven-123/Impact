@@ -15,9 +15,9 @@
         "slide-1": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/La_vie_moderne_fragilise_vos_barrieres_immunitaires_1300_x_1500_px.svg",
+            "image": "shopify://shop_images/La_vie_moderne_fragilise_vos_barrieres_immunitaires_1300_x_1500_px_-2.svg",
             "mobile_image": "shopify://shop_images/La_vie_moderne_fragilise_vos_barrieres_immunitaires_1300_x_1500_px_-2.svg",
-            "content_max_width": 640,
+            "content_max_width": 400,
             "mobile_text_position": "place-self-end-start text-start",
             "desktop_text_position": "sm:place-self-end-start sm:text-start",
             "subheading": "",
@@ -155,10 +155,6 @@
     "featured_product_EdLGbg": {
       "type": "featured-product",
       "blocks": {
-        "vendor_WM7xMC": {
-          "type": "vendor",
-          "settings": {}
-        },
         "title_LqLgyV": {
           "type": "title",
           "settings": {
@@ -225,7 +221,6 @@
         }
       },
       "block_order": [
-        "vendor_WM7xMC",
         "title_LqLgyV",
         "badges_x6A4nF",
         "price_KgxabK",
@@ -256,6 +251,23 @@
         "input_background": "rgba(0,0,0,0)",
         "input_text_color": ""
       }
+    },
+    "image_with_text_overlay_3iRjwa": {
+      "type": "image-with-text-overlay",
+      "name": "Image with text overlay",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/unflavored-jar-7995439.webp",
+        "mobile_image": "shopify://shop_images/unflavored-jar-7995439_0be482a5-fff3-42a3-8fce-b9d9cdf17037.webp",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
     }
   },
   "order": [
@@ -267,6 +279,7 @@
     "image_with_text_overlay_VCtMtg",
     "custom_liquid_Ff99AM",
     "custom_liquid_YWW737",
-    "featured_product_EdLGbg"
+    "featured_product_EdLGbg",
+    "image_with_text_overlay_3iRjwa"
   ]
 }
