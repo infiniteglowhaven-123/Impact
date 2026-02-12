@@ -67,7 +67,7 @@
     },
     "custom_liquid_FMMffE": {
       "type": "custom-liquid",
-      "name": "Custom Liquid",
+      "name": "5 raisons",
       "settings": {
         "full_width": true,
         "remove_vertical_spacing": true,
@@ -124,7 +124,7 @@
     },
     "custom_liquid_YWW737": {
       "type": "custom-liquid",
-      "name": "2 avis ",
+      "name": "avis",
       "settings": {
         "full_width": true,
         "remove_vertical_spacing": true,
@@ -150,7 +150,7 @@
     },
     "custom_liquid_XRyYGP": {
       "type": "custom-liquid",
-      "name": "Custom Liquid",
+      "name": "avis 2 ",
       "settings": {
         "full_width": true,
         "remove_vertical_spacing": true,
@@ -172,23 +172,6 @@
         "background": "",
         "background_gradient": "",
         "text_color": ""
-      }
-    },
-    "image_with_text_overlay_KgDKtn": {
-      "type": "image-with-text-overlay",
-      "name": "Image with text overlay",
-      "settings": {
-        "full_width": true,
-        "allow_transparent_header": false,
-        "enable_parallax": false,
-        "image_size": "auto",
-        "image": "shopify://shop_images/Creation_sans_titre-10.svg",
-        "mobile_image": "shopify://shop_images/Creation_sans_titre-10_86a7797d-a6b0-48b4-9b71-59ecbf41d40b.svg",
-        "mobile_text_position": "place-self-center text-center",
-        "desktop_text_position": "sm:place-self-center sm:text-center",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 0
       }
     },
     "featured_product_EdLGbg": {
@@ -291,6 +274,23 @@
         "input_text_color": ""
       }
     },
+    "image_with_text_overlay_KgDKtn": {
+      "type": "image-with-text-overlay",
+      "name": "Image with text overlay",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/Creation_sans_titre-10.svg",
+        "mobile_image": "shopify://shop_images/Creation_sans_titre-10_86a7797d-a6b0-48b4-9b71-59ecbf41d40b.svg",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
     "image_with_text_overlay_RpqygM": {
       "type": "image-with-text-overlay",
       "name": "Image with text overlay",
@@ -320,8 +320,8 @@
     "custom_liquid_BYFFMy",
     "custom_liquid_XRyYGP",
     "custom_liquid_htrzFX",
-    "image_with_text_overlay_KgDKtn",
     "featured_product_EdLGbg",
+    "image_with_text_overlay_KgDKtn",
     "image_with_text_overlay_RpqygM"
   ]
 }
