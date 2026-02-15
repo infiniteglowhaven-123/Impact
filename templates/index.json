@@ -146,23 +146,6 @@
         "text_color": ""
       }
     },
-    "image_with_text_overlay_KgDKtn": {
-      "type": "image-with-text-overlay",
-      "name": "Image with text overlay",
-      "settings": {
-        "full_width": true,
-        "allow_transparent_header": false,
-        "enable_parallax": false,
-        "image_size": "auto",
-        "image": "shopify://shop_images/Creation_sans_titre-10.svg",
-        "mobile_image": "shopify://shop_images/Creation_sans_titre-10_86a7797d-a6b0-48b4-9b71-59ecbf41d40b.svg",
-        "mobile_text_position": "place-self-center text-center",
-        "desktop_text_position": "sm:place-self-center sm:text-center",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 0
-      }
-    },
     "custom_liquid_htrzFX": {
       "type": "custom-liquid",
       "name": "Custom Liquid",
@@ -189,9 +172,9 @@
         "text_color": ""
       }
     },
-    "custom_liquid_WQdGdb": {
+    "custom_liquid_UxixQa": {
       "type": "custom-liquid",
-      "name": "12 000 avis",
+      "name": "reparation muqueuse ",
       "settings": {
         "full_width": true,
         "remove_vertical_spacing": false,
@@ -200,6 +183,36 @@
         "background": "",
         "background_gradient": "",
         "text_color": ""
+      }
+    },
+    "custom_liquid_WQdGdb": {
+      "type": "custom-liquid",
+      "name": "How it works",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<p style=\"text-align: center\">Write or copy/paste Liquid code</p>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "image_with_text_overlay_KgDKtn": {
+      "type": "image-with-text-overlay",
+      "name": "Image with text overlay",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/Creation_sans_titre-10.svg",
+        "mobile_image": "shopify://shop_images/Creation_sans_titre-10_86a7797d-a6b0-48b4-9b71-59ecbf41d40b.svg",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
       }
     },
     "featured_product_EdLGbg": {
@@ -329,10 +342,11 @@
     "custom_liquid_nhTjHr",
     "custom_liquid_YWW737",
     "custom_liquid_BYFFMy",
-    "image_with_text_overlay_KgDKtn",
     "custom_liquid_htrzFX",
     "custom_liquid_XRyYGP",
+    "custom_liquid_UxixQa",
     "custom_liquid_WQdGdb",
+    "image_with_text_overlay_KgDKtn",
     "featured_product_EdLGbg",
     "image_with_text_overlay_RpqygM"
   ]
