@@ -178,27 +178,24 @@
         "full_width": true,
         "remove_vertical_spacing": true,
         "remove_horizontal_spacing": false,
-        "liquid": "<style>\n.benefits-banner{\n  width:100vw;\n  margin-left:calc(50% - 50vw);\n  background:#DEF46C;  background:linear-gradient(to bottom, #DCF0FD 0%, #fff 110%);\n\n  padding:18px 0;\n  overflow:hidden;\n  position:relative;\n  border-top:2px solid #000;\n  border-bottom:2px solid #000;\n}\n.benefits-track{\n  display:flex;\n  align-items:center;\n  gap:64px;\n  animation:scroll 50s linear infinite;\n  width:max-content;\n  will-change:transform;\n}\n.benefits-item{\n  flex:0 0 auto;\n  font-family:-apple-system, BlinkMacSystemFont, \"Segoe UI\", Arial, sans-serif;\n  font-size:15px;\n  font-weight:500;\n  color:#000;\n  letter-spacing:.14em;\n  text-transform:uppercase;\n  white-space:nowrap;\n  display:flex;\n  align-items:center;\n  gap:10px;\n}\n.icon-shape{\n  width:16px;\n  height:16px;\n  display:inline-block;\n}\n@keyframes scroll{\n  0%{transform:translateX(0);}\n  100%{transform:translateX(-50%);}\n}\n.benefits-banner:hover .benefits-track{\n  animation-play-state:paused;\n}\n@media (max-width:768px){\n  .benefits-banner{padding:14px 0;border-width:1.5px;}\n  .benefits-item{font-size:13px;letter-spacing:.12em;}\n  .benefits-track{gap:48px;}\n  .icon-shape{width:14px;height:14px;}\n}\n@media (max-width:480px){\n  .benefits-banner{padding:12px 0;border-width:1px;}\n  .benefits-item{font-size:12px;font-weight:400;}\n  .benefits-track{gap:36px;}\n  .icon-shape{width:12px;height:12px;}\n}\n</style>\n<div class=\"benefits-banner\">\n  <div class=\"benefits-track\">\n    <!-- Cercle + FITNESS -->\n    <span class=\"benefits-item\">\n      <svg class=\"icon-shape\" viewBox=\"0 0 100 100\"><circle cx=\"50\" cy=\"50\" r=\"45\" fill=\"#000\"/></svg>\n      FITNESS\n    </span>\n    \n    <!-- Point + IMMUNITÉ -->\n    <span class=\"benefits-item\">\n      <svg class=\"icon-shape\" viewBox=\"0 0 100 100\"><circle cx=\"50\" cy=\"50\" r=\"50\" fill=\"#000\"/></svg>\n      IMMUNITÉ\n    </span>\n    \n    <!-- Triangle inversé + INTESTIN -->\n    <span class=\"benefits-item\">\n      <svg class=\"icon-shape\" viewBox=\"0 0 100 100\"><polygon points=\"50,10 95,90 5,90\" fill=\"#000\"/></svg>\n      INTESTIN\n    </span>\n    \n    <!-- Triangle + ÉNERGIE -->\n    <span class=\"benefits-item\">\n      <svg class=\"icon-shape\" viewBox=\"0 0 100 100\"><polygon points=\"50,90 95,10 5,10\" fill=\"#000\"/></svg>\n      ÉNERGIE\n    </span>\n    \n    <!-- Triangle normal + CHEVEUX -->\n    <span class=\"benefits-item\">\n      <svg class=\"icon-shape\" viewBox=\"0 0 100 100\"><polygon points=\"50,10 95,90 5,90\" fill=\"#000\"/></svg>\n      CHEVEUX\n    </span>\n    \n    <!-- Losange + PEAU -->\n    <span class=\"benefits-item\">\n      <svg class=\"icon-shape\" viewBox=\"0 0 100 100\"><polygon points=\"50,5 95,50 50,95 5,50\" fill=\"#000\"/></svg>\n      PEAU\n    </span>\n    \n    <!-- Duplicate pour boucle fluide -->\n    <span class=\"benefits-item\">\n      <svg class=\"icon-shape\" viewBox=\"0 0 100 100\"><circle cx=\"50\" cy=\"50\" r=\"45\" fill=\"#000\"/></svg>\n      FITNESS\n    </span>\n    <span class=\"benefits-item\">\n      <svg class=\"icon-shape\" viewBox=\"0 0 100 100\"><circle cx=\"50\" cy=\"50\" r=\"50\" fill=\"#000\"/></svg>\n      IMMUNITÉ\n    </span>\n    <span class=\"benefits-item\">\n      <svg class=\"icon-shape\" viewBox=\"0 0 100 100\"><polygon points=\"50,10 95,90 5,90\" fill=\"#000\"/></svg>\n      INTESTIN\n    </span>\n    <span class=\"benefits-item\">\n      <svg class=\"icon-shape\" viewBox=\"0 0 100 100\"><polygon points=\"50,90 95,10 5,10\" fill=\"#000\"/></svg>\n      ÉNERGIE\n    </span>\n    <span class=\"benefits-item\">\n      <svg class=\"icon-shape\" viewBox=\"0 0 100 100\"><polygon points=\"50,10 95,90 5,90\" fill=\"#000\"/></svg>\n      CHEVEUX\n    </span>\n    <span class=\"benefits-item\">\n      <svg class=\"icon-shape\" viewBox=\"0 0 100 100\"><polygon points=\"50,5 95,50 50,95 5,50\" fill=\"#000\"/></svg>\n      PEAU\n    </span>\n  </div>\n</div>\n</div>",
+        "liquid": "<style>\n.benefits-banner{\n  width:100vw;\n  margin-left:calc(50% - 50vw);\n  background:#DEF46C;  background:linear-gradient(to bottom, #EFE8DD 10%, #fff 85%);\n\n  padding:18px 0;\n  overflow:hidden;\n  position:relative;\n  border-top:2px solid #000;\n  border-bottom:2px solid #000;\n}\n.benefits-track{\n  display:flex;\n  align-items:center;\n  gap:64px;\n  animation:scroll 50s linear infinite;\n  width:max-content;\n  will-change:transform;\n}\n.benefits-item{\n  flex:0 0 auto;\n  font-family:-apple-system, BlinkMacSystemFont, \"Segoe UI\", Arial, sans-serif;\n  font-size:15px;\n  font-weight:500;\n  color:#000;\n  letter-spacing:.14em;\n  text-transform:uppercase;\n  white-space:nowrap;\n  display:flex;\n  align-items:center;\n  gap:10px;\n}\n.icon-shape{\n  width:16px;\n  height:16px;\n  display:inline-block;\n}\n@keyframes scroll{\n  0%{transform:translateX(0);}\n  100%{transform:translateX(-50%);}\n}\n.benefits-banner:hover .benefits-track{\n  animation-play-state:paused;\n}\n@media (max-width:768px){\n  .benefits-banner{padding:14px 0;border-width:1.5px;}\n  .benefits-item{font-size:13px;letter-spacing:.12em;}\n  .benefits-track{gap:48px;}\n  .icon-shape{width:14px;height:14px;}\n}\n@media (max-width:480px){\n  .benefits-banner{padding:12px 0;border-width:1px;}\n  .benefits-item{font-size:12px;font-weight:400;}\n  .benefits-track{gap:36px;}\n  .icon-shape{width:12px;height:12px;}\n}\n</style>\n<div class=\"benefits-banner\">\n  <div class=\"benefits-track\">\n    <!-- Cercle + FITNESS -->\n    <span class=\"benefits-item\">\n      <svg class=\"icon-shape\" viewBox=\"0 0 100 100\"><circle cx=\"50\" cy=\"50\" r=\"45\" fill=\"#000\"/></svg>\n      FITNESS\n    </span>\n    \n    <!-- Point + IMMUNITÉ -->\n    <span class=\"benefits-item\">\n      <svg class=\"icon-shape\" viewBox=\"0 0 100 100\"><circle cx=\"50\" cy=\"50\" r=\"50\" fill=\"#000\"/></svg>\n      IMMUNITÉ\n    </span>\n    \n    <!-- Triangle inversé + INTESTIN -->\n    <span class=\"benefits-item\">\n      <svg class=\"icon-shape\" viewBox=\"0 0 100 100\"><polygon points=\"50,10 95,90 5,90\" fill=\"#000\"/></svg>\n      INTESTIN\n    </span>\n    \n    <!-- Triangle + ÉNERGIE -->\n    <span class=\"benefits-item\">\n      <svg class=\"icon-shape\" viewBox=\"0 0 100 100\"><polygon points=\"50,90 95,10 5,10\" fill=\"#000\"/></svg>\n      ÉNERGIE\n    </span>\n    \n    <!-- Triangle normal + CHEVEUX -->\n    <span class=\"benefits-item\">\n      <svg class=\"icon-shape\" viewBox=\"0 0 100 100\"><polygon points=\"50,10 95,90 5,90\" fill=\"#000\"/></svg>\n      CHEVEUX\n    </span>\n    \n    <!-- Losange + PEAU -->\n    <span class=\"benefits-item\">\n      <svg class=\"icon-shape\" viewBox=\"0 0 100 100\"><polygon points=\"50,5 95,50 50,95 5,50\" fill=\"#000\"/></svg>\n      PEAU\n    </span>\n    \n    <!-- Duplicate pour boucle fluide -->\n    <span class=\"benefits-item\">\n      <svg class=\"icon-shape\" viewBox=\"0 0 100 100\"><circle cx=\"50\" cy=\"50\" r=\"45\" fill=\"#000\"/></svg>\n      FITNESS\n    </span>\n    <span class=\"benefits-item\">\n      <svg class=\"icon-shape\" viewBox=\"0 0 100 100\"><circle cx=\"50\" cy=\"50\" r=\"50\" fill=\"#000\"/></svg>\n      IMMUNITÉ\n    </span>\n    <span class=\"benefits-item\">\n      <svg class=\"icon-shape\" viewBox=\"0 0 100 100\"><polygon points=\"50,10 95,90 5,90\" fill=\"#000\"/></svg>\n      INTESTIN\n    </span>\n    <span class=\"benefits-item\">\n      <svg class=\"icon-shape\" viewBox=\"0 0 100 100\"><polygon points=\"50,90 95,10 5,10\" fill=\"#000\"/></svg>\n      ÉNERGIE\n    </span>\n    <span class=\"benefits-item\">\n      <svg class=\"icon-shape\" viewBox=\"0 0 100 100\"><polygon points=\"50,10 95,90 5,90\" fill=\"#000\"/></svg>\n      CHEVEUX\n    </span>\n    <span class=\"benefits-item\">\n      <svg class=\"icon-shape\" viewBox=\"0 0 100 100\"><polygon points=\"50,5 95,50 50,95 5,50\" fill=\"#000\"/></svg>\n      PEAU\n    </span>\n  </div>\n</div>\n</div>",
         "background": "",
         "background_gradient": "",
         "text_color": ""
       }
     },
-    "image_with_text_overlay_KgDKtn": {
-      "type": "image-with-text-overlay",
-      "name": "Image with text overlay",
+    "custom_liquid_Ff99AM": {
+      "type": "custom-liquid",
+      "custom_css": [],
+      "name": "barre verte déroulante  sans ogm sans hormone ",
       "settings": {
         "full_width": true,
-        "allow_transparent_header": false,
-        "enable_parallax": false,
-        "image_size": "auto",
-        "image": "shopify://shop_images/Creation_sans_titre-10.svg",
-        "mobile_image": "shopify://shop_images/Creation_sans_titre-10_86a7797d-a6b0-48b4-9b71-59ecbf41d40b.svg",
-        "mobile_text_position": "place-self-center text-center",
-        "desktop_text_position": "sm:place-self-center sm:text-center",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 0
+        "remove_vertical_spacing": true,
+        "remove_horizontal_spacing": true,
+        "liquid": "<style>\n.marquee-section{\n  width:100vw;\n  margin-left:calc(50% - 50vw);\n  background: #DEF46C;\n  padding: 18px 0;\n  overflow:hidden;\n  position:relative;\n  border-top: 2px solid #000;\n  border-bottom: 2px solid #000;\n}\n\n.marquee-track{\n  display:flex;\n  align-items:center;\n  gap: 64px;\n  animation: marquee 50s linear infinite;\n  width: max-content;\n  will-change: transform;\n}\n\n.marquee-item{\n  flex:0 0 auto;\n  font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Arial, sans-serif;\n  font-size: 15px;\n  font-weight: 500;\n  color: #000;\n  letter-spacing: .14em;\n  text-transform: uppercase;\n  white-space: nowrap;\n}\n\n@keyframes marquee{\n  0%{ transform: translateX(0); }\n  100%{ transform: translateX(-50%); }\n}\n\n.marquee-section:hover .marquee-track{\n  animation-play-state: paused;\n}\n\n/* Responsive */\n@media (max-width:768px){\n  .marquee-section{ padding: 14px 0; border-width: 1.5px; }\n  .marquee-item{ font-size: 13px; letter-spacing: .12em; }\n  .marquee-track{ gap: 48px; }\n}\n\n@media (max-width:480px){\n  .marquee-section{ padding: 12px 0; border-width: 1px; }\n  .marquee-item{ font-size: 12px; font-weight: 400; }\n  .marquee-track{ gap: 36px; }\n}\n</style>\n\n<div class=\"marquee-section\">\n  <div class=\"marquee-track\">\n    <span class=\"marquee-item\">SANS OGM</span>\n    <span class=\"marquee-item\">SANS GLYPHOSATE</span>\n    <span class=\"marquee-item\">SANS HORMONES</span>\n    <span class=\"marquee-item\">SANS ANTIBIOTIQUES</span>\n    <span class=\"marquee-item\">SANS SOJA</span>\n    <span class=\"marquee-item\">SANS MATIÈRE GRASSE</span>\n    <span class=\"marquee-item\">SANS CASÉINE</span>\n    <span class=\"marquee-item\">SANS ADDITIFS ARTIFICIELS</span>\n    <span class=\"marquee-item\">SANS SUCRE</span>\n    <span class=\"marquee-item\">SANS GLUTEN</span>\n    \n    <!-- Duplicate pour boucle fluide -->\n    <span class=\"marquee-item\">SANS OGM</span>\n    <span class=\"marquee-item\">SANS GLYPHOSATE</span>\n    <span class=\"marquee-item\">SANS HORMONES</span>\n    <span class=\"marquee-item\">SANS ANTIBIOTIQUES</span>\n    <span class=\"marquee-item\">SANS SOJA</span>\n    <span class=\"marquee-item\">SANS MATIÈRE GRASSE</span>\n    <span class=\"marquee-item\">SANS CASÉINE</span>\n    <span class=\"marquee-item\">SANS ADDITIFS ARTIFICIELS</span>\n    <span class=\"marquee-item\">SANS SUCRE</span>\n    <span class=\"marquee-item\">SANS GLUTEN</span>\n  </div>\n</div>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
       }
     },
     "featured_product_EdLGbg": {
@@ -288,31 +285,34 @@
         "product": "colostrum",
         "desktop_media_width": 60,
         "desktop_media_layout": "grid_highlight",
-        "mobile_media_size": "contained",
+        "mobile_media_size": "expanded",
         "mobile_carousel_control": "thumbnails",
         "enable_video_autoplay": true,
         "enable_video_looping": false,
         "enable_image_zoom": true,
         "max_image_zoom_level": 2.5,
-        "background": "#ffffff",
+        "background": "#dcf0fd",
         "background_gradient": "",
         "text_color": "",
         "input_background": "#f2f2f2",
         "input_text_color": ""
       }
     },
-    "custom_liquid_Ff99AM": {
-      "type": "custom-liquid",
-      "custom_css": [],
-      "name": "barre verte déroulante  sans ogm sans hormone ",
+    "image_with_text_overlay_KgDKtn": {
+      "type": "image-with-text-overlay",
+      "name": "Image with text overlay",
       "settings": {
         "full_width": true,
-        "remove_vertical_spacing": true,
-        "remove_horizontal_spacing": true,
-        "liquid": "<style>\n.marquee-section{\n  width:100vw;\n  margin-left:calc(50% - 50vw);\n  background: #DEF46C;\n  padding: 18px 0;\n  overflow:hidden;\n  position:relative;\n  border-top: 2px solid #000;\n  border-bottom: 2px solid #000;\n}\n\n.marquee-track{\n  display:flex;\n  align-items:center;\n  gap: 64px;\n  animation: marquee 50s linear infinite;\n  width: max-content;\n  will-change: transform;\n}\n\n.marquee-item{\n  flex:0 0 auto;\n  font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Arial, sans-serif;\n  font-size: 15px;\n  font-weight: 500;\n  color: #000;\n  letter-spacing: .14em;\n  text-transform: uppercase;\n  white-space: nowrap;\n}\n\n@keyframes marquee{\n  0%{ transform: translateX(0); }\n  100%{ transform: translateX(-50%); }\n}\n\n.marquee-section:hover .marquee-track{\n  animation-play-state: paused;\n}\n\n/* Responsive */\n@media (max-width:768px){\n  .marquee-section{ padding: 14px 0; border-width: 1.5px; }\n  .marquee-item{ font-size: 13px; letter-spacing: .12em; }\n  .marquee-track{ gap: 48px; }\n}\n\n@media (max-width:480px){\n  .marquee-section{ padding: 12px 0; border-width: 1px; }\n  .marquee-item{ font-size: 12px; font-weight: 400; }\n  .marquee-track{ gap: 36px; }\n}\n</style>\n\n<div class=\"marquee-section\">\n  <div class=\"marquee-track\">\n    <span class=\"marquee-item\">SANS OGM</span>\n    <span class=\"marquee-item\">SANS GLYPHOSATE</span>\n    <span class=\"marquee-item\">SANS HORMONES</span>\n    <span class=\"marquee-item\">SANS ANTIBIOTIQUES</span>\n    <span class=\"marquee-item\">SANS SOJA</span>\n    <span class=\"marquee-item\">SANS MATIÈRE GRASSE</span>\n    <span class=\"marquee-item\">SANS CASÉINE</span>\n    <span class=\"marquee-item\">SANS ADDITIFS ARTIFICIELS</span>\n    <span class=\"marquee-item\">SANS SUCRE</span>\n    <span class=\"marquee-item\">SANS GLUTEN</span>\n    \n    <!-- Duplicate pour boucle fluide -->\n    <span class=\"marquee-item\">SANS OGM</span>\n    <span class=\"marquee-item\">SANS GLYPHOSATE</span>\n    <span class=\"marquee-item\">SANS HORMONES</span>\n    <span class=\"marquee-item\">SANS ANTIBIOTIQUES</span>\n    <span class=\"marquee-item\">SANS SOJA</span>\n    <span class=\"marquee-item\">SANS MATIÈRE GRASSE</span>\n    <span class=\"marquee-item\">SANS CASÉINE</span>\n    <span class=\"marquee-item\">SANS ADDITIFS ARTIFICIELS</span>\n    <span class=\"marquee-item\">SANS SUCRE</span>\n    <span class=\"marquee-item\">SANS GLUTEN</span>\n  </div>\n</div>",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/Creation_sans_titre-10.svg",
+        "mobile_image": "shopify://shop_images/Creation_sans_titre-10_86a7797d-a6b0-48b4-9b71-59ecbf41d40b.svg",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
       }
     },
     "image_with_text_overlay_RpqygM": {
@@ -345,9 +345,9 @@
     "custom_liquid_YWW737",
     "custom_liquid_XRyYGP",
     "custom_liquid_htrzFX",
-    "image_with_text_overlay_KgDKtn",
-    "featured_product_EdLGbg",
     "custom_liquid_Ff99AM",
+    "featured_product_EdLGbg",
+    "image_with_text_overlay_KgDKtn",
     "image_with_text_overlay_RpqygM"
   ]
 }
