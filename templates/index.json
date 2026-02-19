@@ -9,46 +9,21 @@
  */
 {
   "sections": {
-    "slideshow": {
-      "type": "slideshow",
-      "blocks": {
-        "slide-1": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/La_vie_moderne_fragilise_vos_barrieres_immunitaires_1300_x_1500_px_-2.svg",
-            "mobile_image": "shopify://shop_images/La_vie_moderne_fragilise_vos_barrieres_immunitaires_1300_x_1500_px_-2.svg",
-            "content_max_width": 400,
-            "mobile_text_position": "place-self-end-start text-start",
-            "desktop_text_position": "sm:place-self-end-start sm:text-start",
-            "subheading": "",
-            "title": "",
-            "heading_tag": "h2",
-            "button_text": "",
-            "button_link": "shopify://collections/all",
-            "text_color": "#efe8dd",
-            "button_background": "#f0f0f0",
-            "button_text_color": "#cabd89",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0,
-            "background": "",
-            "background_gradient": ""
-          }
-        }
-      },
-      "block_order": [
-        "slide-1"
-      ],
+    "image_with_text_overlay_ABbdmc": {
+      "type": "image-with-text-overlay",
+      "name": "Image with text overlay",
       "settings": {
         "full_width": true,
-        "allow_transparent_header": true,
-        "show_initial_transition": false,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
         "image_size": "auto",
-        "controls_type": "numbers",
-        "transition_type": "fade_with_text",
-        "autoplay": true,
-        "cycle_speed": 6,
-        "background": "#f2f2f2",
-        "background_gradient": "linear-gradient(60deg, rgba(60, 65, 68, 1), rgba(23, 29, 33, 1) 98%)"
+        "image": "shopify://shop_images/banniere_desktop_-4_7f3fbdcb-512f-436b-922c-96e74f544cf8.svg",
+        "mobile_image": "shopify://shop_images/banniere_desktop_-4_2ce05a7e-25ea-4392-91b9-4e31f8b389b6.svg",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
       }
     },
     "custom_liquid_H4nCyj": {
@@ -301,7 +276,7 @@
     }
   },
   "order": [
-    "slideshow",
+    "image_with_text_overlay_ABbdmc",
     "custom_liquid_H4nCyj",
     "custom_liquid_VcbYUh",
     "custom_liquid_Gx37Ep",
