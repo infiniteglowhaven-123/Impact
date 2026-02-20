@@ -40,6 +40,19 @@
         "text_color": ""
       }
     },
+    "custom_liquid_z4bGH8": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": true,
+        "remove_horizontal_spacing": true,
+        "liquid": "<div class=\"ticker-wrapper\">\n  <div class=\"ticker-track\">\n    <span>📈 ÉLÈVE L'HUMEUR</span>\n    <span>😍 SANTÉ INTESTINALE</span>\n    <span>🥰 AMÉLIORE LE SOMMEIL</span>\n    <span>🧘 GÈRE LE STRESS</span>\n    <span>⚡ BOOSTE L'ÉNERGIE</span>\n    <span>💪 RENFORCE L'IMMUNITÉ</span>\n    <span>✨ ÉCLAT DE LA PEAU</span>\n    <span>🔬 VALIDÉ SCIENTIFIQUEMENT</span>\n    <!-- Duplicate for seamless loop -->\n    <span>📈 ÉLÈVE L'HUMEUR</span>\n    <span>😍 SANTÉ INTESTINALE</span>\n    <span>🥰 AMÉLIORE LE SOMMEIL</span>\n    <span>🧘 GÈRE LE STRESS</span>\n    <span>⚡ BOOSTE L'ÉNERGIE</span>\n    <span>💪 RENFORCE L'IMMUNITÉ</span>\n    <span>✨ ÉCLAT DE LA PEAU</span>\n    <span>🔬 VALIDÉ SCIENTIFIQUEMENT</span>\n  </div>\n</div>\n\n<style>\n.ticker-wrapper {\n  width: 100%;\n  background: linear-gradient(90deg, #b02fc9, #e040fb, #7c4dff, #00bcd4);\n  overflow: hidden;\n  padding: 12px 0;\n  white-space: nowrap;\n}\n\n.ticker-track {\n  display: inline-flex;\n  gap: 60px;\n  animation: ticker-scroll 30s linear infinite;\n}\n\n.ticker-track span {\n  font-family: var(--font-heading-family, sans-serif);\n  font-size: 13px;\n  font-weight: 700;\n  letter-spacing: 0.12em;\n  color: #ffffff;\n  text-transform: uppercase;\n  white-space: nowrap;\n  display: inline-flex;\n  align-items: center;\n  gap: 8px;\n}\n\n@keyframes ticker-scroll {\n  0%   { transform: translateX(0); }\n  100% { transform: translateX(-50%); }\n}\n\n/* Pause on hover */\n.ticker-wrapper:hover .ticker-track {\n  animation-play-state: paused;\n}\n</style>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "custom_liquid_VcbYUh": {
       "type": "custom-liquid",
       "name": "la science derriere ",
@@ -314,6 +327,7 @@
   "order": [
     "image_with_text_overlay_ABbdmc",
     "custom_liquid_H4nCyj",
+    "custom_liquid_z4bGH8",
     "custom_liquid_VcbYUh",
     "custom_liquid_Gx37Ep",
     "image_with_text_overlay_KgDKtn",
