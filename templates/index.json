@@ -176,10 +176,10 @@
             "heading_tag": "h2"
           }
         },
-        "price_KgxabK": {
-          "type": "price",
+        "rapi_rapi_bundle_dK3Kx6": {
+          "type": "shopify://apps/rapi/blocks/rapi-bundle/99617c17-a32b-4e70-a883-7a155610d032",
           "settings": {
-            "show_taxes_notice": false
+            "product": "{{section.settings.product}}"
           }
         },
         "quantity_selector_exfjbL": {
@@ -206,7 +206,7 @@
       },
       "block_order": [
         "title_LqLgyV",
-        "price_KgxabK",
+        "rapi_rapi_bundle_dK3Kx6",
         "quantity_selector_exfjbL",
         "buy_buttons_6kwNjU",
         "liquid_6gQVNg"
