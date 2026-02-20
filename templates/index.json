@@ -205,15 +205,11 @@
           "type": "quantity_selector",
           "settings": {}
         },
-        "buy_buttons_6kwNjU": {
-          "type": "buy_buttons",
+        "liquid_iH4iPG": {
+          "type": "liquid",
+          "name": "add to cart",
           "settings": {
-            "show_payment_button": true,
-            "show_gift_card_recipient": true,
-            "atc_button_background": "",
-            "atc_button_text_color": "",
-            "payment_button_background": "",
-            "payment_button_text_color": ""
+            "liquid": "<div class=\"oorigine-atc\">\n  <button \n    type=\"submit\" \n    name=\"add\"\n    form=\"product-form-{{ section.id }}\"\n    class=\"oorigine-atc-btn\">\n    AJOUTER AU PANIER\n  </button>\n</div>\n\n<style>\n.oorigine-atc {\n  width: 100%;\n  margin: 12px 0;\n}\n\n.oorigine-atc-btn {\n  display: block;\n  width: 100%;\n  background: #111111;\n  color: #ffffff;\n  border: none;\n  border-radius: 4px;\n  font-family: var(--font-heading-family);\n  font-size: 12px;\n  font-weight: 600;\n  letter-spacing: 0.18em;\n  text-transform: uppercase;\n  text-align: center;\n  padding: 18px 40px;\n  cursor: pointer;\n  transition: background 0.25s ease;\n}\n\n.oorigine-atc-btn:hover {\n  background: #2a2a2a;\n}\n</style>"
           }
         },
         "liquid_6gQVNg": {
@@ -228,7 +224,7 @@
         "rapi_rapi_bundle_dK3Kx6",
         "liquid_TEN7XW",
         "quantity_selector_exfjbL",
-        "buy_buttons_6kwNjU",
+        "liquid_iH4iPG",
         "liquid_6gQVNg"
       ],
       "custom_css": [],
