@@ -211,7 +211,9 @@
         "buy_buttons_6kwNjU",
         "liquid_6gQVNg"
       ],
-      "custom_css": [],
+      "custom_css": [
+        "/* Même taille pour tous les éléments produit */.product-information-grid img {width: 100% !important; height: 100% !important; object-fit: cover !important; aspect-ratio: 1/1 !important;}"
+      ],
       "name": "Featured product",
       "settings": {
         "full_width": true,
