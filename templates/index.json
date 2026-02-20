@@ -213,6 +213,12 @@
             "payment_button_text_color": ""
           }
         },
+        "liquid_MMyApX": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<script>\n  document.addEventListener('DOMContentLoaded', function() {\n    const buttons = document.querySelectorAll('[name=\"add\"]');\n    buttons.forEach(button => {\n      button.textContent = 'ajoutez au panier';\n    });\n  });\n</script>"
+          }
+        },
         "liquid_6gQVNg": {
           "type": "liquid",
           "settings": {
@@ -225,6 +231,7 @@
         "rapi_rapi_bundle_dK3Kx6",
         "liquid_TEN7XW",
         "buy_buttons_gxGP87",
+        "liquid_MMyApX",
         "liquid_6gQVNg"
       ],
       "custom_css": [],
