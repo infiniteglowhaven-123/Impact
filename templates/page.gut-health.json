@@ -16,7 +16,7 @@
         "full_width": true,
         "allow_transparent_header": false,
         "enable_parallax": false,
-        "image_size": "auto",
+        "image_size": "sm",
         "image": "shopify://shop_images/banniere_desktop_-2.jpg",
         "mobile_image": "shopify://shop_images/banniere_desktop_-2_cca20eed-c486-47c3-a1bb-1a9f58c0687a.jpg",
         "mobile_text_position": "place-self-center text-center",
