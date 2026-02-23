@@ -46,6 +46,32 @@
         "text_color": ""
       }
     },
+    "custom_liquid_N47iyF": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": true,
+        "remove_horizontal_spacing": true,
+        "liquid": "<style>\n.announcement-bar-custom{\n  width:100vw;\n  margin-left:calc(50% - 50vw);\n  background: #DEF46C;\n  padding: 12px 0;\n  overflow:hidden;\n  position:relative;\n  text-align:center;\n}\n\n.announcement-text{\n  font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Arial, sans-serif;\n  font-size: 13px;\n  font-weight: 500;\n  color: #000;\n  letter-spacing: .12em;\n  text-transform: uppercase;\n  white-space: nowrap;\n}\n\n/* Responsive */\n@media (max-width:768px){\n  .announcement-bar-custom{ padding: 10px 0; }\n  .announcement-text{ font-size: 12px; letter-spacing: .1em; }\n}\n</style>\n\n<div class=\"announcement-bar-custom\">\n  <span class=\"announcement-text\">LIVRAISON GRATUITE</span>\n</div>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "custom_liquid_j3VQWN": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": true,
+        "remove_horizontal_spacing": true,
+        "liquid": "<style>\n  .custom-gut-health-wrapper {\n    background-color: #FFFFFF; /* Force le fond blanc sur toute la largeur de la section */\n    width: 100%;\n    padding: 60px 0; /* Espacement en haut et en bas de la section complète */\n  }\n\n  .custom-gut-health-section {\n    max-width: 900px; /* Largeur maximale pour que le texte ne soit pas trop étiré */\n    margin: 0 auto; /* Centre le bloc de texte */\n    padding: 0 20px; /* Espace sur les côtés sur mobile */\n    text-align: center;\n    font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif;\n    color: #111111;\n    line-height: 1.6;\n  }\n\n  .custom-gut-health-section p {\n    margin-bottom: 24px;\n    font-size: 16px;\n    font-weight: 400;\n  }\n\n  .custom-gut-health-section .headline {\n    margin-bottom: 30px;\n    font-weight: 500;\n  }\n\n  .custom-gut-health-section .highlight-text {\n    font-size: 24px;\n    color: #5b8483; /* La couleur verte/bleutée */\n    font-family: \"Georgia\", serif; /* Typographie Serif */\n    line-height: 1.4;\n    margin-top: 50px;\n    font-weight: 400;\n  }\n\n  @media (max-width: 768px) {\n    .custom-gut-health-wrapper {\n      padding: 40px 0; /* Moins d'espace en haut et en bas sur mobile */\n    }\n    .custom-gut-health-section p {\n      font-size: 15px;\n    }\n    .custom-gut-health-section .highlight-text {\n      font-size: 20px;\n    }\n  }\n</style>\n\n<div class=\"custom-gut-health-wrapper\">\n  <div class=\"custom-gut-health-section\">\n    \n    <p class=\"headline\">Êtes-vous fatigué(e) de vous sentir ballonné(e) ?</p>\n\n    <p>En avez-vous finalement assez de cet inconfort après les repas ; de vous sentir lent(e) et lourd(e) comme si votre métabolisme ne fonctionnait pas comme il le devrait, alors que rien de ce que vous faites ne semble aider ? Il est très probable que votre santé intestinale soit déséquilibrée.</p>\n\n    <p>Et si vous pouviez retrouver une sensation de confort, de légèreté et d'énergie... naturellement ?</p>\n\n    <p>Avec ORIGINE Colostrum®, c'est possible.</p>\n\n    <p>Les problèmes intestinaux peuvent causer de l'inconfort, un ralentissement métabolique, et perturber votre peau, votre sommeil, et même déclencher des envies de sucre. Les probiotiques sont souvent présentés comme une solution, mais ce que l'industrie ne veut pas que vous sachiez, c'est qu'ils ne traitent pas la santé de la paroi intestinale dans son ensemble, et des études montrent que de nombreux produits sur le marché n'atteignent même pas votre intestin intacts et peuvent même aggraver les ballonnements.</p>\n\n    <p>ORIGINE Colostrum® est un concentré de colostrum premium, la force inégalée de la nature pour vos intestins avec plus de 400 nutriments bioactifs qui agissent de l'intérieur vers l'extérieur pour renforcer naturellement l'ensemble de votre santé intestinale, fortifiant la paroi intestinale contre les particules qui peuvent déclencher des symptômes inconfortables, optimisant votre microbiome, et stimulant votre métabolisme, pour que vous vous sentiez mieux.</p>\n\n    <h3 class=\"highlight-text\">\n      C'est la solution tout-en-un qui s'attaque à la cause profonde, et qui peut tout changer. Voici ce que vous devez savoir :\n    </h3>\n\n  </div>\n</div>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "featured_product_CajYdD": {
       "type": "featured-product",
       "blocks": {
@@ -111,6 +137,8 @@
     "main",
     "image_with_text_overlay_xgmWDN",
     "custom_liquid_fmCgHj",
+    "custom_liquid_N47iyF",
+    "custom_liquid_j3VQWN",
     "featured_product_CajYdD"
   ]
 }
