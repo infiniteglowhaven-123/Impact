@@ -10214,3 +10214,36 @@ shopify-accelerated-checkout, shopify-accelerated-checkout-cart {
 
 .product-form__submit{background:#111!important;color:#fff!important;border:none!important;border-radius:4px!important;font-size:12px!important;letter-spacing:.15em!important;text-transform:uppercase!important}
 .shopify-payment-button,.product-form__payment-terms{display:none!important}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Uniformiser la grille médias (images + GIF) */
+.your-media-grid-selector img,
+.your-media-grid-selector video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;      /* remplit la case */
+  display: block;
+}
+
+/* Fixer une hauteur identique à chaque tuile */
+.your-media-grid-selector .media-tile {
+  aspect-ratio: 1 / 1;    /* carré, adapte si tes autres tuiles sont 4/5, 3/4 etc. */
+  overflow: hidden;
+}
