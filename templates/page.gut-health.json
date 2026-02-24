@@ -144,6 +144,23 @@
         "background_gradient": "",
         "text_color": ""
       }
+    },
+    "image_with_text_overlay_6weYyJ": {
+      "type": "image-with-text-overlay",
+      "name": "Image with text overlay",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/O_ORIGINE-4.jpg",
+        "mobile_image": "shopify://shop_images/O_ORIGINE-4_7937a581-eda6-4b66-ab4c-d04c7eb4da6a.jpg",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
     }
   },
   "order": [
@@ -153,6 +170,7 @@
     "main",
     "custom_liquid_N47iyF",
     "custom_liquid_j3VQWN",
-    "custom_liquid_F34itM"
+    "custom_liquid_F34itM",
+    "image_with_text_overlay_6weYyJ"
   ]
 }
