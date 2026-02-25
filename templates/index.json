@@ -18,7 +18,7 @@
         "enable_parallax": false,
         "image_size": "auto",
         "image": "shopify://shop_images/banniere_desktop.jpg",
-        "mobile_image": "shopify://shop_images/banniere_desktop_f0fec431-d784-43c3-a384-6103a7df215e.jpg",
+        "mobile_image": "shopify://shop_images/banniere_desktop_1300_x_1500_px.png",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
