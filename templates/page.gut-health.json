@@ -161,6 +161,19 @@
         "overlay_color": "#000000",
         "overlay_opacity": 0
       }
+    },
+    "custom_liquid_rHMx3K": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
     }
   },
   "order": [
@@ -171,6 +184,7 @@
     "custom_liquid_N47iyF",
     "custom_liquid_j3VQWN",
     "custom_liquid_F34itM",
-    "image_with_text_overlay_6weYyJ"
+    "image_with_text_overlay_6weYyJ",
+    "custom_liquid_rHMx3K"
   ]
 }
