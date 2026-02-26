@@ -189,6 +189,12 @@
             "heading_tag": "h2"
           }
         },
+        "liquid_FYLd4p": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<style>\n  .oor-rating-bar{\n    display:flex;\n    align-items:center;\n    gap:10px;\n    margin-top:8px;\n    font-family: -apple-system, BlinkMacSystemFont, system-ui, sans-serif;\n  }\n  .oor-rating-stars{\n    display:inline-flex;\n    gap:2px;\n    font-size:18px;\n    line-height:1;\n  }\n  .oor-rating-stars span{\n    color:#FBBF24; /* jaune doré */\n  }\n  .oor-rating-text{\n    font-size:14px;\n    color:#111827;\n  }\n  .oor-rating-text strong{\n    font-weight:600;\n  }\n</style>\n\n<div class=\"oor-rating-bar\">\n  <div class=\"oor-rating-stars\" aria-hidden=\"true\">\n    <span>★</span>\n    <span>★</span>\n    <span>★</span>\n    <span>★</span>\n    <span>★</span>\n  </div>\n  <div class=\"oor-rating-text\">\n    <strong>4.9/5</strong> (25 594 avis)\n  </div>\n</div>"
+          }
+        },
         "rapi_rapi_bundle_dK3Kx6": {
           "type": "shopify://apps/rapi/blocks/rapi-bundle/99617c17-a32b-4e70-a883-7a155610d032",
           "settings": {
@@ -228,6 +234,7 @@
       },
       "block_order": [
         "title_LqLgyV",
+        "liquid_FYLd4p",
         "rapi_rapi_bundle_dK3Kx6",
         "liquid_TEN7XW",
         "buy_buttons_gxGP87",
