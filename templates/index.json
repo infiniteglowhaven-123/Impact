@@ -183,6 +183,13 @@
     "featured_product_EdLGbg": {
       "type": "featured-product",
       "blocks": {
+        "liquid_yjhNxx": {
+          "type": "liquid",
+          "name": "langue",
+          "settings": {
+            "liquid": "<script>\n  document.addEventListener('DOMContentLoaded', function() {\n    const buttons = document.querySelectorAll('button');\n    buttons.forEach(button => {\n      if (button.textContent.includes('Ajouter au panier')) {\n        button.textContent = 'Acheter';\n      }\n    });\n  });\n</script>"
+          }
+        },
         "title_LqLgyV": {
           "type": "title",
           "settings": {
@@ -233,6 +240,7 @@
         }
       },
       "block_order": [
+        "liquid_yjhNxx",
         "title_LqLgyV",
         "liquid_FYLd4p",
         "rapi_rapi_bundle_dK3Kx6",
