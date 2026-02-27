@@ -331,6 +331,21 @@
         "background_gradient": "",
         "text_color": ""
       }
+    },
+    "video_8W97nw": {
+      "type": "video",
+      "name": "Video",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "autoplay": true,
+        "video_size": "auto",
+        "video": "shopify://files/videos/La vie moderne fragilise vos barrières immunitaires.mp4",
+        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
     }
   },
   "order": [
@@ -339,6 +354,7 @@
     "custom_liquid_gwmWfe",
     "custom_liquid_VcbYUh",
     "custom_liquid_Ff99AM",
+    "video_8W97nw",
     "image_with_text_overlay_rWyNEd",
     "image_with_text_overlay_VCtMtg",
     "custom_liquid_nhTjHr",
