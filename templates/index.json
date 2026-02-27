@@ -89,24 +89,8 @@
         "autoplay": true,
         "video_size": "auto",
         "video": "shopify://files/videos/La vie moderne fragilise vos barrières immunitaires-2.mp4",
+        "mobile_video": "shopify://files/videos/bannière desktop  (1300 x 1500 px)-2.mp4",
         "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 0
-      }
-    },
-    "image_with_text_overlay_rWyNEd": {
-      "type": "image-with-text-overlay",
-      "name": "Image with text overlay",
-      "settings": {
-        "full_width": true,
-        "allow_transparent_header": false,
-        "enable_parallax": false,
-        "image_size": "auto",
-        "image": "shopify://shop_images/La_vie_moderne_fragilise_vos_barrieres_immunitaires-3.svg",
-        "mobile_image": "shopify://shop_images/banniere_desktop_1300_x_1500_px_-5.webp",
-        "mobile_text_position": "place-self-center text-center",
-        "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
         "overlay_opacity": 0
@@ -355,7 +339,6 @@
     "custom_liquid_VcbYUh",
     "custom_liquid_Ff99AM",
     "video_8W97nw",
-    "image_with_text_overlay_rWyNEd",
     "image_with_text_overlay_VCtMtg",
     "custom_liquid_nhTjHr",
     "custom_liquid_YWW737",
