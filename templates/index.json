@@ -222,7 +222,7 @@
         "liquid_MMyApX": {
           "type": "liquid",
           "settings": {
-            "liquid": "<script>\n  document.addEventListener('DOMContentLoaded', function() {\n    const buttons = document.querySelectorAll('[name=\"add\"]');\n    buttons.forEach(button => {\n      button.textContent = 'ajoutez au panier';\n    });\n  });\n</script>"
+            "liquid": "<script>\n  document.addEventListener('DOMContentLoaded', function() {\n    // Find and replace the \"Ajouter au panier\" button text with \"Acheter\"\n    const buttons = document.querySelectorAll('button[type=\"submit\"]');\n    buttons.forEach(function(button) {\n      if (button.textContent.includes('Ajouter au panier')) {\n        button.textContent = 'Acheter';\n      }\n    });\n  });\n</script>"
           }
         }
       },
