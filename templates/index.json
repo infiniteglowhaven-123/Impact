@@ -170,17 +170,11 @@
     "featured_product_EdLGbg": {
       "type": "featured-product",
       "blocks": {
-        "liquid_yjhNxx": {
+        "liquid_XGbgyb": {
           "type": "liquid",
-          "name": "langue",
+          "name": "titre",
           "settings": {
-            "liquid": "<script>\n  document.addEventListener('DOMContentLoaded', function() {\n    const buttons = document.querySelectorAll('button');\n    buttons.forEach(button => {\n      if (button.textContent.includes('Ajouter au panier')) {\n        button.textContent = 'Acheter';\n      }\n    });\n  });\n</script>"
-          }
-        },
-        "title_LqLgyV": {
-          "type": "title",
-          "settings": {
-            "heading_tag": "h2"
+            "liquid": "<style>\n@import url('https://fonts.cdnfonts.com/css/neue-montreal');\n\n.product-title-block {\n  max-width: 700px;\n  margin: 0 auto;\n  padding: 0 20px;\n}\n\n.product-title-eyebrow {\n  font-family: 'Neue Montreal', 'Inter', sans-serif;\n  font-size: 10px;\n  font-weight: 500;\n  letter-spacing: 3px;\n  text-transform: uppercase;\n  color: #999;\n  margin-bottom: 14px;\n}\n\n.product-title-main {\n  font-family: 'Neue Montreal', 'Inter', sans-serif;\n  font-size: 38px;\n  font-weight: 300;\n  line-height: 1.15;\n  letter-spacing: -1.5px;\n  color: #000;\n  margin: 0;\n}\n\n.product-title-main em {\n  font-style: italic;\n}\n\n@media (max-width: 768px) {\n  .product-title-main {\n    font-size: 28px;\n    letter-spacing: -1px;\n  }\n}\n</style>\n\n<div class=\"product-title-block\">\n  <div class=\"product-title-eyebrow\">Produit phare</div>\n  <h2 class=\"product-title-main\"><em>OORIGINE</em> Colostrum™ — Vitalité, immunité, peau et énergie. En un seul geste.\n</div>"
           }
         },
         "liquid_FYLd4p": {
@@ -227,8 +221,7 @@
         }
       },
       "block_order": [
-        "liquid_yjhNxx",
-        "title_LqLgyV",
+        "liquid_XGbgyb",
         "liquid_FYLd4p",
         "rapi_rapi_bundle_dK3Kx6",
         "liquid_TEN7XW",
