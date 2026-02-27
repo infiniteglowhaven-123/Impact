@@ -53,6 +53,23 @@
         "text_color": ""
       }
     },
+    "image_with_text_overlay_rWyNEd": {
+      "type": "image-with-text-overlay",
+      "name": "Image with text overlay",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/La_vie_moderne_fragilise_vos_barrieres_immunitaires.webp",
+        "mobile_image": "shopify://shop_images/La_vie_moderne_fragilise_vos_barrieres_immunitaires_c7effd76-b47e-471a-8e2a-171cced4d748.webp",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
     "custom_liquid_VcbYUh": {
       "type": "custom-liquid",
       "name": "la science derriere ",
@@ -333,6 +350,7 @@
     "image_with_text_overlay_ABbdmc",
     "custom_liquid_H4nCyj",
     "custom_liquid_z4bGH8",
+    "image_with_text_overlay_rWyNEd",
     "custom_liquid_VcbYUh",
     "custom_liquid_Gx37Ep",
     "image_with_text_overlay_KgDKtn",
