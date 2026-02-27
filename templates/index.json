@@ -88,7 +88,7 @@
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
-        "image": "shopify://shop_images/La_vie_moderne_fragilise_vos_barrieres_immunitaires-2.jpg",
+        "image": "shopify://shop_images/La_vie_moderne_fragilise_vos_barrieres_immunitaires-3.svg",
         "mobile_image": "shopify://shop_images/banniere_desktop_1300_x_1500_px_-5.webp",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
