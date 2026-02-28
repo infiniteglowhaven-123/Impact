@@ -336,6 +336,19 @@
         "background_gradient": "",
         "text_color": ""
       }
+    },
+    "custom_liquid_yt6FaF": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<script>\ndocument.addEventListener('DOMContentLoaded', function() {\n  // Tente toutes les vidéos présentes dans la galerie produit\n  function tryAutoplay() {\n    var videos = document.querySelectorAll('.product__media video, .product-media-container video, [data-media-type=\"video\"] video, .media video');\n    videos.forEach(function(video) {\n      video.muted = true;\n      video.loop = true;\n      video.playsInline = true;\n      video.setAttribute('playsinline', '');\n      video.setAttribute('muted', '');\n      video.removeAttribute('controls');\n      video.play().catch(function() {});\n    });\n  }\n\n  // Au chargement\n  tryAutoplay();\n\n  // Quand on change de media dans la galerie (slide vers la vidéo)\n  document.addEventListener('click', function() {\n    setTimeout(tryAutoplay, 300);\n  });\n\n  // Observer les changements DOM (galerie Shopify charge en lazy)\n  var observer = new MutationObserver(function() {\n    tryAutoplay();\n  });\n  observer.observe(document.body, { childList: true, subtree: true });\n});\n</script>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
     }
   },
   "order": [
@@ -356,6 +369,7 @@
     "image_with_text_overlay_KgDKtn",
     "custom_liquid_z4bGH8",
     "custom_liquid_FMMffE",
-    "custom_liquid_KBHVWN"
+    "custom_liquid_KBHVWN",
+    "custom_liquid_yt6FaF"
   ]
 }
