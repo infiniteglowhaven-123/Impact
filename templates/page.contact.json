@@ -22,7 +22,7 @@
         "subheading": "",
         "title": "",
         "content": "<p>Écrivez-nous. Nos équipes sont là pour toutes questions.</p>",
-        "text_position": "start",
+        "text_position": "center",
         "contact_form_size": "large",
         "background": "#ffffff",
         "background_gradient": "radial-gradient(rgba(255, 255, 255, 1) 14%, rgba(255, 255, 255, 1) 23%)",
