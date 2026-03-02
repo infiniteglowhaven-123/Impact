@@ -19,8 +19,8 @@
       "type": "contact",
       "settings": {
         "full_width": true,
-        "subheading": "Contact Us",
-        "title": "Do you have any question?",
+        "subheading": "Écrivez-nous. Nos équipes sont là pour toutes questions.",
+        "title": "",
         "content": "",
         "text_position": "start",
         "contact_form_size": "large",
