@@ -362,6 +362,19 @@
         "background_gradient": "",
         "text_color": ""
       }
+    },
+    "custom_liquid_qWDxbQ": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": true,
+        "remove_horizontal_spacing": true,
+        "liquid": "<style>\n@import url('https://fonts.cdnfonts.com/css/neue-montreal');\n\n.oo-doctor-section {\n  width: 100vw;\n  margin-left: calc(50% - 50vw);\n  background: #F9F9F6;\n  padding: 80px 20px;\n}\n\n.oo-doctor-container {\n  max-width: 780px;\n  margin: 0 auto;\n}\n\n.oo-doctor-eyebrow {\n  font-family: 'Neue Montreal', 'Inter', sans-serif;\n  font-size: 10px;\n  font-weight: 500;\n  letter-spacing: 3px;\n  text-transform: uppercase;\n  color: #999;\n  margin-bottom: 40px;\n  display: flex;\n  align-items: center;\n  gap: 10px;\n}\n\n.oo-doctor-eyebrow::before {\n  content: '';\n  display: inline-block;\n  width: 24px;\n  height: 1px;\n  background: #DEF46C;\n}\n\n.oo-doctor-card {\n  display: grid;\n  grid-template-columns: auto 1fr;\n  gap: 40px;\n  align-items: flex-start;\n}\n\n.oo-doctor-left {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  gap: 12px;\n  min-width: 110px;\n}\n\n.oo-doctor-avatar {\n  width: 96px;\n  height: 96px;\n  border-radius: 50%;\n  object-fit: cover;\n  border: 3px solid #DEF46C;\n  display: block;\n}\n\n.oo-doctor-avatar-placeholder {\n  width: 96px;\n  height: 96px;\n  border-radius: 50%;\n  background: #DEF46C;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  font-family: 'Neue Montreal', 'Inter', sans-serif;\n  font-size: 28px;\n  font-weight: 300;\n  color: #000;\n  border: 3px solid #000;\n  flex-shrink: 0;\n}\n\n.oo-doctor-verified {\n  display: inline-flex;\n  align-items: center;\n  gap: 5px;\n  background: #000;\n  color: #DEF46C;\n  font-family: 'Neue Montreal', 'Inter', sans-serif;\n  font-size: 9px;\n  font-weight: 600;\n  letter-spacing: 1.5px;\n  text-transform: uppercase;\n  padding: 5px 10px;\n  border-radius: 2px;\n  white-space: nowrap;\n}\n\n.oo-doctor-right {\n  display: flex;\n  flex-direction: column;\n  gap: 16px;\n}\n\n.oo-doctor-quote-mark {\n  font-size: 64px;\n  line-height: 0.6;\n  color: #DEF46C;\n  font-family: Georgia, serif;\n  font-weight: 700;\n  margin-bottom: 8px;\n  display: block;\n}\n\n.oo-doctor-quote {\n  font-family: 'Neue Montreal', 'Inter', sans-serif;\n  font-size: 17px;\n  font-weight: 300;\n  line-height: 1.75;\n  color: #111;\n  letter-spacing: -0.2px;\n  font-style: italic;\n}\n\n.oo-doctor-quote strong {\n  font-weight: 600;\n  font-style: normal;\n}\n\n.oo-doctor-name {\n  font-family: 'Neue Montreal', 'Inter', sans-serif;\n  font-size: 13px;\n  font-weight: 600;\n  color: #000;\n  letter-spacing: -0.2px;\n}\n\n.oo-doctor-title {\n  font-family: 'Neue Montreal', 'Inter', sans-serif;\n  font-size: 11px;\n  font-weight: 300;\n  color: #999;\n  letter-spacing: 0.3px;\n  margin-top: 2px;\n}\n\n.oo-doctor-divider {\n  width: 32px;\n  height: 2px;\n  background: #DEF46C;\n  border-radius: 2px;\n}\n\n@media (max-width: 640px) {\n  .oo-doctor-card {\n    grid-template-columns: 1fr;\n    gap: 28px;\n  }\n  .oo-doctor-left {\n    flex-direction: row;\n    align-items: center;\n    min-width: unset;\n  }\n  .oo-doctor-quote { font-size: 15px; }\n  .oo-doctor-section { padding: 60px 16px; }\n}\n</style>\n\n<div class=\"oo-doctor-section\">\n  <div class=\"oo-doctor-container\">\n\n    <div class=\"oo-doctor-eyebrow\">Avis médical</div>\n\n    <div class=\"oo-doctor-card\">\n\n      <!-- GAUCHE : AVATAR -->\n      <div class=\"oo-doctor-left\">\n        <div class=\"oo-doctor-avatar-placeholder\">Dr</div>\n        <div class=\"oo-doctor-verified\">\n          <svg width=\"9\" height=\"9\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><polyline points=\"20 6 9 17 4 12\"></polyline></svg>\n          Vérifié\n        </div>\n      </div>\n\n      <!-- DROITE : CITATION -->\n      <div class=\"oo-doctor-right\">\n        <span class=\"oo-doctor-quote-mark\">\"</span>\n        <p class=\"oo-doctor-quote\">\n          Le colostrum bovin de première qualité est l'une des substances naturelles les plus documentées en médecine préventive. Sa concentration en <strong>immunoglobulines, facteurs de croissance IGF-1 et lactoferrine</strong> en fait un outil thérapeutique remarquable pour restaurer la perméabilité intestinale, renforcer le microbiome et moduler la réponse immunitaire. Dans ma pratique, je recommande OORIGINE à mes patients souffrant de syndrome de l'intestin irritable, d'inflammations chroniques ou simplement à ceux qui cherchent à optimiser leur santé sur le long terme.\n        </p>\n        <div class=\"oo-doctor-divider\"></div>\n        <div>\n          <div class=\"oo-doctor-name\">Dr. Sophie Martin</div>\n          <div class=\"oo-doctor-title\">Médecin généraliste & Nutritionniste — Paris, France</div>\n        </div>\n      </div>\n\n    </div>\n  </div>\n</div>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
     }
   },
   "order": [
@@ -377,6 +390,7 @@
     "custom_liquid_YWW737",
     "custom_liquid_htrzFX",
     "featured_product_EdLGbg",
+    "custom_liquid_qWDxbQ",
     "custom_liquid_XRyYGP",
     "custom_liquid_BYFFMy",
     "image_with_text_overlay_KgDKtn",
