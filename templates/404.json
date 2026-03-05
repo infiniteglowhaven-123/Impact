@@ -22,7 +22,7 @@
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
-        "image": "shopify://shop_images/banniere-7_00cfa9a4-8095-49fc-ba88-ccbb07e458d2.png",
+        "image": "shopify://shop_images/banniere_desktop_1440_x_700_px_-4_9709e79b-2879-4741-a0c7-fe4d0c19d9e0.svg",
         "mobile_image": "shopify://shop_images/banniere-6.png",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
