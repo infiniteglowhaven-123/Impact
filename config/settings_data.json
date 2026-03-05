@@ -42,22 +42,10 @@
     "product_color_display": "swatch",
     "product_info_alignment": "start",
     "cart_icon": "shopping_cart",
-    "favicon": "shopify://shop_images/O_ORIGINE-7.svg",
+    "favicon": "shopify://shop_images/COLOSTRUM_200_x_40_px_-2.svg",
     "checkout_accent_color": "#f0c417",
     "checkout_button_color": "#1a1a1a",
-    "content_for_index": [],
-    "blocks": {
-      "9696655121035291526": {
-        "type": "shopify://apps/rapi/blocks/app-embed/99617c17-a32b-4e70-a883-7a155610d032",
-        "disabled": false,
-        "settings": {}
-      },
-      "14060646107696862457": {
-        "type": "shopify://apps/judge-me-reviews/blocks/judgeme_core/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-        "disabled": false,
-        "settings": {}
-      }
-    }
+    "content_for_index": []
   },
   "presets": {
     "Sound": {
