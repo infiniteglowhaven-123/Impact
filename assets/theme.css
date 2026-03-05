@@ -10253,5 +10253,50 @@ shopify-accelerated-checkout, shopify-accelerated-checkout-cart {
 
 
 
-
-
+.header__nav-item a,
+.header__menu-item a,
+header nav a,
+.site-nav__link,
+.header-nav__link {
+font-family: 'Neue Montreal', 'Inter', sans-serif !important;
+font-size: 11px !important;
+font-weight: 500 !important;
+letter-spacing: 2.5px !important;
+text-transform: uppercase !important;
+color: #111 !important;
+text-decoration: none !important;
+position: relative !important;
+padding-bottom: 4px !important;
+transition: color 0.25s ease !important;
+}
+/* Barre vert lime au hover */
+.header__nav-item a::after,
+.header__menu-item a::after,
+header nav a::after,
+.site-nav__link::after,
+.header-nav__link::after {
+content: '';
+position: absolute;
+bottom: 0;
+left: 0;
+width: 0%;
+height: 2px;
+background: 
+#DEF46C;
+border-radius: 2px;
+transition: width 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.header__nav-item a:hover::after,
+.header__menu-item a:hover::after,
+header nav a:hover::after,
+.site-nav__link:hover::after,
+.header-nav__link:hover::after {
+width: 100%;
+}
+.header__nav-item a:hover,
+.header__menu-item a:hover,
+header nav a:hover,
+.site-nav__link:hover,
+.header-nav__link:hover {
+color: #111 !important;
+}
