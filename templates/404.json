@@ -73,6 +73,22 @@
         "background_gradient": "",
         "text_color": ""
       }
+    },
+    "image_with_text_overlay_7E7UXg": {
+      "type": "image-with-text-overlay",
+      "name": "Image with text overlay",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/Pheromones.png",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
     }
   },
   "order": [
@@ -80,6 +96,7 @@
     "image_with_text_overlay_MX9beg",
     "custom_liquid_dcDpWU",
     "image_with_text_overlay_FYaTyp",
-    "custom_liquid_Vnwm64"
+    "custom_liquid_Vnwm64",
+    "image_with_text_overlay_7E7UXg"
   ]
 }
