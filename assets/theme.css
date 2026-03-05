@@ -10310,3 +10310,27 @@ color: #111 !important;
   max-width: 400px !important;
   height: auto !important;
 }
+
+
+
+
+
+/* Cache les liens de navigation dans le header */
+.header__inline-menu,
+.header__menu-item,
+.header__active-menu-item,
+.list-menu--inline {
+  display: none !important;
+}
+
+/* Logo bien centré */
+.header__heading {
+  position: absolute !important;
+  left: 50% !important;
+  transform: translateX(-50%) !important;
+}
+
+.header {
+  position: relative !important;
+  justify-content: flex-end !important;
+}
