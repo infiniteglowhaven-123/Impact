@@ -31,6 +31,19 @@
         "overlay_opacity": 0
       }
     },
+    "custom_html_GNn4Ha": {
+      "type": "custom-html",
+      "name": "Custom HTML",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "html": "https://cdn.shopify.com/s/files/1/0770/2016/8389/files/channels4_profile.jpg?v=1772751701",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "custom_liquid_zfFckB": {
       "type": "custom-liquid",
       "name": "Custom Liquid",
@@ -113,6 +126,7 @@
   "order": [
     "main",
     "image_with_text_overlay_MX9beg",
+    "custom_html_GNn4Ha",
     "custom_liquid_zfFckB",
     "custom_liquid_dcDpWU",
     "custom_liquid_Er9CqA",
