@@ -22,7 +22,7 @@
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
-        "image": "shopify://shop_images/banniere_desktop_1440_x_700_px_-4.svg",
+        "image": "shopify://shop_images/banniere-7.png",
         "mobile_image": "shopify://shop_images/banniere-6.png",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
