@@ -10309,3 +10309,16 @@ header nav a:hover,
 .header-nav__link:hover {
   color: #111 !important;
 }
+
+
+
+
+
+
+.header__search,
+.header-search,
+[data-header-search],
+.site-nav__icons .icon-search,
+header-search {
+  display: none !important;
+}
