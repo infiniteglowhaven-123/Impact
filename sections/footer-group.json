@@ -54,6 +54,8 @@
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
+        "image": "shopify://shop_images/COLOSTRUM_200_x_40_px.svg",
+        "mobile_image": "shopify://shop_images/COLOSTRUM_200_x_40_px_56958bdd-d3f0-4743-824b-1a88c3beab06.svg",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
