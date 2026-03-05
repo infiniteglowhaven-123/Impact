@@ -10290,40 +10290,7 @@ color: #111 !important;
 
 
 
-/* Header plus mince */
-.header,
-.site-header,
-.header__wrapper {
-  padding-top: 0px !important;
-  padding-bottom: 0px !important;
-}
-
-
-
-/* Logo plus grand */
-.header__heading-logo,
-.header__logo img,
-.header__heading img,
-.site-header__logo img,
-.header__logo-image {
-  width: 400px !important;
-  max-width: 400px !important;
-  height: auto !important;
-}
-
-
-
-
-
-/* Cache les liens de navigation dans le header */
-.header__inline-menu,
-.header__menu-item,
-.header__active-menu-item,
-.list-menu--inline {
-  display: none !important;
-}
-
-/* Logo bien centré */
+/* Logo centré */
 .header__heading {
   position: absolute !important;
   left: 50% !important;
@@ -10334,3 +10301,21 @@ color: #111 !important;
   position: relative !important;
   justify-content: flex-end !important;
 }
+
+/* Header plus mince */
+.header,
+.site-header,
+.header__wrapper {
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+}
+
+/* Cache la loupe */
+.header__icon--search,
+.header__icon--search-open,
+predictive-search,
+header-search {
+  display: none !important;
+}
+
+
