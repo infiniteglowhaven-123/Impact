@@ -10291,13 +10291,16 @@ color: #111 !important;
 
 
 
+
+
+
 /* Logo plus grand */
 .header__heading-logo,
 .header__logo img,
 .header__heading img,
 .site-header__logo img,
 .header__logo-image {
-  width: 160px !important;
-  max-width: 160px !important;
+  width: 260px !important;
+  max-width: 260px !important;
   height: auto !important;
 }
