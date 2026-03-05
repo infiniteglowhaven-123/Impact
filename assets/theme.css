@@ -10294,8 +10294,8 @@ color: #111 !important;
 .header,
 .site-header,
 .header__wrapper {
-  padding-top: 4px !important;
-  padding-bottom: 4px !important;
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
 }
 
 
