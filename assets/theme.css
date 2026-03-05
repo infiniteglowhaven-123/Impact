@@ -10290,7 +10290,13 @@ color: #111 !important;
 
 
 
-
+/* Header plus mince */
+.header,
+.site-header,
+.header__wrapper {
+  padding-top: 8px !important;
+  padding-bottom: 8px !important;
+}
 
 
 
@@ -10300,7 +10306,7 @@ color: #111 !important;
 .header__heading img,
 .site-header__logo img,
 .header__logo-image {
-  width: 260px !important;
-  max-width: 260px !important;
+  width: 400px !important;
+  max-width: 400px !important;
   height: auto !important;
 }
