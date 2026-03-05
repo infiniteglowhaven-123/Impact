@@ -10313,15 +10313,8 @@ header nav a:hover,
 
 
 
-
-.header__icon--search,
-.header__icon--search-open,
-.header__search,
-details[data-header-search],
-.search-modal,
-noscript.header__search,
-header-search,
-.header__icons .header__icon:has(svg use[href*="search"]),
-[class*="search"] { 
-  display: none !important; 
+/* Cache la loupe */
+.header__icon--search { display: none !important; }
+.header__icon--search-open { display: none !important; }
+predictive-search { display: none !important; }
 }
