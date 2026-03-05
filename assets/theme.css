@@ -10318,4 +10318,15 @@ header-search {
   display: none !important;
 }
 
+/* Logo plus grand */
+.header__heading-logo,
+.header__logo img,
+.header__heading img,
+.site-header__logo img,
+.header__logo-image {
+  width: 400px !important;
+  max-width: 400px !important;
+  height: auto !important;
+}
+
 
