@@ -11,34 +11,8 @@
   "type": "header",
   "name": "Header group",
   "sections": {
-    "custom_liquid_qD6rmz": {
-      "type": "custom-liquid",
-      "name": "Custom Liquid",
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": true,
-        "remove_horizontal_spacing": true,
-        "liquid": "<style>\n.announcement-bar-custom{\n  width:100vw;\n  margin-left:calc(50% - 50vw);\n  background: #DEF46C;\n  padding: 12px 0;\n  overflow:hidden;\n  position:relative;\n  text-align:center;\n}\n\n.announcement-text{\n  font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Arial, sans-serif;\n  font-size: 13px;\n  font-weight: 500;\n  color: #000;\n  letter-spacing: .12em;\n  text-transform: uppercase;\n  white-space: nowrap;\n}\n\n/* Responsive */\n@media (max-width:768px){\n  .announcement-bar-custom{ padding: 10px 0; }\n  .announcement-text{ font-size: 12px; letter-spacing: .1em; }\n}\n</style>\n\n<div class=\"announcement-bar-custom\">\n  <span class=\"announcement-text\">LIVRAISON GRATUITE </span>\n</div>",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
     "announcement-bar": {
       "type": "announcement-bar",
-      "blocks": {
-        "message": {
-          "type": "message",
-          "settings": {
-            "text": "📦 LIVRAISON GRATUITE sur les commandes de plus de 95 E",
-            "url": ""
-          }
-        }
-      },
-      "block_order": [
-        "message"
-      ],
-      "disabled": true,
       "settings": {
         "enable_sticky": false,
         "autoplay": false,
@@ -56,7 +30,6 @@
       "settings": {
         "enable_sticky": false,
         "hide_on_scroll": false,
-        "logo": "shopify://shop_images/fd2dfc9d-ead7-4e1b-88bb-17e2f3947712-2_745737b9-d41f-4d57-b9ea-59d67dac2938.png",
         "logo_max_width": 300,
         "logo_mobile_max_width": 170,
         "menu": "main-menu",
@@ -71,7 +44,6 @@
         "show_country_flag": true,
         "show_country_name": false,
         "transparent_header_text_color": "#000000",
-        "transparent_logo": "shopify://shop_images/fd2dfc9d-ead7-4e1b-88bb-17e2f3947712_415478c9-6575-463d-9612-f9f0cf7f2adb.png",
         "reduce_padding": false,
         "background_opacity": 100,
         "background_blur_radius": 0
@@ -79,7 +51,6 @@
     }
   },
   "order": [
-    "custom_liquid_qD6rmz",
     "announcement-bar",
     "header"
   ]
