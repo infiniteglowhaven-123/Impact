@@ -23,7 +23,7 @@
         "enable_parallax": false,
         "image_size": "auto",
         "image": "shopify://shop_images/banniere-2_16409dfd-c597-49af-aed4-d74c3d91dd16.png",
-        "mobile_image": "shopify://shop_images/banniere_desktop_1300_x_1500_px_-2.jpg",
+        "mobile_image": "shopify://shop_images/banniere-4.png",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
