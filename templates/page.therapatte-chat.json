@@ -1,0 +1,74 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "60ch"
+      }
+    },
+    "contact_nhqYRR": {
+      "type": "contact",
+      "name": "Contact form",
+      "settings": {
+        "full_width": true,
+        "subheading": "Get In Touch !",
+        "title": "We're Here to Help",
+        "content": "<p>We'd love to hear from you. Whether you have questions about our products, need support with your order, or just want to say hello - don't hesitate to reach out to our team.</p>",
+        "text_position": "center",
+        "contact_form_size": "small",
+        "background": "#efe8dd",
+        "background_gradient": "",
+        "text_color": "#000000",
+        "heading_color": "#d2b382",
+        "heading_gradient": "",
+        "contact_background": "",
+        "contact_text_color": "",
+        "button_background": "#1a1a1a",
+        "button_text_color": "#ffffff"
+      }
+    },
+    "custom_liquid_AYtwkt": {
+      "type": "custom-liquid",
+      "custom_css": [],
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": true,
+        "liquid": "<style>\n.faq-section {\n  width: 100%;\n  background: #EFE8DD;\n  padding: 100px 20px;\n  position: relative;\n}\n\n.faq-section::before {\n  content: '';\n  position: absolute;\n  top: 0;\n  left: 50%;\n  transform: translateX(-50%);\n  width: 80%;\n  height: 1px;\n  background: linear-gradient(90deg, transparent 0%, rgba(201, 169, 97, 0.3) 50%, transparent 100%);\n}\n\n.faq-container {\n  max-width: 900px;\n  margin: 0 auto;\n}\n\n.faq-header {\n  text-align: center;\n  margin-bottom: 70px;\n}\n\n.faq-title {\n  font-family: 'Playfair Display', serif;\n  font-size: 52px;\n  font-weight: 400;\n  color: #2C2C2C;\n  margin-bottom: 25px;\n  line-height: 1.2;\n  letter-spacing: -0.5px;\n}\n\n.faq-subtitle {\n  font-family: Arial, sans-serif;\n  font-size: 16px;\n  color: #666;\n  line-height: 1.7;\n  max-width: 650px;\n  margin: 0 auto;\n}\n\n.faq-item {\n  background: white;\n  border-radius: 16px;\n  margin-bottom: 18px;\n  overflow: hidden;\n  box-shadow: 0 4px 15px rgba(0,0,0,0.06);\n  transition: all 0.3s ease;\n  border: 1px solid transparent;\n}\n\n.faq-item:hover {\n  box-shadow: 0 8px 25px rgba(0,0,0,0.1);\n  border-color: rgba(201, 169, 97, 0.2);\n}\n\n.faq-question {\n  width: 100%;\n  padding: 28px 35px;\n  background: white;\n  border: none;\n  text-align: left;\n  cursor: pointer;\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n  font-family: Arial, sans-serif;\n  font-size: 17px;\n  font-weight: 600;\n  color: #2C2C2C;\n  transition: all 0.3s ease;\n  line-height: 1.4;\n}\n\n.faq-question:hover {\n  background: #FEFDFB;\n  color: #1A1A1A;\n}\n\n.faq-question.active {\n  background: #FEFDFB;\n  color: #C9A961;\n}\n\n.faq-question-text {\n  display: flex;\n  align-items: center;\n  gap: 12px;\n  flex: 1;\n}\n\n.faq-icon {\n  font-size: 22px;\n  flex-shrink: 0;\n}\n\n.faq-plus {\n  font-size: 28px;\n  color: #C9A961;\n  font-weight: 300;\n  transition: transform 0.3s ease;\n  flex-shrink: 0;\n  margin-left: 20px;\n}\n\n.faq-question.active .faq-plus {\n  transform: rotate(45deg);\n}\n\n.faq-answer {\n  max-height: 0;\n  overflow: hidden;\n  transition: max-height 0.4s ease, padding 0.4s ease;\n  padding: 0 35px;\n}\n\n.faq-answer.active {\n  max-height: 600px;\n  padding: 0 35px 30px 35px;\n}\n\n.faq-answer-content {\n  font-family: Arial, sans-serif;\n  font-size: 16px;\n  color: #555;\n  line-height: 1.8;\n}\n\n.faq-highlight {\n  color: #C9A961;\n  font-weight: 600;\n}\n\n.faq-bold {\n  font-weight: 600;\n  color: #2C2C2C;\n}\n\n/* RESPONSIVE */\n@media (max-width: 768px) {\n  .faq-section {\n    padding: 80px 20px;\n  }\n  \n  .faq-header {\n    margin-bottom: 50px;\n  }\n  \n  .faq-title {\n    font-size: 42px;\n  }\n  \n  .faq-subtitle {\n    font-size: 15px;\n  }\n  \n  .faq-question {\n    padding: 24px 28px;\n    font-size: 16px;\n  }\n  \n  .faq-icon {\n    font-size: 20px;\n  }\n  \n  .faq-answer.active {\n    padding: 0 28px 25px 28px;\n  }\n  \n  .faq-answer-content {\n    font-size: 15px;\n  }\n}\n\n@media (max-width: 480px) {\n  .faq-section {\n    padding: 70px 15px;\n  }\n  \n  .faq-title {\n    font-size: 34px;\n  }\n  \n  .faq-subtitle {\n    font-size: 14px;\n  }\n  \n  .faq-question {\n    padding: 22px 24px;\n    font-size: 15px;\n  }\n  \n  .faq-icon {\n    font-size: 18px;\n  }\n  \n  .faq-plus {\n    font-size: 24px;\n    margin-left: 12px;\n  }\n  \n  .faq-answer.active {\n    padding: 0 24px 22px 24px;\n  }\n  \n  .faq-answer-content {\n    font-size: 14px;\n  }\n}\n</style>\n\n<div class=\"faq-section\">\n  <div class=\"faq-container\">\n    <div class=\"faq-header\">\n      <h2 class=\"faq-title\">Everything You Need to Know</h2>\n      <p class=\"faq-subtitle\">Your questions answered—because confidence starts with clarity</p>\n    </div>\n    \n    <div class=\"faq-list\">\n      <div class=\"faq-item\">\n        <button class=\"faq-question\" onclick=\"toggleFAQ(this)\">\n          <span class=\"faq-question-text\">\n            <span class=\"faq-icon\">✨</span>\n            <span>Will my jewelry actually stay gold forever?</span>\n          </span>\n          <span class=\"faq-plus\">+</span>\n        </button>\n        <div class=\"faq-answer\">\n          <div class=\"faq-answer-content\">\n            Yes—every single piece. We use <span class=\"faq-highlight\">advanced PVD coating technology</span> on surgical-grade stainless steel. This isn't regular plating that chips off. Your jewelry will look <span class=\"faq-bold\">exactly the same after 6 months, 1 year, even 5 years.</span> That's our promise. 💎\n          </div>\n        </div>\n      </div>\n      \n      <div class=\"faq-item\">\n        <button class=\"faq-question\" onclick=\"toggleFAQ(this)\">\n          <span class=\"faq-question-text\">\n            <span class=\"faq-icon\">💧</span>\n            <span>Can I really shower and swim with these?</span>\n          </span>\n          <span class=\"faq-plus\">+</span>\n        </button>\n        <div class=\"faq-answer\">\n          <div class=\"faq-answer-content\">\n            <span class=\"faq-highlight\">Absolutely.</span> Ocean, pool, shower, sweat—nothing phases these pieces. Our customers wear them during beach vacations, intense workouts, daily showers. Just rinse with water after exposure to chlorine or salt, and you're golden. <span class=\"faq-bold\">Live your life. Your jewelry will keep up.</span> 🌊\n          </div>\n        </div>\n      </div>\n      \n      <div class=\"faq-item\">\n        <button class=\"faq-question\" onclick=\"toggleFAQ(this)\">\n          <span class=\"faq-question-text\">\n            <span class=\"faq-icon\">🌸</span>\n            <span>How do I take care of my pieces?</span>\n          </span>\n          <span class=\"faq-plus\">+</span>\n        </button>\n        <div class=\"faq-answer\">\n          <div class=\"faq-answer-content\">\n            It's beautifully simple. <span class=\"faq-highlight\">No polishing, no special cleaners.</span> If your piece gets dusty, a quick rinse under water and a soft cloth wipe is all you need. Store in the included pouch when not wearing. That's it. <span class=\"faq-bold\">Low maintenance, high impact.</span> ✨\n          </div>\n        </div>\n      </div>\n      \n      <div class=\"faq-item\">\n        <button class=\"faq-question\" onclick=\"toggleFAQ(this)\">\n          <span class=\"faq-question-text\">\n            <span class=\"faq-icon\">💕</span>\n            <span>I have super sensitive skin. Will these irritate me?</span>\n          </span>\n          <span class=\"faq-plus\">+</span>\n        </button>\n        <div class=\"faq-answer\">\n          <div class=\"faq-answer-content\">\n            Not a chance. Every piece is <span class=\"faq-highlight\">100% hypoallergenic and nickel-free.</span> We use surgical-grade materials specifically chosen for sensitive skin. Thousands of our customers with metal allergies wear these daily without any reaction. <span class=\"faq-bold\">Your skin will thank you.</span> 💕\n          </div>\n        </div>\n      </div>\n      \n      <div class=\"faq-item\">\n        <button class=\"faq-question\" onclick=\"toggleFAQ(this)\">\n          <span class=\"faq-question-text\">\n            <span class=\"faq-icon\">🔥</span>\n            <span>What if I'm not satisfied?</span>\n          </span>\n          <span class=\"faq-plus\">+</span>\n        </button>\n        <div class=\"faq-answer\">\n          <div class=\"faq-answer-content\">\n            We've got you covered with a <span class=\"faq-highlight\">30-day money-back guarantee.</span> Not in love? Return it, no questions asked. Plus, our <span class=\"faq-bold\">lifetime warranty</span> means if your piece ever tarnishes or fades (it won't), we'll replace it free. <span class=\"faq-bold\">Zero risk, all confidence.</span> 💯\n          </div>\n        </div>\n      </div>\n      \n      <div class=\"faq-item\">\n        <button class=\"faq-question\" onclick=\"toggleFAQ(this)\">\n          <span class=\"faq-question-text\">\n            <span class=\"faq-icon\">💎</span>\n            <span>How do I start building my collection?</span>\n          </span>\n          <span class=\"faq-plus\">+</span>\n        </button>\n        <div class=\"faq-answer\">\n          <div class=\"faq-answer-content\">\n            Start with <span class=\"faq-highlight\">2-3 versatile pieces</span> you'll wear daily—a tennis bracelet, classic hoops, a delicate chain. Mix metals if you want (gold + silver looks amazing). Each piece is designed to layer beautifully. <span class=\"faq-bold\">Your confidence collection, your way.</span> ✨\n          </div>\n        </div>\n      </div>\n    </div>\n  </div>\n</div>\n\n<script>\nfunction toggleFAQ(button) {\n  const answer = button.nextElementSibling;\n  const isActive = button.classList.contains('active');\n  \n  document.querySelectorAll('.faq-question').forEach(q => {\n    q.classList.remove('active');\n    q.nextElementSibling.classList.remove('active');\n  });\n  \n  if (!isActive) {\n    button.classList.add('active');\n    answer.classList.add('active');\n  }\n}\n</script>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "custom_liquid_6VHwmK": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": true,
+        "remove_horizontal_spacing": true,
+        "liquid": "<style>\n.still-questions-section {\n  background: #EFE8DD;\n  padding: 40px 20px 80px 20px;\n}\n\n.still-questions-container {\n  max-width: 700px;\n  margin: 0 auto;\n}\n\n.still-questions-box {\n  background: white;\n  border-radius: 16px;\n  padding: 50px 40px;\n  text-align: center;\n  box-shadow: 0 4px 15px rgba(0,0,0,0.08);\n}\n\n.still-questions-title {\n  font-family: 'Playfair Display', Georgia, serif;\n  font-size: 36px;\n  font-weight: 400;\n  color: #2C2C2C;\n  margin-bottom: 20px;\n  line-height: 1.3;\n}\n\n.still-questions-text {\n  font-family: Arial, sans-serif;\n  font-size: 16px;\n  color: #666;\n  line-height: 1.6;\n  margin-bottom: 35px;\n}\n\n.contact-support-btn {\n  background: #C9A961;\n  color: white;\n  padding: 16px 45px;\n  border-radius: 8px;\n  text-decoration: none;\n  font-family: Arial, sans-serif;\n  font-size: 14px;\n  font-weight: 700;\n  text-transform: uppercase;\n  letter-spacing: 1.5px;\n  transition: all 0.3s ease;\n  display: inline-block;\n  border: none;\n  cursor: pointer;\n}\n\n.contact-support-btn:hover {\n  background: #B89551;\n  transform: translateY(-2px);\n  box-shadow: 0 5px 15px rgba(201, 169, 97, 0.3);\n}\n\n/* RESPONSIVE */\n@media (max-width: 768px) {\n  .still-questions-box {\n    padding: 40px 30px;\n  }\n  \n  .still-questions-title {\n    font-size: 32px;\n  }\n  \n  .still-questions-text {\n    font-size: 15px;\n  }\n  \n  .contact-support-btn {\n    padding: 14px 40px;\n    font-size: 13px;\n  }\n}\n\n@media (max-width: 480px) {\n  .still-questions-section {\n    padding: 30px 15px 60px 15px;\n  }\n  \n  .still-questions-box {\n    padding: 35px 25px;\n  }\n  \n  .still-questions-title {\n    font-size: 28px;\n  }\n  \n  .still-questions-text {\n    font-size: 14px;\n  }\n  \n  .contact-support-btn {\n    padding: 12px 35px;\n    font-size: 12px;\n  }\n}\n</style>\n\n<div class=\"still-questions-section\">\n  <div class=\"still-questions-container\">\n    <div class=\"still-questions-box\">\n      <h2 class=\"still-questions-title\">Still Have Questions?</h2>\n      <p class=\"still-questions-text\">\n        Our team is here to help with any additional questions you might have.\n      </p>\n      <a href=\"/pages/contact\" class=\"contact-support-btn\">CONTACT SUPPORT</a>\n    </div>\n  </div>\n</div>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "contact_nhqYRR",
+    "custom_liquid_AYtwkt",
+    "custom_liquid_6VHwmK"
+  ]
+}
