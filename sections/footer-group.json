@@ -45,27 +45,9 @@
         "show_country_name": true,
         "show_locale_selector": true
       }
-    },
-    "image_with_text_overlay_CBHze6": {
-      "type": "image-with-text-overlay",
-      "name": "Image with text overlay",
-      "settings": {
-        "full_width": true,
-        "allow_transparent_header": false,
-        "enable_parallax": false,
-        "image_size": "auto",
-        "image": "shopify://shop_images/COLOSTRUM_200_x_40_px_-3.svg",
-        "mobile_image": "shopify://shop_images/COLOSTRUM_200_x_40_px_-3_7ca2cd94-84b1-457d-8f9d-03d2773cb0c1.svg",
-        "mobile_text_position": "place-self-center text-center",
-        "desktop_text_position": "sm:place-self-center sm:text-center",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 0
-      }
     }
   },
   "order": [
-    "footer",
-    "image_with_text_overlay_CBHze6"
+    "footer"
   ]
 }
