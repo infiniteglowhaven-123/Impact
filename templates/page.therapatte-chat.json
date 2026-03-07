@@ -322,7 +322,7 @@
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
-        "image": "shopify://shop_images/COLOSTRUM_200_x_40_px_-4.svg",
+        "image": "shopify://shop_images/COLOSTRUM_200_x_40_px_-6.svg",
         "mobile_image": "shopify://shop_images/COLOSTRUM_200_x_40_px_-5.svg",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
